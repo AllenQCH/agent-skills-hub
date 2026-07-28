@@ -1,0 +1,4 @@
+interface:
+  display_name: Node Inspect Debugger
+  short_description: Use Node Inspect Debugger workflows and resources
+  default_prompt: Use $node-inspect-debugger for this task and follow its documented workflow.

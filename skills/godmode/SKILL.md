@@ -1,13 +1,7 @@
 ---
 name: godmode
 description: 'Use when the user needs the godmode workflow: Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN. Do not use for ordinary safety-compliant assistance, defensive security work, or non-red-team tasks.'
-version: 1.0.0
-author: Hermes Agent + Teknium
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

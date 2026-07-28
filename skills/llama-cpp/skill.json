@@ -19,5 +19,17 @@
       "file_count": 7
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "2.1.2",
+    "author": "Orchestra Research",
+    "dependencies": [
+      "llama-cpp-python>=0.2.0"
+    ],
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  }
 }

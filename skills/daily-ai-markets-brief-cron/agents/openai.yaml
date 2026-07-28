@@ -1,0 +1,4 @@
+interface:
+  display_name: Daily AI Markets Brief Cron
+  short_description: Use Daily AI Markets Brief Cron workflows and resources
+  default_prompt: Use $daily-ai-markets-brief-cron for this task and follow its documented workflow.

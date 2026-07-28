@@ -1,0 +1,4 @@
+interface:
+  display_name: Apple Notes
+  short_description: Use Apple Notes workflows and resources
+  default_prompt: Use $apple-notes for this task and follow its documented workflow.

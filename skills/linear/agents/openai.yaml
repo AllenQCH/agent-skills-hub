@@ -1,0 +1,4 @@
+interface:
+  display_name: Linear
+  short_description: Use Linear workflows and resources
+  default_prompt: Use $linear for this task and follow its documented workflow.

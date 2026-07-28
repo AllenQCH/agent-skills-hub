@@ -19,5 +19,12 @@
       "file_count": 3
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "1.0.0",
+    "author": "Orchestra Research",
+    "dependencies": [
+      "modal>=0.64.0"
+    ]
+  }
 }

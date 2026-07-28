@@ -1,0 +1,4 @@
+interface:
+  display_name: Lark Base
+  short_description: Use Lark Base workflows and resources
+  default_prompt: Use $lark-base for this task and follow its documented workflow.

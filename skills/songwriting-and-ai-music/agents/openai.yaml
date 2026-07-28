@@ -1,0 +1,4 @@
+interface:
+  display_name: Songwriting And AI Music
+  short_description: Use Songwriting And AI Music workflows and resources
+  default_prompt: Use $songwriting-and-ai-music for this task and follow its documented workflow.

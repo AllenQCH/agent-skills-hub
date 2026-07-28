@@ -1,0 +1,4 @@
+interface:
+  display_name: Allen Development QA Delivery Pipeline
+  short_description: Use the documented Allen Development QA Delivery Pipeline wor...
+  default_prompt: Use $allen-development-qa-delivery-pipeline for this task and follow its documented workflow.

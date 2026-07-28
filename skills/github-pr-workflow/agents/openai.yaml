@@ -1,0 +1,4 @@
+interface:
+  display_name: GitHub Pr Workflow
+  short_description: Use GitHub Pr Workflow workflows and resources
+  default_prompt: Use $github-pr-workflow for this task and follow its documented workflow.

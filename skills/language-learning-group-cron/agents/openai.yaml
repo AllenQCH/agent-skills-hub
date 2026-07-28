@@ -1,0 +1,4 @@
+interface:
+  display_name: Language Learning Group Cron
+  short_description: Use Language Learning Group Cron workflows and resources
+  default_prompt: Use $language-learning-group-cron for this task and follow its documented workflow.

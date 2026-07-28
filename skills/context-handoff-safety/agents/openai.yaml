@@ -1,0 +1,4 @@
+interface:
+  display_name: Context Handoff Safety
+  short_description: Use Context Handoff Safety workflows and resources
+  default_prompt: Use $context-handoff-safety for this task and follow its documented workflow.

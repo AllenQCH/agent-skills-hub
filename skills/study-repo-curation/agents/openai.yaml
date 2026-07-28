@@ -1,0 +1,4 @@
+interface:
+  display_name: Study Repo Curation
+  short_description: Use Study Repo Curation workflows and resources
+  default_prompt: Use $study-repo-curation for this task and follow its documented workflow.

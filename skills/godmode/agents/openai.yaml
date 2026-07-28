@@ -1,0 +1,4 @@
+interface:
+  display_name: Godmode
+  short_description: Use Godmode workflows and resources
+  default_prompt: Use $godmode for this task and follow its documented workflow.

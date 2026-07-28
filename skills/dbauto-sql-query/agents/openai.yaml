@@ -1,4 +1,4 @@
 interface:
-  display_name: "DBAuto SQL Query"
-  short_description: "Query domestic production or test dbauto safely"
-  default_prompt: "Use $dbauto-sql-query to open domestic dbauto through opencli, select cn-prod or cn-test explicitly, list instances and databases, and run read-only SQL safely."
+  display_name: DBAuto SQL Query
+  short_description: Query domestic production or test dbauto safely
+  default_prompt: Use $dbauto-sql-query to open domestic dbauto through opencli, select cn-prod or cn-test explicitly, list instances and databases, and run read-only SQL safely.

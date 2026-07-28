@@ -1,0 +1,4 @@
+interface:
+  display_name: Openclaw To Hermes Migration
+  short_description: Use Openclaw To Hermes Migration workflows and resources
+  default_prompt: Use $openclaw-to-hermes-migration for this task and follow its documented workflow.

@@ -1,14 +1,7 @@
 ---
 name: ascii-art
 description: 'Use when the user needs the ascii art workflow: ASCII art: pyfiglet, cowsay, boxes, image-to-ascii. Do not use for non-creative operational tasks unless the user explicitly asks for visual, design, audio, or generative output.'
-version: 4.0.0
-author: 0xbyt4, Hermes Agent
 license: MIT
-dependencies: []
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

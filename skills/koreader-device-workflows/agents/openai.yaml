@@ -1,0 +1,4 @@
+interface:
+  display_name: Koreader Device Workflows
+  short_description: Use Koreader Device Workflows workflows and resources
+  default_prompt: Use $koreader-device-workflows for this task and follow its documented workflow.

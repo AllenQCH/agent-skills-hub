@@ -1,19 +1,7 @@
 ---
 name: gif-search
 description: 'Use when the user needs the gif search workflow: Search/download GIFs from Tenor via curl + jq. Do not use for non-media tasks or generic web research without audio, video, image, or transcript processing.'
-version: 1.1.0
-author: Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
-- windows
-prerequisites:
-  env_vars:
-  - TENOR_API_KEY
-  commands:
-  - curl
-  - jq
 metadata:
   hermes:
     tags:

@@ -1,0 +1,4 @@
+interface:
+  display_name: Java Coding Standards
+  short_description: Use Java Coding Standards workflows and resources
+  default_prompt: Use $java-coding-standards for this task and follow its documented workflow.

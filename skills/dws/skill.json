@@ -36,5 +36,17 @@
   "adapters": {
     "claude": "adapters/claude/SKILL.md",
     "hermes": "adapters/hermes/SKILL.md"
+  },
+  "adapter_metadata": {
+    "adapters/claude/SKILL.md": {
+      "legacy_frontmatter": {
+        "cli_version": ">=1.0.6"
+      }
+    },
+    "adapters/hermes/SKILL.md": {
+      "legacy_frontmatter": {
+        "cli_version": ">=1.0.6"
+      }
+    }
   }
 }

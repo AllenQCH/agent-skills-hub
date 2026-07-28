@@ -1,0 +1,4 @@
+interface:
+  display_name: Outlines
+  short_description: Use Outlines workflows and resources
+  default_prompt: Use $outlines for this task and follow its documented workflow.

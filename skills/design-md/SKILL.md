@@ -1,13 +1,7 @@
 ---
 name: design-md
 description: 'Use when the user needs the design md workflow: Author/validate/export Google''s DESIGN.md token spec files. Do not use for non-creative operational tasks unless the user explicitly asks for visual, design, audio, or generative output.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

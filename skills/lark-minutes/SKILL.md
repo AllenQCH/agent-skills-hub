@@ -1,11 +1,11 @@
 ---
 name: lark-minutes
-version: 1.0.0
-description: "飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>"
+description: 'Use when the user explicitly needs the lark-minutes workflow: 飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://[host]/minutes/[minute-token]'
 metadata:
   requires:
-    bins: ["lark-cli"]
-  cliHelp: "lark-cli minutes --help"
+    bins:
+    - lark-cli
+  cliHelp: lark-cli minutes --help
 ---
 
 # minutes (v1)

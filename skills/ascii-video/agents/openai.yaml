@@ -1,0 +1,4 @@
+interface:
+  display_name: Ascii Video
+  short_description: Use Ascii Video workflows and resources
+  default_prompt: Use $ascii-video for this task and follow its documented workflow.

@@ -1,0 +1,4 @@
+interface:
+  display_name: Stock Momentum Fallback
+  short_description: Use Stock Momentum Fallback workflows and resources
+  default_prompt: Use $stock-momentum-fallback for this task and follow its documented workflow.

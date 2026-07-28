@@ -1,5 +1,6 @@
 interface:
-  display_name: "Shared Skill Router"
-  short_description: "Find and load one matching local Skill on demand."
+  display_name: Shared Skill Router
+  short_description: Find and load one matching local Skill on demand.
+  default_prompt: Use $skill-router for this task and follow its documented workflow.
 policy:
   allow_implicit_invocation: true

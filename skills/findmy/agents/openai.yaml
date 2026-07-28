@@ -1,0 +1,4 @@
+interface:
+  display_name: Findmy
+  short_description: Use Findmy workflows and resources
+  default_prompt: Use $findmy for this task and follow its documented workflow.

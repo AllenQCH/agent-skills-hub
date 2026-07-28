@@ -1,17 +1,6 @@
 ---
 name: polymarket
 description: 'Use when the user needs the polymarket workflow: Query Polymarket: markets, prices, orderbooks, history. Do not use for execution-only tasks that do not require research, monitoring, market data, or literature discovery.'
-version: 1.0.0
-author: Hermes Agent + Teknium
-tags:
-- polymarket
-- prediction-markets
-- market-data
-- trading
-platforms:
-- linux
-- macos
-- windows
 ---
 
 # Polymarket — Prediction Market Data

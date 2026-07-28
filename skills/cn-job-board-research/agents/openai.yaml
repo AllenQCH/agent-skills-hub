@@ -1,0 +1,4 @@
+interface:
+  display_name: Cn Job Board Research
+  short_description: Use Cn Job Board Research workflows and resources
+  default_prompt: Use $cn-job-board-research for this task and follow its documented workflow.

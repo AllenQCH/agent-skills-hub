@@ -1,0 +1,4 @@
+interface:
+  display_name: Weights And Biases
+  short_description: Use Weights And Biases workflows and resources
+  default_prompt: Use $weights-and-biases for this task and follow its documented workflow.

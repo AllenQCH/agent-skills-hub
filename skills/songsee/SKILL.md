@@ -1,13 +1,7 @@
 ---
 name: songsee
 description: 'Use when the user needs the songsee workflow: Audio spectrograms/features (mel, chroma, MFCC) via CLI. Do not use for non-media tasks or generic web research without audio, video, image, or transcript processing.'
-version: 1.0.0
-author: community
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:
@@ -17,9 +11,6 @@ metadata:
     - Music
     - Analysis
     homepage: https://github.com/steipete/songsee
-prerequisites:
-  commands:
-  - songsee
 ---
 
 # songsee

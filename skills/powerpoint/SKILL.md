@@ -2,10 +2,6 @@
 name: powerpoint
 description: 'Use when the user needs the powerpoint workflow: Create, read, edit .pptx decks, slides, notes, templates. Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.'
 license: Proprietary. LICENSE.txt has complete terms
-platforms:
-- linux
-- macos
-- windows
 ---
 
 # Powerpoint Skill

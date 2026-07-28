@@ -1,0 +1,4 @@
+interface:
+  display_name: Configure Ecc
+  short_description: Use Configure Ecc workflows and resources
+  default_prompt: Use $configure-ecc for this task and follow its documented workflow.

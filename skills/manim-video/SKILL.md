@@ -1,11 +1,6 @@
 ---
 name: manim-video
 description: 'Use when the user needs the manim video workflow: Manim CE animations: 3Blue1Brown math/algo videos. Do not use for non-creative operational tasks unless the user explicitly asks for visual, design, audio, or generative output.'
-version: 1.0.0
-platforms:
-- linux
-- macos
-- windows
 ---
 
 # Manim Video Production Pipeline
@@ -270,3 +265,7 @@ Take a standard mathematical/technical visualization and transform it:
 2. Pick the most fundamental assumption
 3. Reverse it (right-to-left derivation, 3D embedding of a 2D concept, continuous morphing instead of steps, zero notation)
 4. Explore what the reversal reveals that the standard approach hides
+
+## Additional Reference
+
+Read [Readme notes](references/readme-notes.md) when the packaged examples or background details are needed.

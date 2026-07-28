@@ -1,14 +1,7 @@
 ---
 name: ghostty-codex-inspection
 description: 'Use when the user needs the ghostty codex inspection workflow: On macOS, inspect what Ghostty is doing — especially Codex CLI sessions — by combining process/TTY discovery, AppleScript window enumeration, per-display screenshots, and fallback cwd inference when direct text capture is unavailable. Do not use for ordinary direct execution that does not need an autonomous agent, CLI delegate, migration, or Hermes runtime workflow.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-triggers:
-- User asks what Ghostty is doing right now
-- User asks whether you can see Codex running in Ghostty
-- User wants Ghostty / Codex visibility on macOS
-- User wants to debug why Ghostty content is not readable
 metadata:
   hermes:
     tags:

@@ -1,14 +1,7 @@
 ---
 name: excalidraw
 description: 'Use when the user needs the excalidraw workflow: Hand-drawn Excalidraw JSON diagrams (arch, flow, seq). Do not use for non-creative operational tasks unless the user explicitly asks for visual, design, audio, or generative output.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-dependencies: []
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:
@@ -203,5 +196,3 @@ See `references/colors.md` for full color tables. Quick reference:
 - Do NOT use emoji in text -- they don't render in Excalidraw's font
 - For dark mode diagrams, see `references/dark-mode.md`
 - For larger examples, see `references/examples.md`
-
-

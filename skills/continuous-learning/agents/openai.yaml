@@ -1,0 +1,4 @@
+interface:
+  display_name: Continuous Learning
+  short_description: Use Continuous Learning workflows and resources
+  default_prompt: Use $continuous-learning for this task and follow its documented workflow.

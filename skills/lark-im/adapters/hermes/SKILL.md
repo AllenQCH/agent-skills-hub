@@ -1,6 +1,5 @@
 ---
 name: lark-im
-version: 1.0.0
 description: Use when 用户请求匹配此工作流：飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员时使用. Do not use for non-Lark/Feishu tasks or adjacent Lark operations covered by a narrower lark-* skill.
 metadata:
   requires:
@@ -11,7 +10,7 @@ metadata:
 
 # im (v1)
 
-**CRITICAL — 开始前 MUST 先用 Read 工具读取 [`../lark-shared/SKILL.md`](../lark-shared/SKILL.md)，其中包含认证、权限处理**
+**CRITICAL — 开始前 MUST 先用 Read 工具读取 [`../lark-shared/SKILL.md`](../../../lark-shared/SKILL.md)，其中包含认证、权限处理**
 
 ## Core Concepts
 
@@ -229,4 +228,3 @@ lark-cli im <resource> <method> [flags] # 调用 API
 | `pins.create` | `im:message.pins:write_only` |
 | `pins.delete` | `im:message.pins:write_only` |
 | `pins.list` | `im:message.pins:read` |
-

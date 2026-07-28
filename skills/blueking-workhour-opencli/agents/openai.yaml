@@ -1,0 +1,4 @@
+interface:
+  display_name: Blueking Workhour Opencli
+  short_description: Use Blueking Workhour Opencli workflows and resources
+  default_prompt: Use $blueking-workhour-opencli for this task and follow its documented workflow.

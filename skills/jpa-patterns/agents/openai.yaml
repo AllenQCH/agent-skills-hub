@@ -1,0 +1,4 @@
+interface:
+  display_name: Jpa Patterns
+  short_description: Use Jpa Patterns workflows and resources
+  default_prompt: Use $jpa-patterns for this task and follow its documented workflow.

@@ -1,8 +1,6 @@
 ---
 name: hermes-dingtalk-mcp-setup
 description: 'Use when the user needs the hermes dingtalk mcp setup workflow: Configure DingTalk MCP for Hermes Agent using dws and @sputnicyoji/dingtalk-workspace-mcp, including prerequisites, config, auth, and verification. Do not use for non-Hermes agent work or unrelated application/product tasks.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

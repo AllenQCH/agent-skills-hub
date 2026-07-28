@@ -1,0 +1,4 @@
+interface:
+  display_name: Lark Contact
+  short_description: Use Lark Contact workflows and resources
+  default_prompt: Use $lark-contact for this task and follow its documented workflow.

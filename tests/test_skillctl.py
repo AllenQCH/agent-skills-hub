@@ -33,9 +33,9 @@ class SkillCtlTests(unittest.TestCase):
         cls.registry = json.loads(REGISTRY.read_text(encoding="utf-8"))
         cls.by_name = {item["name"]: item for item in cls.registry["skills"]}
 
-    def test_registry_has_218_unique_names(self) -> None:
+    def test_registry_has_219_unique_names(self) -> None:
         names = [item["name"] for item in self.registry["skills"]]
-        self.assertEqual(218, len(names))
+        self.assertEqual(219, len(names))
         self.assertEqual(len(names), len(set(names)))
 
     def test_golden_search_prompts(self) -> None:

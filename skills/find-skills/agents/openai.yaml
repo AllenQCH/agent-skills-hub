@@ -1,0 +1,4 @@
+interface:
+  display_name: Find Skills
+  short_description: Use Find Skills workflows and resources
+  default_prompt: Use $find-skills for this task and follow its documented workflow.

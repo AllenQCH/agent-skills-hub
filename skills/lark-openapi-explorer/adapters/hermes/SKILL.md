@@ -1,6 +1,5 @@
 ---
 name: lark-openapi-explorer
-version: 1.0.0
 description: Use when 用户请求匹配此工作流：飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用. Do not use for non-Lark/Feishu tasks or adjacent Lark operations covered by a narrower lark-* skill.
 metadata:
   requires:
@@ -10,7 +9,7 @@ metadata:
 
 # OpenAPI Explorer
 
-> **前置条件：** 先阅读 [`../lark-shared/SKILL.md`](../lark-shared/SKILL.md) 了解认证、身份切换和安全规则。
+> **前置条件：** 先阅读 [`../lark-shared/SKILL.md`](../../../lark-shared/SKILL.md) 了解认证、身份切换和安全规则。
 
 当用户的需求**无法被现有 skill 或 CLI 已注册 API 覆盖**时，使用本技能从飞书官方 markdown 文档库中逐层挖掘原生 OpenAPI 接口，然后通过 `lark-cli api` 裸调完成任务。
 
@@ -150,5 +149,5 @@ lark-cli api PATCH /open-apis/im/v1/chats/oc_xxx/announcement \
 
 ## 参考
 
-- [lark-shared](../lark-shared/SKILL.md) — 认证和全局参数
-- [lark-skill-maker](../lark-skill-maker/SKILL.md) — 如需将挖掘到的 API 固化为新 Skill
+- [lark-shared](../../../lark-shared/SKILL.md) — 认证和全局参数
+- [lark-skill-maker](../../../lark-skill-maker/SKILL.md) — 如需将挖掘到的 API 固化为新 Skill

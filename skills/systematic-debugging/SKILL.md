@@ -1,13 +1,7 @@
 ---
 name: systematic-debugging
 description: 'Use when the user needs the systematic debugging workflow: 4-phase root cause debugging: understand bugs before fixing. Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.'
-version: 1.1.0
-author: Hermes Agent (adapted from obra/superpowers)
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

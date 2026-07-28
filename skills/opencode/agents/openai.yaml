@@ -1,0 +1,4 @@
+interface:
+  display_name: Opencode
+  short_description: Use Opencode workflows and resources
+  default_prompt: Use $opencode for this task and follow its documented workflow.

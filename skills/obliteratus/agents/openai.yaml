@@ -1,0 +1,4 @@
+interface:
+  display_name: Obliteratus
+  short_description: Use Obliteratus workflows and resources
+  default_prompt: Use $obliteratus for this task and follow its documented workflow.

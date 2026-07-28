@@ -1,16 +1,7 @@
 ---
 name: teams-meeting-pipeline
 description: 'Use when the user needs the teams meeting pipeline workflow: Operate the Teams meeting summary pipeline via Hermes CLI — summarize meetings, inspect pipeline status, replay jobs, manage Microsoft Graph subscriptions. Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.'
-version: 1.1.0
-author: Hermes Agent + Teknium
 license: MIT
-prerequisites:
-  env_vars:
-  - MSGRAPH_TENANT_ID
-  - MSGRAPH_CLIENT_ID
-  - MSGRAPH_CLIENT_SECRET
-  commands:
-  - hermes
 metadata:
   hermes:
     tags:

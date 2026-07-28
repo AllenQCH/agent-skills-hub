@@ -19,5 +19,22 @@
       "file_count": 1
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "1.0.0",
+    "author": "Hugging Face",
+    "tags": [
+      "huggingface",
+      "hf",
+      "models",
+      "datasets",
+      "hub",
+      "mlops"
+    ],
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  }
 }

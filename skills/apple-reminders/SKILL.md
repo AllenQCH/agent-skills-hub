@@ -1,11 +1,7 @@
 ---
 name: apple-reminders
 description: 'Use when the user needs the apple reminders workflow: Manage Apple Reminders via remindctl CLI (list, add, complete, delete). Do not use for non-Apple, non-macOS, or unsupported mobile/cloud tasks.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-platforms:
-- macos
 metadata:
   hermes:
     tags:
@@ -14,9 +10,6 @@ metadata:
     - todo
     - macOS
     - Apple
-prerequisites:
-  commands:
-  - remindctl
 ---
 
 # Apple Reminders

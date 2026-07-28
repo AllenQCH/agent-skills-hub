@@ -1,6 +1,5 @@
 ---
 name: lark-base
-version: 1.2.0
 description: Use when 当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill. Do not use for non-Lark/Feishu tasks or adjacent Lark operations covered by a narrower lark-* skill.
 metadata:
   requires:
@@ -11,7 +10,7 @@ metadata:
 
 # base
 
-> **前置条件：** 先阅读 [`../lark-shared/SKILL.md`](../lark-shared/SKILL.md)。
+> **前置条件：** 先阅读 [`../lark-shared/SKILL.md`](../../../lark-shared/SKILL.md)。
 > **执行前必做：** 执行任何 `base` 命令前，必须先阅读对应命令的 reference 文档，再调用命令。
 > **命名约定：** 仅使用 `lark-cli base +...` 形式的命令。
 

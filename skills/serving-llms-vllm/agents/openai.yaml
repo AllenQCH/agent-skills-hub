@@ -1,0 +1,4 @@
+interface:
+  display_name: Serving Llms Vllm
+  short_description: Use Serving Llms Vllm workflows and resources
+  default_prompt: Use $serving-llms-vllm for this task and follow its documented workflow.

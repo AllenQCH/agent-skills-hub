@@ -1,11 +1,7 @@
 ---
 name: findmy
 description: 'Use when the user needs the findmy workflow: Track Apple devices/AirTags via FindMy.app on macOS. Do not use for non-Apple, non-macOS, or unsupported mobile/cloud tasks.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-platforms:
-- macos
 metadata:
   hermes:
     tags:

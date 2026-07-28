@@ -1,6 +1,5 @@
 ---
 name: lark-wiki
-version: 1.0.0
 description: Use when 用户请求匹配此工作流：飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用. Do not use for non-Lark/Feishu tasks or adjacent Lark operations covered by a narrower lark-* skill.
 metadata:
   requires:
@@ -11,7 +10,7 @@ metadata:
 
 # wiki (v2)
 
-**CRITICAL — 开始前 MUST 先用 Read 工具读取 [`../lark-shared/SKILL.md`](../lark-shared/SKILL.md)，其中包含认证、权限处理**
+**CRITICAL — 开始前 MUST 先用 Read 工具读取 [`../lark-shared/SKILL.md`](../../../lark-shared/SKILL.md)，其中包含认证、权限处理**
 
 ## API Resources
 
@@ -31,4 +30,3 @@ lark-cli wiki <resource> <method> [flags] # 调用 API
 | 方法 | 所需 scope |
 |------|-----------|
 | `spaces.get_node` | `wiki:node:read` |
-

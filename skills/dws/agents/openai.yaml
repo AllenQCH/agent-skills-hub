@@ -1,0 +1,4 @@
+interface:
+  display_name: DWS
+  short_description: Use DWS workflows and resources
+  default_prompt: Use $dws for this task and follow its documented workflow.

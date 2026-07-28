@@ -1,0 +1,4 @@
+interface:
+  display_name: Lark Calendar
+  short_description: Use Lark Calendar workflows and resources
+  default_prompt: Use $lark-calendar for this task and follow its documented workflow.

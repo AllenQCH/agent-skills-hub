@@ -19,5 +19,8 @@
       "file_count": 1
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "origin": "ECC"
+  }
 }

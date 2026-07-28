@@ -1,8 +1,6 @@
 ---
 name: allen-development-qa-delivery-pipeline
 description: Use when 用户请求匹配此工作流：Allen 默认的 workspace-based multi-agent 开发需求交付编排：workspace→Codex/multi-agent 路由→开发迭代→具体需求→目标文件夹，然后执行规则串行、开发并行、验收串行、交付流水线。适用于一个需求跨服务/仓库/接口，需要 Developer Agent 实现、独立 Acceptance QA Agent 把关、CI 流水线和提测文档后才算完成. Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

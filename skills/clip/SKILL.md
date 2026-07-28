@@ -1,13 +1,7 @@
 ---
 name: clip
 description: 'Use when the user needs the clip workflow: OpenAI''s model connecting vision and language. Enables zero-shot image classification, image-text matching, and cross-modal retrieval. Trained on 400M image-text pairs. Use for image search, content moderation, or vision-language tasks without fine-tuning. Best for general-purpose image understanding. Do not use for non-ML/LLM engineering tasks or adjacent MLOps workflows covered by a narrower model, training, inference, or evaluation skill.'
-version: 1.0.0
-author: Orchestra Research
 license: MIT
-dependencies:
-- transformers
-- torch
-- pillow
 metadata:
   hermes:
     tags:
@@ -263,5 +257,3 @@ results = collection.query(
 - **Paper**: https://arxiv.org/abs/2103.00020
 - **Colab**: https://colab.research.google.com/github/openai/clip/
 - **License**: MIT
-
-

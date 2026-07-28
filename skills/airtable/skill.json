@@ -19,5 +19,22 @@
       "file_count": 1
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "1.1.0",
+    "author": "community",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "prerequisites": {
+      "env_vars": [
+        "AIRTABLE_API_KEY"
+      ],
+      "commands": [
+        "curl"
+      ]
+    }
+  }
 }

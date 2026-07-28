@@ -1,0 +1,4 @@
+interface:
+  display_name: Teams Meeting Pipeline
+  short_description: Use Teams Meeting Pipeline workflows and resources
+  default_prompt: Use $teams-meeting-pipeline for this task and follow its documented workflow.

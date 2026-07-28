@@ -1,7 +1,6 @@
 ---
 name: strategic-compact
-description: Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.
-origin: ECC
+description: 'Use when the user explicitly needs the strategic-compact workflow: Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.'
 ---
 
 # Strategic Compact Skill

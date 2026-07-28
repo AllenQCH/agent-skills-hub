@@ -1,8 +1,6 @@
 ---
 name: feishu-friend-send-macos-fallback
 description: Use when you need to send a file or note to a Feishu friend and normal contact search / bot delivery is unreliable. Covers P2P chat recovery, API-first send, and macOS GUI fallback with verification. Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

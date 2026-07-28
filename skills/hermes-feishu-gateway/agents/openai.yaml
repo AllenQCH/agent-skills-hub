@@ -1,0 +1,4 @@
+interface:
+  display_name: Hermes Feishu Gateway
+  short_description: Use Hermes Feishu Gateway workflows and resources
+  default_prompt: Use $hermes-feishu-gateway for this task and follow its documented workflow.

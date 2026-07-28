@@ -1,11 +1,6 @@
 ---
 name: x-content-cron
 description: 'Use when the user needs the x content cron workflow: Set up recurring cron jobs that generate ready-to-post X/Twitter content drafts with a fixed daily cadence, bilingual output, and per-slot content themes. Do not use for non-social-media tasks or platforms outside the named social workflow.'
-triggers:
-- User wants daily or recurring X/Twitter post ideas delivered automatically
-- User has a personal-brand posting cadence (morning/noon/afternoon/evening)
-- User wants drafts sent back into the current chat on a schedule
-- User wants bilingual CN-first + EN output instead of English-only
 ---
 
 # X content cron setup

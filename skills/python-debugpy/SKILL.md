@@ -1,12 +1,7 @@
 ---
 name: python-debugpy
 description: 'Use when the user needs the python debugpy workflow: Debug Python: pdb REPL + debugpy remote (DAP). Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
 metadata:
   hermes:
     tags:

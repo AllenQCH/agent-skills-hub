@@ -1,13 +1,7 @@
 ---
 name: plan
 description: 'Use when the user needs the plan workflow: Plan mode: write an actionable markdown plan to .hermes/plans/, no execution. Bite-sized tasks, exact paths, complete code. Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.'
-version: 2.0.0
-author: Hermes Agent (writing-craft adapted from obra/superpowers)
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

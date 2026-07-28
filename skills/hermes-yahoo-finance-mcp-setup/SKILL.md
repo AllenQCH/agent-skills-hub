@@ -1,8 +1,6 @@
 ---
 name: hermes-yahoo-finance-mcp-setup
 description: 'Use when the user needs the hermes yahoo finance mcp setup workflow: Configure Yahoo Finance MCP as a native Hermes tool source for US stock research, verify tool discovery, and avoid common setup pitfalls. Do not use for non-Hermes agent work or unrelated application/product tasks.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

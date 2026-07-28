@@ -19,5 +19,13 @@
       "file_count": 1
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "triggers": [
+      "User wants Hermes to stop depending on OpenClaw",
+      "User wants OpenClaw memory, identity, workspace, skills, or sessions migrated into Hermes",
+      "User asks for simplest/cleanest assistant migration between machines",
+      "Need to preserve continuity files while retiring OpenClaw as runtime"
+    ]
+  }
 }

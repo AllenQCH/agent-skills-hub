@@ -1,0 +1,4 @@
+interface:
+  display_name: Simplify Code
+  short_description: Use Simplify Code workflows and resources
+  default_prompt: Use $simplify-code for this task and follow its documented workflow.

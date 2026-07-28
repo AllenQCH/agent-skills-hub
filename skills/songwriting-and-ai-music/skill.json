@@ -19,5 +19,29 @@
       "file_count": 1
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "tags": [
+      "songwriting",
+      "music",
+      "suno",
+      "parody",
+      "lyrics",
+      "creative"
+    ],
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "triggers": [
+      "writing a song",
+      "song lyrics",
+      "music prompt",
+      "suno prompt",
+      "parody song",
+      "adapting a song",
+      "AI music generation"
+    ]
+  }
 }

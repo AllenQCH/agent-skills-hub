@@ -1,12 +1,7 @@
 ---
 name: daily-ai-markets-brief-cron
 description: 'Use when the user needs the daily ai markets brief cron workflow: Schedule a daily Chinese morning brief covering AI industry news and US stock market updates using cronjob, with a fixed Asia/Shanghai 10:00 delivery window and public-source fallback when X is inaccessible. Do not use for execution-only tasks that do not require research, monitoring, market data, or literature discovery.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
 metadata:
   hermes:
     tags:

@@ -1,8 +1,6 @@
 ---
 name: acceptance-qa-agent
 description: 'Use when the user needs the acceptance qa agent workflow: Lightweight backend/API-focused requirement-acceptance QA Agent workflow. Use when a developer wants an independent tester mindset to turn backend requirements into API acceptance criteria, natural-language interface test cases, pytest/Postman-style automation, execution evidence, and release risk. Skip frontend/UI testing unless explicitly requested. Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

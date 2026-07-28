@@ -1,18 +1,7 @@
 ---
 name: google-workspace
 description: 'Use when the user needs the google workspace workflow: Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python. Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.'
-version: 1.1.0
-author: Nous Research
 license: MIT
-platforms:
-- linux
-- macos
-- windows
-required_credential_files:
-- path: google_token.json
-  description: Google OAuth2 token (created by setup script)
-- path: google_client_secret.json
-  description: Google OAuth2 client credentials (downloaded from Google Cloud Console)
 metadata:
   hermes:
     tags:

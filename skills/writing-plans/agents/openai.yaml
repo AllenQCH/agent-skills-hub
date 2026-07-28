@@ -1,0 +1,4 @@
+interface:
+  display_name: Writing Plans
+  short_description: Use Writing Plans workflows and resources
+  default_prompt: Use $writing-plans for this task and follow its documented workflow.

@@ -1,13 +1,7 @@
 ---
 name: ocr-and-documents
 description: 'Use when the user needs the ocr and documents workflow: Extract text from PDFs/scans (pymupdf, marker-pdf). Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.'
-version: 2.3.0
-author: Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

@@ -1,13 +1,7 @@
 ---
 name: spike
 description: 'Use when the user needs the spike workflow: Throwaway experiments to validate an idea before build. Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.'
-version: 1.0.0
-author: Hermes Agent (adapted from gsd-build/get-shit-done)
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

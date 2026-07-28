@@ -1,19 +1,7 @@
 ---
 name: obliteratus
 description: 'Use when the user needs the obliteratus workflow: OBLITERATUS: abliterate LLM refusals (diff-in-means). Do not use for non-ML/LLM engineering tasks or adjacent MLOps workflows covered by a narrower model, training, inference, or evaluation skill.'
-version: 2.0.0
-author: Hermes Agent
 license: MIT
-dependencies:
-- obliteratus
-- torch
-- transformers
-- bitsandbytes
-- accelerate
-- safetensors
-platforms:
-- linux
-- macos
 metadata:
   hermes:
     tags:

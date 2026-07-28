@@ -1,0 +1,4 @@
+interface:
+  display_name: Python Patterns
+  short_description: Use Python Patterns workflows and resources
+  default_prompt: Use $python-patterns for this task and follow its documented workflow.

@@ -1,8 +1,6 @@
 ---
 name: hermes-feishu-gateway
 description: 'Use when the user needs the hermes feishu gateway workflow: Configure Hermes Agent Feishu/Lark gateway on macOS using an existing lark-cli app setup, including recovering the app secret from lark-cli''s encrypted local storage when it is not visible in config output. Do not use for non-Hermes agent work or unrelated application/product tasks.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

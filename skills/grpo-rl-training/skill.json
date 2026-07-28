@@ -19,5 +19,16 @@
       "file_count": 3
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "1.0.0",
+    "author": "Orchestra Research",
+    "dependencies": [
+      "transformers>=4.47.0",
+      "trl>=0.14.0",
+      "datasets>=3.2.0",
+      "peft>=0.14.0",
+      "torch"
+    ]
+  }
 }

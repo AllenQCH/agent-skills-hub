@@ -1,13 +1,6 @@
 ---
 name: pokemon-player
 description: 'Use when the user needs the pokemon player workflow: Play Pokemon games autonomously via headless emulation. Starts a game server, reads structured game state from RAM, makes strategic decisions, and sends button inputs — all from the terminal. Do not use for non-gaming infrastructure or unrelated server administration.'
-tags:
-- gaming
-- pokemon
-- emulator
-- pyboy
-- gameplay
-- gameboy
 ---
 
 # Pokemon Player

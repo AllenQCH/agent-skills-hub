@@ -1,0 +1,4 @@
+interface:
+  display_name: Find Nearby
+  short_description: Use Find Nearby workflows and resources
+  default_prompt: Use $find-nearby for this task and follow its documented workflow.

@@ -19,5 +19,17 @@
       "file_count": 1
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "1.0.0",
+    "author": "Hermes Agent",
+    "prerequisites": {
+      "env_vars": [
+        "LINEAR_API_KEY"
+      ],
+      "commands": [
+        "curl"
+      ]
+    }
+  }
 }

@@ -28,5 +28,15 @@
   ],
   "adapters": {
     "hermes": "adapters/hermes/SKILL.md"
+  },
+  "legacy_frontmatter": {
+    "version": "1.1.0"
+  },
+  "adapter_metadata": {
+    "adapters/hermes/SKILL.md": {
+      "legacy_frontmatter": {
+        "version": "1.1.0"
+      }
+    }
   }
 }

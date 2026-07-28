@@ -1,0 +1,4 @@
+interface:
+  display_name: Allen Obsidian Note System
+  short_description: Use Allen Obsidian Note System workflows and resources
+  default_prompt: Use $allen-obsidian-note-system for this task and follow its documented workflow.

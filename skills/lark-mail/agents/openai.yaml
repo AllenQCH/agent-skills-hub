@@ -1,0 +1,4 @@
+interface:
+  display_name: Lark Mail
+  short_description: Use Lark Mail workflows and resources
+  default_prompt: Use $lark-mail for this task and follow its documented workflow.

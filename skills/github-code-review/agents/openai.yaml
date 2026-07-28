@@ -1,0 +1,4 @@
+interface:
+  display_name: GitHub Code Review
+  short_description: Use GitHub Code Review workflows and resources
+  default_prompt: Use $github-code-review for this task and follow its documented workflow.

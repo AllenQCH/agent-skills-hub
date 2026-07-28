@@ -1,0 +1,4 @@
+interface:
+  display_name: Youtube Content
+  short_description: Use Youtube Content workflows and resources
+  default_prompt: Use $youtube-content for this task and follow its documented workflow.

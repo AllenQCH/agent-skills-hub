@@ -1,13 +1,7 @@
 ---
 name: openhue
 description: 'Use when the user needs the openhue workflow: Control Philips Hue lights, scenes, rooms via OpenHue CLI. Do not use for non-smart-home tasks or device families not supported by this skill.'
-version: 1.0.0
-author: community
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:
@@ -17,9 +11,6 @@ metadata:
     - IoT
     - Automation
     homepage: https://www.openhue.io/cli
-prerequisites:
-  commands:
-  - openhue
 ---
 
 # OpenHue CLI

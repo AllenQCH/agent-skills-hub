@@ -1,14 +1,7 @@
 ---
 name: architecture-diagram
 description: 'Use when the user needs the architecture diagram workflow: Dark-themed SVG architecture/cloud/infra diagrams as HTML. Do not use for non-creative operational tasks unless the user explicitly asks for visual, design, audio, or generative output.'
-version: 1.0.0
-author: Cocoon AI (hello@cocoon-ai.com), ported by Hermes Agent
 license: MIT
-dependencies: []
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

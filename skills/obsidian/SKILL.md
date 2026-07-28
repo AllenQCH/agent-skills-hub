@@ -1,10 +1,6 @@
 ---
 name: obsidian
 description: 'Use when the user needs the obsidian workflow: Read, search, create, and edit notes in the Obsidian vault. Do not use for tasks that do not read, write, migrate, or curate durable notes.'
-platforms:
-- linux
-- macos
-- windows
 ---
 
 # Obsidian Vault

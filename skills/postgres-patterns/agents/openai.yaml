@@ -1,0 +1,4 @@
+interface:
+  display_name: Postgres Patterns
+  short_description: Use Postgres Patterns workflows and resources
+  default_prompt: Use $postgres-patterns for this task and follow its documented workflow.

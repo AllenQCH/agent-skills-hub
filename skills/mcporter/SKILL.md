@@ -1,8 +1,6 @@
 ---
 name: mcporter
 description: 'Use when the user needs the mcporter workflow: Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation. Do not use for ordinary tool use when no MCP server setup, configuration, or protocol interaction is needed.'
-version: 1.0.0
-author: community
 license: MIT
 metadata:
   hermes:
@@ -13,9 +11,6 @@ metadata:
     - Integrations
     - Interop
     homepage: https://mcporter.dev
-prerequisites:
-  commands:
-  - npx
 ---
 
 # mcporter

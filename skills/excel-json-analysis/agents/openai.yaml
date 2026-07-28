@@ -1,4 +1,4 @@
 interface:
-  display_name: "Excel JSON Analysis"
-  short_description: "Extract fields from JSON inside Excel exports"
-  default_prompt: "Use $excel-json-analysis to extract fields from a JSON column in this Excel export and generate a deduplicated output file."
+  display_name: Excel JSON Analysis
+  short_description: Extract fields from JSON inside Excel exports
+  default_prompt: Use $excel-json-analysis to extract fields from a JSON column in this Excel export and generate a deduplicated output file.

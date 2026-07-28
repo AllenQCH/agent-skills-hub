@@ -1,0 +1,4 @@
+interface:
+  display_name: Onenote To Obsidian Migration
+  short_description: Use Onenote To Obsidian Migration workflows and resources
+  default_prompt: Use $onenote-to-obsidian-migration for this task and follow its documented workflow.

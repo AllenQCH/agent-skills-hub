@@ -1,9 +1,6 @@
 ---
 name: macos-computer-use
 description: 'Use when the user needs the macos computer use workflow: Drive the macOS desktop in the background — screenshots, mouse, keyboard, scroll, drag — without stealing the user''s cursor, keyboard focus, or Space. Works with any tool-capable model. Load this skill whenever the `computer_use` tool is available. Do not use for non-Apple, non-macOS, or unsupported web/cloud tasks.'
-version: 1.0.0
-platforms:
-- macos
 metadata:
   hermes:
     tags:

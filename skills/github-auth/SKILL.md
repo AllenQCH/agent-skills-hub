@@ -1,13 +1,7 @@
 ---
 name: github-auth
 description: 'Use when the user needs the github auth workflow: GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login. Do not use for non-GitHub tasks, generic git-only work, or adjacent GitHub workflows covered by a narrower github-* skill.'
-version: 1.1.0
-author: Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

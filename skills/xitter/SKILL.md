@@ -1,21 +1,7 @@
 ---
 name: xitter
 description: 'Use when the user needs the xitter workflow: Interact with X/Twitter via the x-cli terminal client using official X API credentials. Use for posting, reading timelines, searching tweets, liking, retweeting, bookmarks, mentions, and user lookups. Do not use for non-social-media tasks or platforms outside the named social workflow.'
-version: 1.0.0
-author: Siddharth Balyan + Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
-prerequisites:
-  commands:
-  - uv
-  env_vars:
-  - X_API_KEY
-  - X_API_SECRET
-  - X_BEARER_TOKEN
-  - X_ACCESS_TOKEN
-  - X_ACCESS_TOKEN_SECRET
 metadata:
   hermes:
     tags:

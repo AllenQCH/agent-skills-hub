@@ -1,0 +1,4 @@
+interface:
+  display_name: Cloudapi Key Group Switch Opencli
+  short_description: Use Cloudapi Key Group Switch Opencli workflows and resources
+  default_prompt: Use $cloudapi-key-group-switch-opencli for this task and follow its documented workflow.

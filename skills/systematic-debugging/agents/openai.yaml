@@ -1,0 +1,4 @@
+interface:
+  display_name: Systematic Debugging
+  short_description: Use Systematic Debugging workflows and resources
+  default_prompt: Use $systematic-debugging for this task and follow its documented workflow.

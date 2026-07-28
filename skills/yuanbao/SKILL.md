@@ -1,11 +1,6 @@
 ---
 name: yuanbao
 description: 'Use when 用户请求匹配此工作流：Yuanbao (元宝) groups: @mention users, query info/members. Do not use for non-Yuanbao chat/group operations.'
-version: 1.0.0
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

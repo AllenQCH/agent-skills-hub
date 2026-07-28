@@ -1,0 +1,4 @@
+interface:
+  display_name: Hermes Yahoo Finance MCP Setup
+  short_description: Use Hermes Yahoo Finance MCP Setup workflows and resources
+  default_prompt: Use $hermes-yahoo-finance-mcp-setup for this task and follow its documented workflow.

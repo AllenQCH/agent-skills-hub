@@ -1,13 +1,7 @@
 ---
 name: blogwatcher
 description: 'Use when the user needs the blogwatcher workflow: Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool. Do not use for execution-only tasks that do not require research, monitoring, market data, or literature discovery.'
-version: 2.0.0
-author: JulienTant (fork of Hyaxia/blogwatcher)
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:
@@ -16,9 +10,6 @@ metadata:
     - Feed-Reader
     - Monitoring
     homepage: https://github.com/JulienTant/blogwatcher-cli
-prerequisites:
-  commands:
-  - blogwatcher-cli
 ---
 
 # Blogwatcher

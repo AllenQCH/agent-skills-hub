@@ -1,8 +1,6 @@
 ---
 name: allen-response-formatting
 description: 'Use when the user needs the allen response formatting workflow: Default response structure and style for Allen across chat, Feishu groups, research, troubleshooting, and execution updates. Use to keep answers orderly, conclusion-first, and low-noise. Do not use for ordinary direct execution that does not need an autonomous agent, CLI delegate, migration, or Hermes runtime workflow.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

@@ -1,0 +1,4 @@
+interface:
+  display_name: Webhook Subscriptions
+  short_description: Use Webhook Subscriptions workflows and resources
+  default_prompt: Use $webhook-subscriptions for this task and follow its documented workflow.

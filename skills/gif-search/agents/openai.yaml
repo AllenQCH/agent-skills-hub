@@ -1,0 +1,4 @@
+interface:
+  display_name: Gif Search
+  short_description: Use Gif Search workflows and resources
+  default_prompt: Use $gif-search for this task and follow its documented workflow.

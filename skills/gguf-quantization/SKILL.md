@@ -1,11 +1,7 @@
 ---
 name: gguf-quantization
 description: 'Use when the user needs the gguf quantization workflow: GGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when deploying models on consumer hardware, Apple Silicon, or when needing flexible quantization from 2-8 bit without GPU requirements. Do not use for non-ML/LLM engineering tasks or adjacent MLOps workflows covered by a narrower model, training, inference, or evaluation skill.'
-version: 1.0.0
-author: Orchestra Research
 license: MIT
-dependencies:
-- llama-cpp-python>=0.2.0
 metadata:
   hermes:
     tags:

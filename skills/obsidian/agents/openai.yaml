@@ -1,0 +1,4 @@
+interface:
+  display_name: Obsidian
+  short_description: Use Obsidian workflows and resources
+  default_prompt: Use $obsidian for this task and follow its documented workflow.

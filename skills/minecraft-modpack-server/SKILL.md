@@ -1,13 +1,6 @@
 ---
 name: minecraft-modpack-server
 description: 'Use when the user needs the minecraft modpack server workflow: Set up a modded Minecraft server from a CurseForge/Modrinth server pack zip. Covers NeoForge/Forge install, Java version, JVM tuning, firewall, LAN config, backups, and launch scripts. Do not use for non-gaming infrastructure or unrelated server administration.'
-tags:
-- minecraft
-- gaming
-- server
-- neoforge
-- forge
-- modpack
 ---
 
 # Minecraft Modpack Server Setup

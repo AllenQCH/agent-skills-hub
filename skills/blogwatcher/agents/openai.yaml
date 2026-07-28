@@ -1,0 +1,4 @@
+interface:
+  display_name: Blogwatcher
+  short_description: Use Blogwatcher workflows and resources
+  default_prompt: Use $blogwatcher for this task and follow its documented workflow.

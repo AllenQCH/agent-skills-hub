@@ -19,5 +19,19 @@
       "file_count": 2
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "2.0.0",
+    "author": "community",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "prerequisites": {
+      "env_vars": [
+        "NOTION_API_KEY"
+      ]
+    }
+  }
 }

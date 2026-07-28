@@ -1,0 +1,4 @@
+interface:
+  display_name: Whisper
+  short_description: Use Whisper workflows and resources
+  default_prompt: Use $whisper for this task and follow its documented workflow.

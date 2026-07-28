@@ -1,0 +1,4 @@
+interface:
+  display_name: Personal Migratory Agents Review
+  short_description: Use Personal Migratory Agents Review workflows and resources
+  default_prompt: Use $personal-migratory-agents-review for this task and follow its documented workflow.

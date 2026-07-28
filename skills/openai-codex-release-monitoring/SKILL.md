@@ -1,8 +1,6 @@
 ---
 name: openai-codex-release-monitoring
 description: 'Use when the user needs the openai codex release monitoring workflow: Monitor Codex CLI releases and OpenAI model/news updates using npm, GitHub Releases, and OpenAI RSS when normal docs pages are blocked by Cloudflare. Do not use for ordinary direct execution that does not need an autonomous agent, CLI delegate, migration, or Hermes runtime workflow.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

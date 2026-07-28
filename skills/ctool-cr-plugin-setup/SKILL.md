@@ -1,8 +1,6 @@
 ---
 name: ctool-cr-plugin-setup
 description: Use when Allen needs to install, verify, operate, or reconfigure the Ctool Chrome extension and its 代码CR钉钉机器人 settings, especially for supply-chain project CR notifications. Prioritizes direct UI operation, safe secret handling, and explicit blocker communication. Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

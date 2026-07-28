@@ -1,0 +1,4 @@
+interface:
+  display_name: Kanban Worker
+  short_description: Use Kanban Worker workflows and resources
+  default_prompt: Use $kanban-worker for this task and follow its documented workflow.

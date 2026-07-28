@@ -1,11 +1,6 @@
 ---
 name: openclaw-to-hermes-migration
 description: 'Use when the user needs the openclaw to hermes migration workflow: Migrate OpenClaw historical state into Hermes so Hermes becomes the primary runtime and OpenClaw is retained only as an archive/source, with backup-first safety and verification. Do not use for ordinary direct execution that does not need an autonomous agent, CLI delegate, migration, or Hermes runtime workflow.'
-triggers:
-- User wants Hermes to stop depending on OpenClaw
-- User wants OpenClaw memory, identity, workspace, skills, or sessions migrated into Hermes
-- User asks for simplest/cleanest assistant migration between machines
-- Need to preserve continuity files while retiring OpenClaw as runtime
 ---
 
 # OpenClaw → Hermes migration

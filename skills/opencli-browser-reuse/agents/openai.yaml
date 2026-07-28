@@ -1,3 +1,4 @@
-display_name: OpenCLI Browser Reuse
-short_description: Reuse stable opencli browser sessions and avoid tab sprawl.
-default_prompt: Use $opencli-browser-reuse before exploring a webpage with opencli so the browser session is reused by domain, one-shot reads use close-after, and new request-specific session names are avoided.
+interface:
+  default_prompt: Use $opencli-browser-reuse before exploring a webpage with opencli so the browser session is reused by domain, one-shot reads use close-after, and new request-specific session names are avoided.
+  display_name: OpenCLI Browser Reuse
+  short_description: Reuse stable opencli browser sessions and avoid tab sprawl.

@@ -1,20 +1,7 @@
 ---
 name: huggingface-hub
 description: 'Use when the user needs the huggingface hub workflow: HuggingFace hf CLI: search/download/upload models, datasets. Do not use for non-ML/LLM engineering tasks or adjacent MLOps workflows covered by a narrower model, training, inference, or evaluation skill.'
-version: 1.0.0
-author: Hugging Face
 license: MIT
-tags:
-- huggingface
-- hf
-- models
-- datasets
-- hub
-- mlops
-platforms:
-- linux
-- macos
-- windows
 ---
 
 # Hugging Face CLI (`hf`) Reference Guide

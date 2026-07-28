@@ -19,5 +19,20 @@
       "file_count": 3
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "1.0.0",
+    "author": "Hermes Agent + Teknium",
+    "tags": [
+      "polymarket",
+      "prediction-markets",
+      "market-data",
+      "trading"
+    ],
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  }
 }

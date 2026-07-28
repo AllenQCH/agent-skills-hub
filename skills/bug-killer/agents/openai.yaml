@@ -1,7 +1,6 @@
 interface:
-  display_name: "Bug Killer"
-  short_description: "HeyTea bug investigation and fix workflow"
-  default_prompt: "Use $bug-killer to investigate a HeyTea bug and run the relevant analysis or repair flow."
-
+  display_name: Bug Killer
+  short_description: HeyTea bug investigation and fix workflow
+  default_prompt: Use $bug-killer to investigate a HeyTea bug and run the relevant analysis or repair flow.
 policy:
   allow_implicit_invocation: true

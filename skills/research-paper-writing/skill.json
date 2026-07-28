@@ -19,5 +19,24 @@
       "file_count": 55
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "title": "Research Paper Writing Pipeline",
+    "version": "1.1.0",
+    "author": "Orchestra Research",
+    "dependencies": [
+      "semanticscholar",
+      "arxiv",
+      "habanero",
+      "requests",
+      "scipy",
+      "numpy",
+      "matplotlib",
+      "SciencePlots"
+    ],
+    "platforms": [
+      "linux",
+      "macos"
+    ]
+  }
 }

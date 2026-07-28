@@ -1,0 +1,4 @@
+interface:
+  display_name: Apple Reminders
+  short_description: Use Apple Reminders workflows and resources
+  default_prompt: Use $apple-reminders for this task and follow its documented workflow.

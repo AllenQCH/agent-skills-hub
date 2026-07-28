@@ -19,5 +19,15 @@
       "file_count": 2
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "1.0.0",
+    "author": "Cocoon AI (hello@cocoon-ai.com), ported by Hermes Agent",
+    "dependencies": [],
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  }
 }

@@ -1,0 +1,4 @@
+interface:
+  display_name: AI Coding Daily Brief Fallback
+  short_description: Use AI Coding Daily Brief Fallback workflows and resources
+  default_prompt: Use $ai-coding-daily-brief-fallback for this task and follow its documented workflow.

@@ -1,13 +1,7 @@
 ---
 name: whisper
 description: 'Use when the user needs the whisper workflow: OpenAI''s general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and language identification. Six model sizes from tiny (39M params) to large (1550M params). Use for speech-to-text, podcast transcription, or multilingual audio processing. Best for robust, multilingual ASR. Do not use for non-ML/LLM engineering tasks or adjacent MLOps workflows covered by a narrower model, training, inference, or evaluation skill.'
-version: 1.0.0
-author: Orchestra Research
 license: MIT
-dependencies:
-- openai-whisper
-- transformers
-- torch
 metadata:
   hermes:
     tags:
@@ -328,5 +322,3 @@ Full list: 99 languages total
 - **Model Card**: https://github.com/openai/whisper/blob/main/model-card.md
 - **Colab**: Available in repo
 - **License**: MIT
-
-

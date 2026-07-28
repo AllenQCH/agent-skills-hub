@@ -1,13 +1,7 @@
 ---
 name: requesting-code-review
 description: 'Use when the user needs the requesting code review workflow: Pre-commit review: security scan, quality gates, auto-fix. Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.'
-version: 2.0.0
-author: Hermes Agent (adapted from obra/superpowers + MorAlekss)
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

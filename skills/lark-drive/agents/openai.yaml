@@ -1,0 +1,4 @@
+interface:
+  display_name: Lark Drive
+  short_description: Use Lark Drive workflows and resources
+  default_prompt: Use $lark-drive for this task and follow its documented workflow.

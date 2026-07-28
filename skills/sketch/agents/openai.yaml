@@ -1,0 +1,4 @@
+interface:
+  display_name: Sketch
+  short_description: Use Sketch workflows and resources
+  default_prompt: Use $sketch for this task and follow its documented workflow.

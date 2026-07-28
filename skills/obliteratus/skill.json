@@ -19,5 +19,21 @@
       "file_count": 6
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "2.0.0",
+    "author": "Hermes Agent",
+    "dependencies": [
+      "obliteratus",
+      "torch",
+      "transformers",
+      "bitsandbytes",
+      "accelerate",
+      "safetensors"
+    ],
+    "platforms": [
+      "linux",
+      "macos"
+    ]
+  }
 }

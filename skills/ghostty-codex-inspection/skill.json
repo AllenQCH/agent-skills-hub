@@ -19,5 +19,15 @@
       "file_count": 1
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "1.0.0",
+    "author": "Hermes Agent",
+    "triggers": [
+      "User asks what Ghostty is doing right now",
+      "User asks whether you can see Codex running in Ghostty",
+      "User wants Ghostty / Codex visibility on macOS",
+      "User wants to debug why Ghostty content is not readable"
+    ]
+  }
 }

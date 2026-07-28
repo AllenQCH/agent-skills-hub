@@ -19,5 +19,15 @@
       "file_count": 1
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "4.0.0",
+    "author": "0xbyt4, Hermes Agent",
+    "dependencies": [],
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  }
 }

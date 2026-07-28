@@ -1,0 +1,4 @@
+interface:
+  display_name: Codebase Inspection
+  short_description: Use Codebase Inspection workflows and resources
+  default_prompt: Use $codebase-inspection for this task and follow its documented workflow.

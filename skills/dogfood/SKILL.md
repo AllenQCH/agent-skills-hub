@@ -1,11 +1,6 @@
 ---
 name: dogfood
 description: 'Use when the user needs the dogfood workflow: Exploratory QA of web apps: find bugs, evidence, reports. Do not use for routine coding or production fixes that do not require exploratory QA evidence.'
-version: 1.0.0
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

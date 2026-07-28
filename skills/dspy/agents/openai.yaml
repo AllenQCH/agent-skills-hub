@@ -1,0 +1,4 @@
+interface:
+  display_name: Dspy
+  short_description: Use Dspy workflows and resources
+  default_prompt: Use $dspy for this task and follow its documented workflow.

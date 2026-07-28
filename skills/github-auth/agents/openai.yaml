@@ -1,0 +1,4 @@
+interface:
+  display_name: GitHub Auth
+  short_description: Use GitHub Auth workflows and resources
+  default_prompt: Use $github-auth for this task and follow its documented workflow.

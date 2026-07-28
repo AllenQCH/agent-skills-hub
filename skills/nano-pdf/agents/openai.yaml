@@ -1,0 +1,4 @@
+interface:
+  display_name: Nano PDF
+  short_description: Use Nano PDF workflows and resources
+  default_prompt: Use $nano-pdf for this task and follow its documented workflow.

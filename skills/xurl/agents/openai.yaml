@@ -1,0 +1,4 @@
+interface:
+  display_name: Xurl
+  short_description: Use Xurl workflows and resources
+  default_prompt: Use $xurl for this task and follow its documented workflow.

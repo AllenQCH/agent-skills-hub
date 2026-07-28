@@ -1,0 +1,4 @@
+interface:
+  display_name: MCP Server Patterns
+  short_description: Use MCP Server Patterns workflows and resources
+  default_prompt: Use $mcp-server-patterns for this task and follow its documented workflow.

@@ -1,14 +1,7 @@
 ---
 name: linear
 description: 'Use when the user needs the linear workflow: Manage Linear issues, projects, and teams via the GraphQL API. Create, update, search, and organize issues. Uses API key auth (no OAuth needed). All operations via curl — no dependencies. Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-prerequisites:
-  env_vars:
-  - LINEAR_API_KEY
-  commands:
-  - curl
 metadata:
   hermes:
     tags:

@@ -1,14 +1,7 @@
 ---
 name: peft-fine-tuning
-description: 'Use when the user needs the peft fine tuning workflow: Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) with limited GPU memory, when you need to train <1% of parameters with minimal accuracy loss, or for multi-adapter serving. HuggingFace''s official library integrated with transformers ecosystem. Do not use for non-ML/LLM engineering tasks or adjacent MLOps workflows covered by a narrower model, training, inference, or evaluation skill.'
-version: 1.0.0
-author: Orchestra Research
+description: 'Use when the user needs the peft fine tuning workflow: Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) with limited GPU memory, when you need to train less than 1% of parameters with minimal accuracy loss, or for multi-adapter serving. HuggingFace''s official library integrated with transformers ecosystem. Do not use for non-ML/LLM engineering tasks or adjacent MLOps workflows covered by a narrower model, training, inference, or evaluation skill.'
 license: MIT
-dependencies:
-- peft>=0.13.0
-- transformers>=4.45.0
-- torch>=2.0.0
-- bitsandbytes>=0.43.0
 metadata:
   hermes:
     tags:

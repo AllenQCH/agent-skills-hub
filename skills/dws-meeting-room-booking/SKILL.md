@@ -1,8 +1,6 @@
 ---
 name: dws-meeting-room-booking
 description: Use when Allen wants to use dws to find, book, change, or cancel DingTalk meeting rooms. Covers required inputs, room availability search, event creation, room add, verification, and safe rollback/error handling. Do not use for non-Lark/Feishu/DingTalk/OpenClaw-import workflows or tasks covered by a narrower platform skill.
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

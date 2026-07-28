@@ -1,0 +1,4 @@
+interface:
+  display_name: Hermes Dingtalk MCP Setup
+  short_description: Use Hermes Dingtalk MCP Setup workflows and resources
+  default_prompt: Use $hermes-dingtalk-mcp-setup for this task and follow its documented workflow.

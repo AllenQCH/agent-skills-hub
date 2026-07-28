@@ -1,0 +1,4 @@
+interface:
+  display_name: Hermes Agent
+  short_description: Use Hermes Agent workflows and resources
+  default_prompt: Use $hermes-agent for this task and follow its documented workflow.

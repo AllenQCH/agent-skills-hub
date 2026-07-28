@@ -1,13 +1,7 @@
 ---
 name: koreader-device-workflows
 description: 'Use when managing KOReader on Kindle or other e-readers: installing/verifying plugins, organizing ebook storage, choosing safe transfer methods, or configuring USB, OPDS, Calibre, cloud, and SFTP workflows. Do not use for unrelated productivity apps, general ebook recommendations, or non-KOReader device tasks.'
-version: 1.1.0
-author: Hermes Agent
 license: MIT
-platforms:
-- macos
-- linux
-- windows
 metadata:
   hermes:
     tags:

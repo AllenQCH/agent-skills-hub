@@ -1,0 +1,4 @@
+interface:
+  display_name: Chrome Bookmark Management
+  short_description: Use Chrome Bookmark Management workflows and resources
+  default_prompt: Use $chrome-bookmark-management for this task and follow its documented workflow.

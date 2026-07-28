@@ -19,5 +19,15 @@
       "file_count": 3
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "triggers": [
+      "User asks to analyze a US stock or ETF",
+      "User asks why a US stock moved up or down",
+      "User asks for recent news, earnings timing, options chain, or price history for a US ticker",
+      "User wants a short list of strong US stocks or AI-related names",
+      "User asks for `股价分析/走势/值不值得买` on a company that may be private or pre-IPO"
+    ],
+    "version": "1.0.1"
+  }
 }

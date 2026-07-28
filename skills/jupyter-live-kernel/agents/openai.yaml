@@ -1,0 +1,4 @@
+interface:
+  display_name: Jupyter Live Kernel
+  short_description: Use Jupyter Live Kernel workflows and resources
+  default_prompt: Use $jupyter-live-kernel for this task and follow its documented workflow.

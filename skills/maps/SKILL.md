@@ -1,13 +1,7 @@
 ---
 name: maps
 description: 'Use when the user needs the maps workflow: Geocode, POIs, routes, timezones via OpenStreetMap/OSRM. Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.'
-version: 1.2.0
-author: Mibayy
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

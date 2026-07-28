@@ -1,0 +1,4 @@
+interface:
+  display_name: Audiocraft Audio Generation
+  short_description: Use Audiocraft Audio Generation workflows and resources
+  default_prompt: Use $audiocraft-audio-generation for this task and follow its documented workflow.

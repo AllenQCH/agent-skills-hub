@@ -1,0 +1,4 @@
+interface:
+  display_name: Manim Video
+  short_description: Use Manim Video workflows and resources
+  default_prompt: Use $manim-video for this task and follow its documented workflow.

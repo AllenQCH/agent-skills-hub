@@ -19,5 +19,13 @@
       "file_count": 1
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "triggers": [
+      "User wants daily or recurring X/Twitter post ideas delivered automatically",
+      "User has a personal-brand posting cadence (morning/noon/afternoon/evening)",
+      "User wants drafts sent back into the current chat on a schedule",
+      "User wants bilingual CN-first + EN output instead of English-only"
+    ]
+  }
 }

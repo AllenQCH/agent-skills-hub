@@ -19,5 +19,14 @@
       "file_count": 4
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "1.0.0",
+    "author": "Hermes Agent",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  }
 }

@@ -19,5 +19,9 @@
       "file_count": 2
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "origin": "ECC",
+    "tools": "Read, Write, Edit, Bash, Grep, Glob"
+  }
 }

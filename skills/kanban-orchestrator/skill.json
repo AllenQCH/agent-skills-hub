@@ -19,5 +19,16 @@
       "file_count": 1
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "3.0.0",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "environments": [
+      "kanban"
+    ]
+  }
 }

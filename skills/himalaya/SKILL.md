@@ -1,13 +1,7 @@
 ---
 name: himalaya
 description: 'Use when the user needs the himalaya workflow: Himalaya CLI: IMAP/SMTP email from terminal. Do not use for non-email messaging, chat, calendar, or document-management tasks.'
-version: 1.1.0
-author: community
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:
@@ -17,9 +11,6 @@ metadata:
     - CLI
     - Communication
     homepage: https://github.com/pimalaya/himalaya
-prerequisites:
-  commands:
-  - himalaya
 ---
 
 # Himalaya Email CLI

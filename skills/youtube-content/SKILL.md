@@ -1,10 +1,6 @@
 ---
 name: youtube-content
 description: 'Use when the user needs the youtube content workflow: YouTube transcripts to summaries, threads, blogs. Do not use for non-media tasks or generic web research without audio, video, image, or transcript processing.'
-platforms:
-- linux
-- macos
-- windows
 ---
 
 # YouTube Content Tool

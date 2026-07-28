@@ -1,13 +1,7 @@
 ---
 name: simplify-code
 description: 'Use when the user needs the simplify code workflow: Parallel 3-agent cleanup of recent code changes. Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.'
-version: 1.0.0
-author: Hermes Agent (inspired by Claude Code /simplify)
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

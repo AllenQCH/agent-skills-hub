@@ -1,13 +1,7 @@
 ---
 name: node-inspect-debugger
 description: 'Use when the user needs the node inspect debugger workflow: Debug Node.js via --inspect + Chrome DevTools Protocol CLI. Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

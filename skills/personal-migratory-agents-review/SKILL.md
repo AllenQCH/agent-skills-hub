@@ -1,6 +1,6 @@
 ---
 name: personal-migratory-agents-review
-description: 'Use when the user needs the personal migratory agents review workflow: Review Allen''s personal_migratory_agents export for safe private GitHub migration: ensure no company assets, no credentials or permission assets, and only personal Agent capability assets remain. Use when Allen asks to review /Users/<user>/Documents/personal_migratory_agents or mentions personal_migratory_agents migration/review. Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.'
+description: 'Use when the user needs the personal migratory agents review workflow: Review Allen''s personal_migratory_agents export for safe private GitHub migration: ensure no company assets, no credentials or permission assets, and only personal Agent capability assets remain. Use when Allen asks to review /Users/[user]/Documents/personal_migratory_agents or mentions personal_migratory_agents migration/review. Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.'
 ---
 
 # Personal Migratory Agents Review Workflow

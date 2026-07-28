@@ -1,0 +1,4 @@
+interface:
+  display_name: Lark Shared
+  short_description: Use Lark Shared workflows and resources
+  default_prompt: Use $lark-shared for this task and follow its documented workflow.

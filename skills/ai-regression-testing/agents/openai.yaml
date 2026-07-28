@@ -1,0 +1,4 @@
+interface:
+  display_name: AI Regression Testing
+  short_description: Use AI Regression Testing workflows and resources
+  default_prompt: Use $ai-regression-testing for this task and follow its documented workflow.

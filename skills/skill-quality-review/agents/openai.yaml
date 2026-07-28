@@ -1,0 +1,4 @@
+interface:
+  display_name: Skill Quality Review
+  short_description: Audit and normalize shared agent skills
+  default_prompt: Use $skill-quality-review to audit shared skills and prepare a semantics-preserving remediation plan.

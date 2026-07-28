@@ -28,5 +28,15 @@
   ],
   "adapters": {
     "hermes": "adapters/hermes/SKILL.md"
+  },
+  "legacy_frontmatter": {
+    "compatibility": "Requires Node.js 18+"
+  },
+  "adapter_metadata": {
+    "adapters/hermes/SKILL.md": {
+      "legacy_frontmatter": {
+        "compatibility": "Requires Node.js 18+"
+      }
+    }
   }
 }

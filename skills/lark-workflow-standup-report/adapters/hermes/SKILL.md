@@ -1,6 +1,5 @@
 ---
 name: lark-workflow-standup-report
-version: 1.0.0
 description: Use when 用户请求匹配此工作流：日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排. Do not use for non-Lark/Feishu tasks or adjacent Lark operations covered by a narrower lark-* skill.
 metadata:
   requires:
@@ -10,7 +9,7 @@ metadata:
 
 # 日程待办摘要工作流
 
-**CRITICAL — 开始前 MUST 先用 Read 工具读取 [`../lark-shared/SKILL.md`](../lark-shared/SKILL.md)，其中包含认证、权限处理**
+**CRITICAL — 开始前 MUST 先用 Read 工具读取 [`../lark-shared/SKILL.md`](../../../lark-shared/SKILL.md)，其中包含认证、权限处理**
 
 ## 适用场景
 
@@ -116,6 +115,6 @@ lark-cli task +get-my-tasks --page-all
 
 ## 参考
 
-- [lark-shared](../lark-shared/SKILL.md) — 认证、权限（必读）
-- [lark-calendar](../lark-calendar/SKILL.md) — `+agenda` 详细用法
-- [lark-task](../lark-task/SKILL.md) — `+get-my-tasks` 详细用法
+- [lark-shared](../../../lark-shared/SKILL.md) — 认证、权限（必读）
+- [lark-calendar](../../../lark-calendar/SKILL.md) — `+agenda` 详细用法
+- [lark-task](../../../lark-task/SKILL.md) — `+get-my-tasks` 详细用法

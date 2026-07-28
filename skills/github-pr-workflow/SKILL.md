@@ -1,13 +1,7 @@
 ---
 name: github-pr-workflow
 description: 'Use when managing the GitHub pull request lifecycle: creating branches and commits, opening PRs, monitoring CI, updating reviews, merging, and cleaning up. Do not use for non-GitHub tasks, generic git-only work, or adjacent GitHub workflows covered by a narrower github-* skill.'
-version: 1.1.0
-author: Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

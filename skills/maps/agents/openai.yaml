@@ -1,0 +1,4 @@
+interface:
+  display_name: Maps
+  short_description: Use Maps workflows and resources
+  default_prompt: Use $maps for this task and follow its documented workflow.

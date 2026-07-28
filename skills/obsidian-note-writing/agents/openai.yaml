@@ -1,3 +1,4 @@
-display_name: Obsidian Note Writing
-short_description: Structure Obsidian notes consistently.
-default_prompt: Create or normalize an Obsidian note using the structured note workflow. If the note is about Python, FastAPI, or code-learning, first read /Users/heytea/Documents/obsidian_note/Codex工作台/Python学习笔记写作风格规范.md and follow it as the body-style override.
+interface:
+  default_prompt: Use $obsidian-note-writing. Create or normalize an Obsidian note using the structured note workflow. If the note is about Python, FastAPI, or code-learning, first read /Users/heytea/Documents/obsidian_note/Codex工作台/Python学习笔记写作风格规范.md and follow it as the body-style override.
+  display_name: Obsidian Note Writing
+  short_description: Structure Obsidian notes consistently.

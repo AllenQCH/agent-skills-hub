@@ -1,13 +1,7 @@
 ---
 name: hermes-agent-skill-authoring
 description: 'Use when the user needs the hermes agent skill authoring workflow: Author in-repo SKILL.md: frontmatter, validator, structure. Do not use for non-Hermes agent work or unrelated application/product tasks.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

@@ -1,11 +1,11 @@
 ---
 name: lark-drive
-version: 1.0.0
-description: "飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。"
+description: 飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。
 metadata:
   requires:
-    bins: ["lark-cli"]
-  cliHelp: "lark-cli drive --help"
+    bins:
+    - lark-cli
+  cliHelp: lark-cli drive --help
 ---
 
 # drive (v1)
@@ -228,4 +228,3 @@ lark-cli drive <resource> <method> [flags] # 调用 API
 | `user.remove_subscription` | `docs:event:subscribe` |
 | `user.subscription` | `docs:event:subscribe` |
 | `user.subscription_status` | `docs:event:subscribe` |
-

@@ -1,8 +1,6 @@
 ---
 name: obsidian-knowledge-curation
 description: 'Use when the user needs the obsidian knowledge curation workflow: Persist researched topics, article timelines, and tool/site capability summaries into an existing Obsidian vault with the user''s local note style, links, and follow-up structure. Do not use for tasks that do not read, write, migrate, or curate durable notes.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

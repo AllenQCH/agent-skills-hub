@@ -19,5 +19,8 @@
       "file_count": 2
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "1.0.0"
+  }
 }

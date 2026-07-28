@@ -1,8 +1,6 @@
 ---
 name: gitdiagram-style-diagrams
 description: Use when the user wants repo-centric technical diagrams in a GitDiagram-like style for AI coding, codebase understanding, or architecture overviews. Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

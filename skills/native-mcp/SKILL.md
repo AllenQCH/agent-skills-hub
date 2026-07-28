@@ -1,8 +1,6 @@
 ---
 name: native-mcp
 description: 'Use when the user needs the native mcp workflow: Built-in MCP (Model Context Protocol) client that connects to external MCP servers, discovers their tools, and registers them as native Hermes Agent tools. Supports stdio and HTTP transports with automatic reconnection, security filtering, and zero-config tool injection. Do not use for ordinary tool use when no MCP server setup, configuration, or protocol interaction is needed.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

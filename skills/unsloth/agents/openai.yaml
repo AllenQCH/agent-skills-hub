@@ -1,0 +1,4 @@
+interface:
+  display_name: Unsloth
+  short_description: Use Unsloth workflows and resources
+  default_prompt: Use $unsloth for this task and follow its documented workflow.

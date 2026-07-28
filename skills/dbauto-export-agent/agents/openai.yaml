@@ -1,4 +1,4 @@
 interface:
-  display_name: "DBAuto Export Agent"
-  short_description: "Launch dbauto export workflow with login prep"
-  default_prompt: "Use $dbauto-export-agent to start the local dbauto export backend, prepare the dbauto login flow, and open the export UI."
+  display_name: DBAuto Export Agent
+  short_description: Launch dbauto export workflow with login prep
+  default_prompt: Use $dbauto-export-agent to start the local dbauto export backend, prepare the dbauto login flow, and open the export UI.

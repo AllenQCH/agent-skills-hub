@@ -1,0 +1,4 @@
+interface:
+  display_name: Macos Computer Use
+  short_description: Use Macos Computer Use workflows and resources
+  default_prompt: Use $macos-computer-use for this task and follow its documented workflow.

@@ -1,12 +1,7 @@
 ---
 name: pytorch-fsdp
 description: 'Use when the user needs the pytorch fsdp workflow: Expert guidance for Fully Sharded Data Parallel training with PyTorch FSDP - parameter sharding, mixed precision, CPU offloading, FSDP2. Do not use for non-ML/LLM engineering tasks or adjacent MLOps workflows covered by a narrower model, training, inference, or evaluation skill.'
-version: 1.0.0
-author: Orchestra Research
 license: MIT
-dependencies:
-- torch>=2.0
-- transformers
 metadata:
   hermes:
     tags:
@@ -135,5 +130,3 @@ Add templates, boilerplate, or example projects here.
 To refresh this skill with updated documentation:
 1. Re-run the scraper with the same configuration
 2. The skill will be rebuilt with the latest information
-
-

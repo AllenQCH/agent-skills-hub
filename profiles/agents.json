@@ -4,6 +4,7 @@
   "description": "Agent, Skill, MCP, OpenSpec, and framework-maintenance candidates.",
   "skills": [
     "skill-router",
+    "skill-quality-review",
     "multi-agent-framework-maintainer",
     "openspec-demand-workflow",
     "mcp-server-patterns",

@@ -1,18 +1,7 @@
 ---
 name: airtable
 description: 'Use when the user needs the airtable workflow: Airtable REST API via curl. Records CRUD, filters, upserts. Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.'
-version: 1.1.0
-author: community
 license: MIT
-platforms:
-- linux
-- macos
-- windows
-prerequisites:
-  env_vars:
-  - AIRTABLE_API_KEY
-  commands:
-  - curl
 metadata:
   hermes:
     tags:

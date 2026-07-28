@@ -1,14 +1,13 @@
 ---
 name: mcp-server-patterns
-description: Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HTTP. Use Context7 or official MCP docs for latest API.
-origin: ECC
+description: 'Use when the user explicitly needs the mcp-server-patterns workflow: Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HTTP. Use Context7 or official MCP docs for latest API.'
 ---
 
 # MCP Server Patterns
 
 The Model Context Protocol (MCP) lets AI assistants call tools, read resources, and use prompts from your server. Use this skill when building or maintaining MCP servers. The SDK API evolves; check Context7 (query-docs for "MCP") or the official MCP documentation for current method names and signatures.
 
-For the broader routing decision of when a capability should be a rule, a skill, MCP, or a plain CLI/API workflow, see [docs/capability-surface-selection.md](../../docs/capability-surface-selection.md).
+For the broader routing decision of when a capability should be a rule, a Skill, MCP, or a plain CLI/API workflow, consult the project's `docs/capability-surface-selection.md` guidance when that separate project document is available.
 
 ## When to Use
 

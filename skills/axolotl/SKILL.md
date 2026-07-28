@@ -1,17 +1,7 @@
 ---
 name: axolotl
 description: 'Use when the user needs the axolotl workflow: Expert guidance for fine-tuning LLMs with Axolotl - YAML configs, 100+ models, LoRA/QLoRA, DPO/KTO/ORPO/GRPO, multimodal support. Do not use for non-ML/LLM engineering tasks or adjacent MLOps workflows covered by a narrower model, training, inference, or evaluation skill.'
-version: 1.0.0
-author: Orchestra Research
 license: MIT
-dependencies:
-- axolotl
-- torch
-- transformers
-- datasets
-- peft
-- accelerate
-- deepspeed
 metadata:
   hermes:
     tags:
@@ -176,5 +166,3 @@ Add templates, boilerplate, or example projects here.
 To refresh this skill with updated documentation:
 1. Re-run the scraper with the same configuration
 2. The skill will be rebuilt with the latest information
-
-

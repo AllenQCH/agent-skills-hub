@@ -1,0 +1,4 @@
+interface:
+  display_name: Heartmula
+  short_description: Use Heartmula workflows and resources
+  default_prompt: Use $heartmula for this task and follow its documented workflow.

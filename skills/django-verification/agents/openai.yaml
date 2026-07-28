@@ -1,0 +1,4 @@
+interface:
+  display_name: Django Verification
+  short_description: Use Django Verification workflows and resources
+  default_prompt: Use $django-verification for this task and follow its documented workflow.

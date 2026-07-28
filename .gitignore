@@ -4,5 +4,6 @@ __pycache__/
 .pytest_cache/
 .v3-build/
 active/
+reports/
 *.log
 *.tmp

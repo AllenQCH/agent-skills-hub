@@ -1,0 +1,4 @@
+interface:
+  display_name: Docker Patterns
+  short_description: Use Docker Patterns workflows and resources
+  default_prompt: Use $docker-patterns for this task and follow its documented workflow.

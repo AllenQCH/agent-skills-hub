@@ -1,11 +1,6 @@
 ---
 name: heartmula
 description: 'Use when the user needs the heartmula workflow: HeartMuLa: Suno-like song generation from lyrics + tags. Do not use for non-media tasks or generic web research without audio, video, image, or transcript processing.'
-version: 1.0.0
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

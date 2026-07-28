@@ -1,0 +1,4 @@
+interface:
+  display_name: Deployment Patterns
+  short_description: Use Deployment Patterns workflows and resources
+  default_prompt: Use $deployment-patterns for this task and follow its documented workflow.

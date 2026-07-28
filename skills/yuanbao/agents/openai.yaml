@@ -1,0 +1,4 @@
+interface:
+  display_name: Yuanbao
+  short_description: Use Yuanbao workflows and resources
+  default_prompt: Use $yuanbao for this task and follow its documented workflow.

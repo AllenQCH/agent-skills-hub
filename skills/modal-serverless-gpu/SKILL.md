@@ -1,11 +1,7 @@
 ---
 name: modal-serverless-gpu
 description: 'Use when the user needs the modal serverless gpu workflow: Serverless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access without infrastructure management, deploying ML models as APIs, or running batch jobs with automatic scaling. Do not use for non-ML/LLM engineering tasks or adjacent MLOps workflows covered by a narrower model, training, inference, or evaluation skill.'
-version: 1.0.0
-author: Orchestra Research
 license: MIT
-dependencies:
-- modal>=0.64.0
 metadata:
   hermes:
     tags:

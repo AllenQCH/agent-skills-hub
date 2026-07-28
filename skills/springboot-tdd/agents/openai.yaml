@@ -1,0 +1,4 @@
+interface:
+  display_name: Springboot TDD
+  short_description: Use Springboot TDD workflows and resources
+  default_prompt: Use $springboot-tdd for this task and follow its documented workflow.

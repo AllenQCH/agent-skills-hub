@@ -1,0 +1,4 @@
+interface:
+  display_name: Grpo Rl Training
+  short_description: Use Grpo Rl Training workflows and resources
+  default_prompt: Use $grpo-rl-training for this task and follow its documented workflow.

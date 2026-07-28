@@ -1,0 +1,4 @@
+interface:
+  display_name: Songsee
+  short_description: Use Songsee workflows and resources
+  default_prompt: Use $songsee for this task and follow its documented workflow.

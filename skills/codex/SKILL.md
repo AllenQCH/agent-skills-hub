@@ -1,8 +1,6 @@
 ---
 name: codex
 description: 'Use when the user needs the codex workflow: Delegate coding tasks to OpenAI Codex CLI agent. Use for building features, refactoring, PR reviews, and batch issue fixing. Requires the codex CLI and a git repository. Do not use for ordinary direct execution that does not need an autonomous agent, CLI delegate, migration, or Hermes runtime workflow.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

@@ -1,0 +1,4 @@
+interface:
+  display_name: P5js
+  short_description: Use P5js workflows and resources
+  default_prompt: Use $p5js for this task and follow its documented workflow.

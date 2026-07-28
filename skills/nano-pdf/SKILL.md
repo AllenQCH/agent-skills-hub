@@ -1,13 +1,7 @@
 ---
 name: nano-pdf
 description: 'Use when the user needs the nano pdf workflow: Edit PDF text/typos/titles via nano-pdf CLI (NL prompts). Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.'
-version: 1.0.0
-author: community
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

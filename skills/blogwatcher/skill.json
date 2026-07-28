@@ -19,5 +19,19 @@
       "file_count": 1
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "2.0.0",
+    "author": "JulienTant (fork of Hyaxia/blogwatcher)",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "prerequisites": {
+      "commands": [
+        "blogwatcher-cli"
+      ]
+    }
+  }
 }

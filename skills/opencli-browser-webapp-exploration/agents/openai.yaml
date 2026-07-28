@@ -1,0 +1,4 @@
+interface:
+  display_name: Opencli Browser Webapp Exploration
+  short_description: Use Opencli Browser Webapp Exploration workflows and resources
+  default_prompt: Use $opencli-browser-webapp-exploration for this task and follow its documented workflow.

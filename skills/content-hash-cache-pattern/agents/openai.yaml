@@ -1,0 +1,4 @@
+interface:
+  display_name: Content Hash Cache Pattern
+  short_description: Use Content Hash Cache Pattern workflows and resources
+  default_prompt: Use $content-hash-cache-pattern for this task and follow its documented workflow.

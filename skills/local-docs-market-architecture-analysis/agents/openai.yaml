@@ -1,0 +1,4 @@
+interface:
+  display_name: Local Docs Market Architecture Analysis
+  short_description: Use the documented Local Docs Market Architecture Analysis wo...
+  default_prompt: Use $local-docs-market-architecture-analysis for this task and follow its documented workflow.

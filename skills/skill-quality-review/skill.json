@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "id": "skill-quality-review",
+  "name": "skill-quality-review",
+  "source_runtimes": [
+    "shared-hub"
+  ],
+  "source_variants": [],
+  "tags": [
+    "agents",
+    "quality",
+    "skills"
+  ],
+  "risk": "write",
+  "manual_only": true,
+  "adapters": {}
+}

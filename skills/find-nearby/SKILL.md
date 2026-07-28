@@ -1,7 +1,6 @@
 ---
 name: find-nearby
 description: 'Use when the user needs the find nearby workflow: Find nearby places (restaurants, cafes, bars, pharmacies, etc.) using OpenStreetMap. Works with coordinates, addresses, cities, zip codes, or Telegram location pins. No API keys needed. Do not use for work, software, or research tasks that are not about nearby places or local recommendations.'
-version: 1.0.0
 metadata:
   hermes:
     tags:

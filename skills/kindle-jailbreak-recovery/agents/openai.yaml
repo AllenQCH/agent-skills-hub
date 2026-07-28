@@ -1,0 +1,4 @@
+interface:
+  display_name: Kindle Jailbreak Recovery
+  short_description: Use Kindle Jailbreak Recovery workflows and resources
+  default_prompt: Use $kindle-jailbreak-recovery for this task and follow its documented workflow.

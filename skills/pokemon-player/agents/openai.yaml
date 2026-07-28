@@ -1,0 +1,4 @@
+interface:
+  display_name: Pokemon Player
+  short_description: Use Pokemon Player workflows and resources
+  default_prompt: Use $pokemon-player for this task and follow its documented workflow.

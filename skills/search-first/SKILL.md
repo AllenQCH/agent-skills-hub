@@ -1,7 +1,6 @@
 ---
 name: search-first
-description: Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent.
-origin: ECC
+description: 'Use when the user explicitly needs the search-first workflow: Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent.'
 ---
 
 # /search-first — Research Before You Code

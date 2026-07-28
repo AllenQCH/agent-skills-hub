@@ -1,4 +1,4 @@
 interface:
-  display_name: "BFC Local Invoice Stack"
-  short_description: "Start and verify the local BFC invoice stack"
-  default_prompt: "Use $bfc-local-invoice-stack to start the required local invoice services and report readiness."
+  display_name: BFC Local Invoice Stack
+  short_description: Start and verify the local BFC invoice stack
+  default_prompt: Use $bfc-local-invoice-stack to start the required local invoice services and report readiness.

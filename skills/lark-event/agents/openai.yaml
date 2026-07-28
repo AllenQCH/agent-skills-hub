@@ -1,0 +1,4 @@
+interface:
+  display_name: Lark Event
+  short_description: Use Lark Event workflows and resources
+  default_prompt: Use $lark-event for this task and follow its documented workflow.

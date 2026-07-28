@@ -1,0 +1,4 @@
+interface:
+  display_name: Lark Im
+  short_description: Use Lark Im workflows and resources
+  default_prompt: Use $lark-im for this task and follow its documented workflow.

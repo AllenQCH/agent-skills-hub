@@ -1,3 +1,4 @@
-display_name: DWS Auth Helper
-short_description: DingTalk dws auth flow helper.
-default_prompt: Check dws auth status, guide DingTalk login if needed, then retry the blocked dws command.
+interface:
+  default_prompt: Use $dws-auth-helper. Check dws auth status, guide DingTalk login if needed, then retry the blocked dws command.
+  display_name: DWS Auth Helper
+  short_description: DingTalk dws auth flow helper.

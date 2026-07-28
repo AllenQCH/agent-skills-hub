@@ -1,0 +1,4 @@
+interface:
+  display_name: Peft Fine Tuning
+  short_description: Use Peft Fine Tuning workflows and resources
+  default_prompt: Use $peft-fine-tuning for this task and follow its documented workflow.

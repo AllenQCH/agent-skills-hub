@@ -1,0 +1,4 @@
+interface:
+  display_name: Plankton Code Quality
+  short_description: Use Plankton Code Quality workflows and resources
+  default_prompt: Use $plankton-code-quality for this task and follow its documented workflow.

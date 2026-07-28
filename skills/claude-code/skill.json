@@ -19,5 +19,14 @@
       "file_count": 2
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "2.2.0",
+    "author": "Hermes Agent + Teknium",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  }
 }

@@ -1,6 +1,5 @@
 ---
 name: lark-task
-version: 1.0.0
 description: Use when 用户请求匹配此工作流：飞书任务：管理任务和清单。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务时使用. Do not use for non-Lark/Feishu tasks or adjacent Lark operations covered by a narrower lark-* skill.
 metadata:
   requires:
@@ -11,7 +10,7 @@ metadata:
 
 # task (v2)
 
-**CRITICAL — 开始前 MUST 先用 Read 工具读取 [`../lark-shared/SKILL.md`](../lark-shared/SKILL.md)，其中包含认证、权限处理**
+**CRITICAL — 开始前 MUST 先用 Read 工具读取 [`../lark-shared/SKILL.md`](../../../lark-shared/SKILL.md)，其中包含认证、权限处理**
 
 > **搜索技巧**：如果用户的查询只指定了任务名称（例如“完成任务龙虾一号”），请直接使用 `+get-my-tasks --query "龙虾一号"` 命令搜索（不要带 `--complete` 参数，这样可以同时搜索未完成和已完成的任务）。
 > **用户身份识别**：在用户身份（user identity）场景下，如果用户提到了“我”（例如“分配给我”、“由我创建”），请默认获取当前登录用户的 `open_id` 作为对应的参数值。
@@ -92,4 +91,3 @@ lark-cli task <resource> <method> [flags] # 调用 API
 | `subtasks.list` | `task:task:read` |
 | `members.add` | `task:task:write` |
 | `members.remove` | `task:task:write` |
-

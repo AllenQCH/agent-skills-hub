@@ -1,7 +1,6 @@
 ---
 name: webhook-subscriptions
 description: 'Use when the user needs the webhook subscriptions workflow: Create and manage webhook subscriptions for event-driven agent activation. Use when the user wants external services to trigger agent runs automatically. Do not use for non-DevOps work or unrelated application feature implementation.'
-version: 1.0.0
 metadata:
   hermes:
     tags:

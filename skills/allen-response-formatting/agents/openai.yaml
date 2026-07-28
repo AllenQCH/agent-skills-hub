@@ -1,0 +1,4 @@
+interface:
+  display_name: Allen Response Formatting
+  short_description: Use Allen Response Formatting workflows and resources
+  default_prompt: Use $allen-response-formatting for this task and follow its documented workflow.

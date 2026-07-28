@@ -1,0 +1,4 @@
+interface:
+  display_name: Lark Skill Maker
+  short_description: Use Lark Skill Maker workflows and resources
+  default_prompt: Use $lark-skill-maker for this task and follow its documented workflow.

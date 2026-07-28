@@ -1,31 +1,7 @@
 ---
 name: popular-web-designs
 description: 'Use when the user needs the popular web designs workflow: 54 real design systems (Stripe, Linear, Vercel) as HTML/CSS. Do not use for non-creative operational tasks unless the user explicitly asks for visual, design, audio, or generative output.'
-version: 1.0.0
-author: Hermes Agent + Teknium (design systems sourced from VoltAgent/awesome-design-md)
 license: MIT
-tags:
-- design
-- css
-- html
-- ui
-- web-development
-- design-systems
-- templates
-platforms:
-- linux
-- macos
-- windows
-triggers:
-- build a page that looks like
-- make it look like stripe
-- design like linear
-- vercel style
-- create a UI
-- web design
-- landing page
-- dashboard design
-- website styled like
 ---
 
 # Popular Web Designs

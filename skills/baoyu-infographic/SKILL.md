@@ -1,13 +1,7 @@
 ---
 name: baoyu-infographic
 description: 'Use when 用户请求匹配此工作流：Infographics: 21 layouts x 21 styles (信息图, 可视化). Do not use for non-creative operational tasks unless the user explicitly asks for visual, design, audio, or generative output.'
-version: 1.56.1
-author: 宝玉 (JimLiu)
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

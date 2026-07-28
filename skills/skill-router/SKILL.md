@@ -1,6 +1,6 @@
 ---
 name: skill-router
-description: Search the shared local Skill Hub before concluding no reusable capability exists; load only the best matching Skill instructions.
+description: 'Use when the user explicitly needs the skill-router workflow: Search the shared local Skill Hub before concluding no reusable capability exists; load only the best matching Skill instructions.'
 ---
 
 # Shared Skill Router

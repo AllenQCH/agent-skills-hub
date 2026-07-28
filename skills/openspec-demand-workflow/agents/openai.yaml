@@ -1,0 +1,4 @@
+interface:
+  display_name: Openspec Demand Workflow
+  short_description: Use Openspec Demand Workflow workflows and resources
+  default_prompt: Use $openspec-demand-workflow for this task and follow its documented workflow.

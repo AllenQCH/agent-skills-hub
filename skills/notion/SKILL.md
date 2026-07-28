@@ -1,16 +1,7 @@
 ---
 name: notion
 description: 'Use when the user needs the notion workflow: Notion API + ntn CLI: pages, databases, markdown, Workers. Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.'
-version: 2.0.0
-author: community
 license: MIT
-platforms:
-- linux
-- macos
-- windows
-prerequisites:
-  env_vars:
-  - NOTION_API_KEY
 metadata:
   hermes:
     tags:

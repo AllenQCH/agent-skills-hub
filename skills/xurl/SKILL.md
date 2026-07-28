@@ -1,15 +1,7 @@
 ---
 name: xurl
 description: 'Use when the user needs the xurl workflow: X/Twitter via xurl CLI: post, search, DM, media, v2 API. Do not use for non-social-media tasks or platforms outside the named social workflow.'
-version: 1.1.1
-author: xdevplatform + openclaw + Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
-prerequisites:
-  commands:
-  - xurl
 metadata:
   hermes:
     tags:

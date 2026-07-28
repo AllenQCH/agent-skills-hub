@@ -1,0 +1,4 @@
+interface:
+  display_name: Dingtalk Webhook Send
+  short_description: Use Dingtalk Webhook Send workflows and resources
+  default_prompt: Use $dingtalk-webhook-send for this task and follow its documented workflow.

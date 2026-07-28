@@ -1,13 +1,7 @@
 ---
 name: codebase-inspection
 description: 'Use when the user needs the codebase inspection workflow: Inspect codebases w/ pygount: LOC, languages, ratios. Do not use for non-GitHub tasks or generic local git work outside this GitHub workflow.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:
@@ -19,9 +13,6 @@ metadata:
     - Repository
     related_skills:
     - github-repo-management
-prerequisites:
-  commands:
-  - pygount
 ---
 
 # Codebase Inspection with pygount

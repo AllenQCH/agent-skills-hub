@@ -1,13 +1,6 @@
 ---
 name: kanban-worker
 description: 'Use when the user needs the kanban worker workflow: Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker''s system prompt as KANBAN_GUIDANCE (from agent/prompt_builder.py); this skill is what you load when you want deeper detail on specific scenarios. Do not use for non-DevOps work or unrelated application feature implementation.'
-version: 2.0.0
-platforms:
-- linux
-- macos
-- windows
-environments:
-- kanban
 metadata:
   hermes:
     tags:

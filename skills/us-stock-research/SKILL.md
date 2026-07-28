@@ -1,13 +1,6 @@
 ---
 name: us-stock-research
 description: 'Use when the user needs the us stock research workflow: Use Yahoo Finance MCP tools in Hermes to research US stocks, ETFs, earnings, options, news, and recent price action with a practical analyst workflow. Do not use for execution-only tasks that do not require research, monitoring, market data, or literature discovery.'
-triggers:
-- User asks to analyze a US stock or ETF
-- User asks why a US stock moved up or down
-- User asks for recent news, earnings timing, options chain, or price history for a US ticker
-- User wants a short list of strong US stocks or AI-related names
-- User asks for `股价分析/走势/值不值得买` on a company that may be private or pre-IPO
-version: 1.0.1
 license: MIT
 ---
 

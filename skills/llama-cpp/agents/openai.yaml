@@ -1,0 +1,4 @@
+interface:
+  display_name: Llama Cpp
+  short_description: Use Llama Cpp workflows and resources
+  default_prompt: Use $llama-cpp for this task and follow its documented workflow.

@@ -1,0 +1,4 @@
+interface:
+  display_name: Lark Openapi Explorer
+  short_description: Use Lark Openapi Explorer workflows and resources
+  default_prompt: Use $lark-openapi-explorer for this task and follow its documented workflow.

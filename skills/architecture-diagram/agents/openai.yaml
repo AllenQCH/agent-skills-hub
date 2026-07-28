@@ -1,0 +1,4 @@
+interface:
+  display_name: Architecture Diagram
+  short_description: Use Architecture Diagram workflows and resources
+  default_prompt: Use $architecture-diagram for this task and follow its documented workflow.

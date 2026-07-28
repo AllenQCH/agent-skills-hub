@@ -1,6 +1,6 @@
 ---
 name: heytea-project-stack
-description: Classify repositories in registered HeyTea project groups, distinguish Maven dependency artifact install/publish from deployable service startup/deployment, validate and sync project manifests, and delegate local stack startup. Use for multi-repository development, dependency-first builds, local integration environments, Docker/service startup, deploy planning, or when a project gains a new repository.
+description: 'Use when the user explicitly needs the heytea-project-stack workflow: Classify repositories in registered HeyTea project groups, distinguish Maven dependency artifact install/publish from deployable service startup/deployment, validate and sync project manifests, and delegate local stack startup. Use for multi-repository development, dependency-first builds, local integration environments, Docker/service startup, deploy planning, or when a project gains a new repository.'
 ---
 
 # HeyTea Project Stack

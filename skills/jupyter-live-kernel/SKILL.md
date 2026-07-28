@@ -1,13 +1,7 @@
 ---
 name: jupyter-live-kernel
 description: 'Use when the user needs the jupyter live kernel workflow: Iterative Python via live Jupyter kernel (hamelnb). Do not use for non-data-science tasks or one-off Python work that does not need an interactive analysis workflow.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

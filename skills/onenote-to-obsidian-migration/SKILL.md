@@ -1,8 +1,6 @@
 ---
 name: onenote-to-obsidian-migration
 description: 'Use when the user needs the onenote to obsidian migration workflow: Migrate OneNote content into Obsidian on macOS with a practical decision tree: prefer Obsidian Importer via Microsoft sign-in, fall back to Windows exporter for high-fidelity bulk migration, and treat local .one backup conversion as experimental. Do not use for tasks that do not read, write, migrate, or curate durable notes.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 ---
 

@@ -1,25 +1,6 @@
 ---
 name: songwriting-and-ai-music
 description: 'Use when the user needs the songwriting and ai music workflow: Songwriting craft and Suno AI music prompts. Do not use for non-creative operational tasks unless the user explicitly asks for visual, design, audio, or generative output.'
-tags:
-- songwriting
-- music
-- suno
-- parody
-- lyrics
-- creative
-platforms:
-- linux
-- macos
-- windows
-triggers:
-- writing a song
-- song lyrics
-- music prompt
-- suno prompt
-- parody song
-- adapting a song
-- AI music generation
 ---
 
 # Songwriting & AI Music Generation

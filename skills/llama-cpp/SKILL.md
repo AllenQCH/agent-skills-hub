@@ -1,15 +1,7 @@
 ---
 name: llama-cpp
 description: 'Use when the user needs the llama cpp workflow: llama.cpp local GGUF inference + HF Hub model discovery. Do not use for non-ML/LLM engineering tasks or adjacent MLOps workflows covered by a narrower model, training, inference, or evaluation skill.'
-version: 2.1.2
-author: Orchestra Research
 license: MIT
-dependencies:
-- llama-cpp-python>=0.2.0
-platforms:
-- linux
-- macos
-- windows
 metadata:
   hermes:
     tags:

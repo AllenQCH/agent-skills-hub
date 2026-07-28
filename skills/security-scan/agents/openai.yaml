@@ -1,0 +1,4 @@
+interface:
+  display_name: Security Scan
+  short_description: Use Security Scan workflows and resources
+  default_prompt: Use $security-scan for this task and follow its documented workflow.

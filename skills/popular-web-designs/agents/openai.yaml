@@ -1,0 +1,4 @@
+interface:
+  display_name: Popular Web Designs
+  short_description: Use Popular Web Designs workflows and resources
+  default_prompt: Use $popular-web-designs for this task and follow its documented workflow.

@@ -1,0 +1,4 @@
+interface:
+  display_name: Touchdesigner MCP
+  short_description: Use Touchdesigner MCP workflows and resources
+  default_prompt: Use $touchdesigner-mcp for this task and follow its documented workflow.

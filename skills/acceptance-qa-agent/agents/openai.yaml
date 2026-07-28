@@ -1,0 +1,4 @@
+interface:
+  display_name: Acceptance QA Agent
+  short_description: Use Acceptance QA Agent workflows and resources
+  default_prompt: Use $acceptance-qa-agent for this task and follow its documented workflow.

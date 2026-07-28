@@ -1,7 +1,6 @@
 ---
 name: lark-minutes
-version: 1.0.0
-description: 'Use when 用户请求匹配此工作流：飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>. Do not use for non-Lark/Feishu tasks or adjacent Lark operations covered by a narrower lark-* skill.'
+description: 'Use when 用户请求匹配此工作流：飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://[host]/minutes/[minute-token]. Do not use for non-Lark/Feishu tasks or adjacent Lark operations covered by a narrower lark-* skill.'
 metadata:
   requires:
     bins:
@@ -11,7 +10,7 @@ metadata:
 
 # minutes (v1)
 
-> **前置条件：** 先阅读 [`../lark-shared/SKILL.md`](../lark-shared/SKILL.md) 了解认证、全局参数和安全规则。
+> **前置条件：** 先阅读 [`../lark-shared/SKILL.md`](../../../lark-shared/SKILL.md) 了解认证、全局参数和安全规则。
 
 ## 核心概念
 
@@ -44,7 +43,7 @@ lark-cli minutes minutes get --params '{"minute_token": "obcn***************"}'
 # 查妙记关联的纪要产物：逐字稿、总结、待办、章节等 → 用 lark-cli vc +notes
 lark-cli vc +notes --minute-tokens obcnhijv43vq6bcsl5xasfb2
 ```
-本 skill 仅提供妙记**基础元信息**查询（标题、封面、时长）。如需获取纪要**内容**（逐字稿、AI 总结、待办、章节），请使用 [lark-cli vc +notes](../lark-vc/references/lark-vc-notes.md)：
+本 skill 仅提供妙记**基础元信息**查询（标题、封面、时长）。如需获取纪要**内容**（逐字稿、AI 总结、待办、章节），请使用 [lark-cli vc +notes](../../../lark-vc/references/lark-vc-notes.md)：
 
 - 用户未指定需要查询妙记的哪些内容时，默认查询基础元信息和相关联的纪要产物信息。
 - 用户未明确指定查看纪要产物（逐字稿、总结、待办、章节）时，向用户展示对应产物的链接即可，不需要直接读取产物内容。

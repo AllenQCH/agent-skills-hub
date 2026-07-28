@@ -19,5 +19,12 @@
       "file_count": 50
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  }
 }

@@ -1,0 +1,4 @@
+interface:
+  display_name: Evaluating Llms Harness
+  short_description: Use Evaluating Llms Harness workflows and resources
+  default_prompt: Use $evaluating-llms-harness for this task and follow its documented workflow.

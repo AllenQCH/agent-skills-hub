@@ -1,4 +1,4 @@
 interface:
-  display_name: "Trace Log Analysis"
-  short_description: "Analyze traceId logs from internal log platforms"
-  default_prompt: "Use $trace-log-analysis to investigate this traceId in the log platform and summarize the failure path."
+  display_name: Trace Log Analysis
+  short_description: Analyze traceId logs from internal log platforms
+  default_prompt: Use $trace-log-analysis to investigate this traceId in the log platform and summarize the failure path.

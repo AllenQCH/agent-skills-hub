@@ -1,0 +1,4 @@
+interface:
+  display_name: Huggingface Hub
+  short_description: Use Huggingface Hub workflows and resources
+  default_prompt: Use $huggingface-hub for this task and follow its documented workflow.

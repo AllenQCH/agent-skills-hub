@@ -1,6 +1,5 @@
 ---
 name: lark-skill-maker
-version: 1.0.0
 description: Use when 用户请求匹配此工作流：创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用. Do not use for non-Lark/Feishu tasks or adjacent Lark operations covered by a narrower lark-* skill.
 metadata:
   requires:
@@ -37,7 +36,7 @@ lark-cli api GET /open-apis/vc/v1/rooms --params '{"page_size":"50"}'
 lark-cli api POST /open-apis/vc/v1/rooms/search --data '{"query":"5F"}'
 ```
 
-如果以上命令无法覆盖需求（CLI 没有对应的已注册 API 或 Shortcut），使用 [lark-openapi-explorer](../lark-openapi-explorer/SKILL.md) 从飞书官方文档库逐层挖掘原生 OpenAPI 接口，获取完整的方法、路径、参数和权限信息，再通过 `lark-cli api` 裸调完成任务。
+如果以上命令无法覆盖需求（CLI 没有对应的已注册 API 或 Shortcut），使用 [lark-openapi-explorer](../../../lark-openapi-explorer/SKILL.md) 从飞书官方文档库逐层挖掘原生 OpenAPI 接口，获取完整的方法、路径、参数和权限信息，再通过 `lark-cli api` 裸调完成任务。
 
 通过以上流程确定需要哪些 API、参数和 scope。
 
@@ -58,7 +57,7 @@ metadata:
 
 # <标题>
 
-> **前置条件：** 先阅读 [`../lark-shared/SKILL.md`](../lark-shared/SKILL.md)。
+> **前置条件：** 先阅读 [`../lark-shared/SKILL.md`](../../../lark-shared/SKILL.md)。
 
 ## 命令
 

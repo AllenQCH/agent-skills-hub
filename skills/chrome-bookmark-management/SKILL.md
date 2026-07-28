@@ -1,8 +1,6 @@
 ---
 name: chrome-bookmark-management
 description: Use when managing Chrome bookmarks or making bookmark-like data visible to bookmark-reading extensions/plugins on macOS. Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

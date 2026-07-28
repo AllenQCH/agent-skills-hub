@@ -1,0 +1,4 @@
+interface:
+  display_name: Google Workspace
+  short_description: Use Google Workspace workflows and resources
+  default_prompt: Use $google-workspace for this task and follow its documented workflow.

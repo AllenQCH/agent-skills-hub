@@ -1,8 +1,6 @@
 ---
 name: github-daily-weekly-report
 description: Use when 用户请求匹配此工作流：基于 GitHub API 生成仓库日报/周报，汇总 PR、Issue、CI、Release、活跃成员与风险项；支持 Hermes cron 定时投递. Do not use for non-GitHub tasks, generic git-only work, or adjacent GitHub workflows covered by a narrower github-* skill.
-version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:

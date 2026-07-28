@@ -19,5 +19,15 @@
       "file_count": 1
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "tags": [
+      "minecraft",
+      "gaming",
+      "server",
+      "neoforge",
+      "forge",
+      "modpack"
+    ]
+  }
 }

@@ -1,0 +1,4 @@
+interface:
+  display_name: Django Patterns
+  short_description: Use Django Patterns workflows and resources
+  default_prompt: Use $django-patterns for this task and follow its documented workflow.

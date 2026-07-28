@@ -1,0 +1,4 @@
+interface:
+  display_name: Lark Workflow Standup Report
+  short_description: Use Lark Workflow Standup Report workflows and resources
+  default_prompt: Use $lark-workflow-standup-report for this task and follow its documented workflow.

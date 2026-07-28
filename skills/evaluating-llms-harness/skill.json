@@ -19,5 +19,14 @@
       "file_count": 5
     }
   ],
-  "adapters": {}
+  "adapters": {},
+  "legacy_frontmatter": {
+    "version": "1.0.0",
+    "author": "Orchestra Research",
+    "dependencies": [
+      "lm-eval",
+      "transformers",
+      "vllm"
+    ]
+  }
 }

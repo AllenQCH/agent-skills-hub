@@ -1,0 +1,4 @@
+interface:
+  display_name: GitHub Repo Management
+  short_description: Use GitHub Repo Management workflows and resources
+  default_prompt: Use $github-repo-management for this task and follow its documented workflow.

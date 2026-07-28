@@ -1,0 +1,4 @@
+interface:
+  display_name: Ocr And Documents
+  short_description: Use Ocr And Documents workflows and resources
+  default_prompt: Use $ocr-and-documents for this task and follow its documented workflow.

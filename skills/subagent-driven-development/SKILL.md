@@ -1,8 +1,6 @@
 ---
 name: subagent-driven-development
 description: Use when executing implementation plans with independent tasks. Dispatches fresh delegate_task per task with two-stage review (spec compliance then code quality). Do not use for tasks outside this software-development workflow or tasks better handled by a narrower debugging, testing, planning, or review skill.
-version: 1.1.0
-author: Hermes Agent (adapted from obra/superpowers)
 license: MIT
 metadata:
   hermes:

@@ -1,10 +1,6 @@
 ---
 name: ascii-video
 description: 'Use when the user needs the ascii video workflow: ASCII video: convert video/audio to colored ASCII MP4/GIF. Do not use for non-creative operational tasks unless the user explicitly asks for visual, design, audio, or generative output.'
-platforms:
-- linux
-- macos
-- windows
 ---
 
 # ASCII Video Production Pipeline
@@ -242,3 +238,7 @@ If the user asks for creative, experimental, surprising, or unconventional outpu
 1. Draw one: "Honor thy error as a hidden intention" / "Use an old idea" / "What would your closest friend do?" / "Emphasize the flaws" / "Turn it upside down" / "Only a part, not the whole" / "Reverse"
 2. Interpret the directive against the current ASCII animation challenge
 3. Apply the lateral insight to the visual design before writing code
+
+## Additional Reference
+
+Read [Readme notes](references/readme-notes.md) when the packaged examples or background details are needed.

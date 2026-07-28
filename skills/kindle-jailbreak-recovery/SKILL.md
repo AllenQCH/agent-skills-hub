@@ -1,13 +1,7 @@
 ---
 name: kindle-jailbreak-recovery
 description: 'Use when the user needs the kindle jailbreak recovery workflow: Safely identify Kindle firmware/device state, run software-jailbreak workflows, recover from Demo/Managed mode failures, apply persistence hotfixes, and verify readiness for KUAL/KOReader. Do not use for tasks outside the named productivity app, document, spreadsheet, meeting, or workflow scope.'
-version: 1.0.0
-author: Hermes Agent
 license: MIT
-platforms:
-- macos
-- linux
-- windows
 metadata:
   hermes:
     tags:

@@ -1,7 +1,6 @@
 ---
 name: java-coding-standards
-description: "Java coding standards for Spring Boot services: naming, immutability, Optional usage, streams, exceptions, generics, and project layout."
-origin: ECC
+description: 'Use when the user explicitly needs the java-coding-standards workflow: Java coding standards for Spring Boot services: naming, immutability, Optional usage, streams, exceptions, generics, and project layout.'
 ---
 
 # Java Coding Standards

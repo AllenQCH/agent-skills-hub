@@ -1,13 +1,7 @@
 ---
 name: segment-anything-model
 description: 'Use when the user needs the segment anything model workflow: Foundation model for image segmentation with zero-shot transfer. Use when you need to segment any object in images using points, boxes, or masks as prompts, or automatically generate all object masks in an image. Do not use for non-ML/LLM engineering tasks or adjacent MLOps workflows covered by a narrower model, training, inference, or evaluation skill.'
-version: 1.0.0
-author: Orchestra Research
 license: MIT
-dependencies:
-- segment-anything
-- transformers>=4.30.0
-- torch>=1.7.0
 metadata:
   hermes:
     tags:
@@ -444,67 +438,6 @@ masks, scores, _ = predictor.predict(
 }
 ```
 
-### COCO RLE format
+## Extended Guidance
 
-```python
-from pycocotools import mask as mask_utils
-
-# Encode mask to RLE
-rle = mask_utils.encode(np.asfortranarray(mask.astype(np.uint8)))
-rle["counts"] = rle["counts"].decode("utf-8")
-
-# Decode RLE to mask
-decoded_mask = mask_utils.decode(rle)
-```
-
-## Performance optimization
-
-### GPU memory
-
-```python
-# Use smaller model for limited VRAM
-sam = sam_model_registry["vit_b"](checkpoint="sam_vit_b_01ec64.pth")
-
-# Process images in batches
-# Clear CUDA cache between large batches
-torch.cuda.empty_cache()
-```
-
-### Speed optimization
-
-```python
-# Use half precision
-sam = sam.half()
-
-# Reduce points for automatic generation
-mask_generator = SamAutomaticMaskGenerator(
-    model=sam,
-    points_per_side=16,  # Default is 32
-)
-
-# Use ONNX for deployment
-# Export with --return-single-mask for faster inference
-```
-
-## Common issues
-
-| Issue | Solution |
-|-------|----------|
-| Out of memory | Use ViT-B model, reduce image size |
-| Slow inference | Use ViT-B, reduce points_per_side |
-| Poor mask quality | Try different prompts, use box + points |
-| Edge artifacts | Use stability_score filtering |
-| Small objects missed | Increase points_per_side |
-
-## References
-
-- **[Advanced Usage](references/advanced-usage.md)** - Batching, fine-tuning, integration
-- **[Troubleshooting](references/troubleshooting.md)** - Common issues and solutions
-
-## Resources
-
-- **GitHub**: https://github.com/facebookresearch/segment-anything
-- **Paper**: https://arxiv.org/abs/2304.02643
-- **Demo**: https://segment-anything.com
-- **SAM 2 (Video)**: https://github.com/facebookresearch/segment-anything-2
-- **HuggingFace**: https://huggingface.co/facebook/sam-vit-huge
+Read [extended guidance](references/extended-guidance.md) for detailed procedures, examples, and reference material.
