@@ -59,13 +59,14 @@
 
 ## Scheduled execution
 
-- Reuse the existing Agent catalog LaunchAgent and enforce the 72-hour interval inside the review runner.
-- Acquire an atomic local lock so interval and WatchPaths triggers cannot overlap.
+- Use a dedicated LaunchAgent scheduled for Monday and Friday at 10:00 `Asia/Shanghai`.
+- Keep Agent Catalog sync separate with `RunAtLoad` and `WatchPaths`; do not add interval polling to either job.
+- Acquire an atomic local lock so manual and scheduled review runs cannot overlap.
 - Write reports and state outside the Hub to avoid recursive WatchPaths triggers.
 - When no fixes are planned, keep the Hub locked and run read-only validation.
 - When fixes are planned, validate them in a temporary copy before live apply.
 - Before live apply, confirm the managed-input digest still matches the pre-staging digest.
 - Back up current Hub and Hermes-local content before live apply; do not automatically delete backups.
 - Apply only when `manual_count` is zero. Record ambiguous cases as `pending` without mutation.
-- On failure, lock the Hub, retain evidence, and retry after six hours rather than every five minutes.
+- On failure, lock the Hub, retain evidence, and wait for the next scheduled run without retrying.
 - An audit-only rehearsal must not update `last_review_at` or `next_review_at`.

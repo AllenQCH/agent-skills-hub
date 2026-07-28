@@ -43,7 +43,8 @@ Use the governed scheduler only after explicit approval of its scope:
 python3 /Users/heytea/Documents/myHeytea/code/agent-skills-hub/bin/review_skills.py
 ```
 
-- The existing Agent catalog LaunchAgent invokes the runner frequently, but the runner applies an internal 72-hour due gate.
+- A dedicated LaunchAgent invokes the runner every Monday and Friday at 10:00 `Asia/Shanghai`.
+- Keep Agent Catalog sync independent with `RunAtLoad` and `WatchPaths`; neither job uses interval polling.
 - Preserve the Hermes-local promotion queue and require human approval before promoting a local Skill into the Hub.
 - Run audit and normalization planning before any mutation.
 - Apply only deterministic fixes with zero manual items. Keep ambiguous findings `pending`.
@@ -51,7 +52,8 @@ python3 /Users/heytea/Documents/myHeytea/code/agent-skills-hub/bin/review_skills
 - Abort if the live Hub or Hermes-local inputs change during staging.
 - Back up the live Hub and Hermes-local packages before apply.
 - Never commit or push. Always return the Hub to read-only, including after failure.
-- Use `--force --audit-only` for a non-mutating rehearsal; it must not advance the 72-hour schedule.
+- On failure, retain evidence and wait for the next Monday/Friday run; do not retry automatically.
+- Use `--force --audit-only` for a non-mutating rehearsal; it must not advance the schedule.
 
 ## Boundaries
 

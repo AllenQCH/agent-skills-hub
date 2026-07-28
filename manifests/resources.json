@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generated_at": "2026-07-28T08:24:51.371115+00:00",
+  "generated_at": "2026-07-28T09:24:21.653857+00:00",
   "hub": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub",
   "resources": [
     {
@@ -1848,7 +1848,7 @@
     {
       "name": "research-paper-writing",
       "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/research-paper-writing",
-      "sha256": "c21752ce76a022154ef43958fb9344380e7a284dbe71b154efdf0401f51ca241",
+      "sha256": "7928c3bf2e2689ba7f73354a1076afaf7a59da5d039f9d3fe138d121948fe2b3",
       "file_count": 58,
       "source_runtimes": [
         "hermes"
@@ -1928,7 +1928,7 @@
     {
       "name": "skill-quality-review",
       "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/skill-quality-review",
-      "sha256": "189a9fee70edafdcc34e5bdc2ad356d2feb6c8be58f0518b41b2ced692684913",
+      "sha256": "bf18072730a7c311c2ad96dcdba79fed6bb382a9751f7a0ef98889d183ac3535",
       "file_count": 7,
       "source_runtimes": [
         "shared-hub"

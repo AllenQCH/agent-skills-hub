@@ -45,14 +45,17 @@ excluded from the Hub until a human approves promotion.
 
 - Hermes may continue generating mutable local skills under
   `~/.hermes/skills`.
-- `bin/review_skills.py` refreshes a read-only promotion queue every 72 hours.
-- Promotion always requires human approval; the review job never moves files.
-- The Agent Catalog sync interval is 300 seconds.
+- `bin/review_skills.py` runs every Monday and Friday at 10:00
+  `Asia/Shanghai` through a dedicated LaunchAgent.
+- The review may apply deterministic local quality fixes, but promotion from
+  Hermes-local storage into the Hub always requires human approval.
+- Review failures are retained as evidence and wait for the next scheduled run;
+  there is no polling or automatic retry.
 
-On macOS, the Catalog LaunchAgent uses Python 3.14's existing `Documents`
-permission to read this Hub. The loaded job has been verified to finish with
-`last exit code = 0`; it runs every 300 seconds and also watches the configured
-runtime and Hub paths.
+On macOS, the Catalog LaunchAgent remains independent and uses only `RunAtLoad`
+plus `WatchPaths`; it has no interval polling. The review LaunchAgent template is
+`templates/com.heytea.skill-quality-review.plist`. It has two calendar triggers,
+does not run when installed, and never commits or pushes scheduled changes.
 
 ## Commands
 

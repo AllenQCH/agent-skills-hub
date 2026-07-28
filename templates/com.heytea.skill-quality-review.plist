@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.heytea.skill-quality-review</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Library/Frameworks/Python.framework/Versions/3.14/bin/python3</string>
+      <string>/Users/heytea/Documents/myHeytea/code/agent-skills-hub/bin/review_skills.py</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <array>
+      <dict>
+        <key>Weekday</key>
+        <integer>1</integer>
+        <key>Hour</key>
+        <integer>10</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Weekday</key>
+        <integer>5</integer>
+        <key>Hour</key>
+        <integer>10</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+      </dict>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/heytea/Documents/myHeytea/code/agent-skills-hub</string>
+    <key>StandardOutPath</key>
+    <string>/Users/heytea/.codex/agent-catalog-runtime/skill-quality-review.launchd.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/heytea/.codex/agent-catalog-runtime/skill-quality-review.launchd.err.log</string>
+  </dict>
+</plist>

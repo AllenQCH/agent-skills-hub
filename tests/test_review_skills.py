@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import plistlib
 import sys
 import tempfile
 import unittest
@@ -16,6 +17,21 @@ import review_skills  # noqa: E402
 
 
 class ReviewSkillsTests(unittest.TestCase):
+    def test_launchagent_uses_only_monday_and_friday_calendar_triggers(self) -> None:
+        path = HUB / "templates" / "com.heytea.skill-quality-review.plist"
+        payload = plistlib.loads(path.read_bytes())
+
+        self.assertEqual(
+            [
+                {"Weekday": 1, "Hour": 10, "Minute": 0},
+                {"Weekday": 5, "Hour": 10, "Minute": 0},
+            ],
+            payload["StartCalendarInterval"],
+        )
+        self.assertNotIn("RunAtLoad", payload)
+        self.assertNotIn("StartInterval", payload)
+        self.assertNotIn("KeepAlive", payload)
+
     def test_due_prefers_explicit_next_review_time(self) -> None:
         current = datetime(2026, 7, 28, 8, 0, tzinfo=timezone.utc)
         future = current + timedelta(hours=1)
@@ -23,6 +39,22 @@ class ReviewSkillsTests(unittest.TestCase):
 
         self.assertFalse(review_skills.due({"next_review_at": future.isoformat()}, current))
         self.assertTrue(review_skills.due({"next_review_at": past.isoformat()}, current))
+
+    def test_next_review_after_tuesday_is_friday_at_ten_shanghai(self) -> None:
+        current = datetime(2026, 7, 28, 8, 0, tzinfo=timezone.utc)
+
+        self.assertEqual(
+            datetime(2026, 7, 31, 2, 0, tzinfo=timezone.utc),
+            review_skills.next_review_after(current),
+        )
+
+    def test_next_review_after_friday_slot_is_monday_at_ten_shanghai(self) -> None:
+        current = datetime(2026, 7, 31, 2, 0, tzinfo=timezone.utc)
+
+        self.assertEqual(
+            datetime(2026, 8, 3, 2, 0, tzinfo=timezone.utc),
+            review_skills.next_review_after(current),
+        )
 
     def test_local_packages_exclude_hidden_and_hub_symlinks(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -80,23 +112,23 @@ class ReviewSkillsTests(unittest.TestCase):
             self.assertTrue(queue_file.is_file())
             self.assertFalse(lock_dir.exists())
 
-    def test_failure_state_retries_after_six_hours(self) -> None:
+    def test_failure_state_waits_until_next_scheduled_review(self) -> None:
         current = datetime(2026, 7, 28, 8, 0, tzinfo=timezone.utc)
         run_dir = Path("/tmp/review-evidence")
 
         state = review_skills.state_after_failure({}, current, RuntimeError("validation failed"), run_dir)
 
         self.assertEqual("failed", state["last_status"])
-        self.assertEqual((current + timedelta(hours=6)).isoformat(), state["next_review_at"])
+        self.assertEqual("2026-07-31T02:00:00+00:00", state["next_review_at"])
         self.assertEqual([str(run_dir)], state["last_artifact_paths"])
 
-    def test_success_state_uses_72_hour_interval(self) -> None:
+    def test_success_state_waits_until_next_scheduled_review(self) -> None:
         current = datetime(2026, 7, 28, 8, 0, tzinfo=timezone.utc)
         result = {"status": "no-changes", "artifact_paths": ["/tmp/evidence"], "backup": None}
 
         state = review_skills.state_after_result({}, current, result)
 
-        self.assertEqual((current + timedelta(hours=72)).isoformat(), state["next_review_at"])
+        self.assertEqual("2026-07-31T02:00:00+00:00", state["next_review_at"])
         self.assertEqual(current.isoformat(), state["last_success_at"])
 
     def test_quality_cycle_stages_before_live_apply(self) -> None:

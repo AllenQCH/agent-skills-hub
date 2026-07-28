@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generated_at": "2026-07-28T08:24:51.369404+00:00",
+  "generated_at": "2026-07-28T09:24:21.652317+00:00",
   "hub": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub",
   "discovery_policy": {
     "initial_profile": "bootstrap",
@@ -4953,7 +4953,7 @@
       "description": "Use when the user needs the research paper writing workflow: Write ML papers for NeurIPS/ICML/ICLR: design→submit. Do not use for execution-only tasks that do not require research, monitoring, market data, or literature discovery.",
       "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/research-paper-writing",
       "instruction_path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/research-paper-writing/SKILL.md",
-      "sha256": "c21752ce76a022154ef43958fb9344380e7a284dbe71b154efdf0401f51ca241",
+      "sha256": "7928c3bf2e2689ba7f73354a1076afaf7a59da5d039f9d3fe138d121948fe2b3",
       "file_count": 58,
       "tags": [
         "research"
@@ -5167,7 +5167,7 @@
       "description": "Audit and normalize the shared Agent Skills Hub and Hermes-local Skills against the local Skill standard. Use when reviewing all Skill packages, reducing loaded context through progressive disclosure, repairing metadata or relative links, or preparing a semantics-preserving Skill quality cleanup. Inventory Codex System and Plugin Skills without modifying them.",
       "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/skill-quality-review",
       "instruction_path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/skill-quality-review/SKILL.md",
-      "sha256": "189a9fee70edafdcc34e5bdc2ad356d2feb6c8be58f0518b41b2ced692684913",
+      "sha256": "bf18072730a7c311c2ad96dcdba79fed6bb382a9751f7a0ef98889d183ac3535",
       "file_count": 7,
       "tags": [
         "agents",

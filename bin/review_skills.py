@@ -15,6 +15,7 @@ from contextlib import contextmanager
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterator
+from zoneinfo import ZoneInfo
 
 
 HUB = Path(__file__).resolve().parents[1]
@@ -31,10 +32,13 @@ QUALITY_PACKAGE = HUB_SKILLS / "skill-quality-review"
 AUDIT_SCRIPT = QUALITY_PACKAGE / "scripts" / "audit_skill_quality.py"
 NORMALIZE_SCRIPT = QUALITY_PACKAGE / "scripts" / "normalize_skill_quality.py"
 VALIDATOR = Path("/Users/heytea/.codex/skills/.system/skill-creator/scripts/quick_validate.py")
-INTERVAL = timedelta(hours=72)
-FAILURE_RETRY = timedelta(hours=6)
 LOCK_STALE_AFTER = timedelta(hours=6)
 IGNORED_TREE_NAMES = {".git", "reports", "__pycache__", ".DS_Store"}
+REVIEW_TIMEZONE_NAME = "Asia/Shanghai"
+REVIEW_TIMEZONE = ZoneInfo(REVIEW_TIMEZONE_NAME)
+REVIEW_WEEKDAYS = (0, 4)
+REVIEW_HOUR = 10
+REVIEW_MINUTE = 0
 
 
 class ReviewError(RuntimeError):
@@ -64,6 +68,22 @@ def parse_time(value: str | None) -> datetime | None:
         return datetime.fromisoformat(value)
     except ValueError:
         return None
+
+
+def next_review_after(current: datetime) -> datetime:
+    if current.tzinfo is None:
+        raise ValueError("review schedule requires a timezone-aware datetime")
+    local_current = current.astimezone(REVIEW_TIMEZONE)
+    for day_offset in range(8):
+        candidate = (local_current + timedelta(days=day_offset)).replace(
+            hour=REVIEW_HOUR,
+            minute=REVIEW_MINUTE,
+            second=0,
+            microsecond=0,
+        )
+        if candidate.weekday() in REVIEW_WEEKDAYS and candidate > local_current:
+            return candidate.astimezone(timezone.utc)
+    raise ReviewError("unable to calculate the next Skill review schedule")
 
 
 def load_json(path: Path, default: dict[str, Any]) -> dict[str, Any]:
@@ -132,7 +152,7 @@ def due(state: dict[str, Any], current: datetime) -> bool:
     if next_review is not None:
         return current >= next_review
     last_review = parse_time(state.get("last_review_at"))
-    return last_review is None or current - last_review >= INTERVAL
+    return last_review is None or current >= next_review_after(last_review)
 
 
 def process_is_alive(pid: int) -> bool:
@@ -398,9 +418,13 @@ def build_promotion_queue(current: datetime) -> dict[str, Any]:
     usage = load_json(USAGE_FILE, {})
     candidates = [candidate_for(package, usage, current) for package in local_skill_packages()]
     return {
-        "version": 4,
+        "version": 5,
         "generated_at": current.isoformat(),
-        "interval_hours": 72,
+        "schedule": {
+            "timezone": REVIEW_TIMEZONE_NAME,
+            "weekdays": ["monday", "friday"],
+            "time": "10:00",
+        },
         "mode": "quality-auto-local-no-vcs",
         "candidates": candidates,
     }
@@ -465,11 +489,11 @@ def quality_cycle(current: datetime, run_dir: Path, audit_only: bool) -> dict[st
 
 
 def state_after_result(state: dict[str, Any], current: datetime, result: dict[str, Any]) -> dict[str, Any]:
-    next_review = current + INTERVAL
+    next_review = next_review_after(current)
     updated = dict(state)
     updated.update(
         {
-            "version": 4,
+            "version": 5,
             "last_attempt_at": current.isoformat(),
             "last_review_at": current.isoformat(),
             "next_review_at": next_review.isoformat(),
@@ -487,9 +511,9 @@ def state_after_failure(state: dict[str, Any], current: datetime, error: Excepti
     updated = dict(state)
     updated.update(
         {
-            "version": 4,
+            "version": 5,
             "last_attempt_at": current.isoformat(),
-            "next_review_at": (current + FAILURE_RETRY).isoformat(),
+            "next_review_at": next_review_after(current).isoformat(),
             "last_status": "failed",
             "last_error": str(error),
             "last_artifact_paths": [str(run_dir)],
@@ -541,8 +565,8 @@ def run(force: bool, audit_only: bool) -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Run the governed 72-hour shared Skill quality review.")
-    parser.add_argument("--force", action="store_true", help="ignore the 72-hour due gate")
+    parser = argparse.ArgumentParser(description="Run the governed Monday/Friday shared Skill quality review.")
+    parser.add_argument("--force", action="store_true", help="ignore the scheduled due gate")
     parser.add_argument(
         "--audit-only",
         action="store_true",
