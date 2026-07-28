@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "tdd-workflow",
+  "name": "tdd-workflow",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "tdd-workflow",
+    "sha256": "52ccc4cb7acc0b39078d66200abb3f9f8770276f003cc989220fd33bf388e502",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "tdd-workflow",
+      "sha256": "52ccc4cb7acc0b39078d66200abb3f9f8770276f003cc989220fd33bf388e502",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

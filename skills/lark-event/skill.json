@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-event",
+  "name": "lark-event",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-event",
+    "sha256": "2fca38adf09c12d0c90a90088df78ca552e2b8bf938264507f6df74242e44f58",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-event",
+      "sha256": "2fca38adf09c12d0c90a90088df78ca552e2b8bf938264507f6df74242e44f58",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-event",
+      "sha256": "4d8cb53bbffab0855433c8a4b01b51d40321d25c7177687865bd76338a858d74",
+      "file_count": 2
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

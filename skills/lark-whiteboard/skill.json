@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-whiteboard",
+  "name": "lark-whiteboard",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-whiteboard",
+    "sha256": "529fee08ce62d88c85d86a0f3b17ee77ef10086ab18cfb96d9d439c961ea7620",
+    "file_count": 19
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-whiteboard",
+      "sha256": "529fee08ce62d88c85d86a0f3b17ee77ef10086ab18cfb96d9d439c961ea7620",
+      "file_count": 19
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-whiteboard",
+      "sha256": "7c2ee8dade2f215465c37ea1be3623f73966fb509a81276d5765161d890c6a16",
+      "file_count": 19
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

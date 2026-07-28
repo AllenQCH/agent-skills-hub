@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "python-testing",
+  "name": "python-testing",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "python-testing",
+    "sha256": "5f2b771ce12f6999a82536306fb2fbd81a6d34aa03fa29d00747475f13b3e956",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "python-testing",
+      "sha256": "5f2b771ce12f6999a82536306fb2fbd81a6d34aa03fa29d00747475f13b3e956",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

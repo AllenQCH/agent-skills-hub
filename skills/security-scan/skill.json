@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "security-scan",
+  "name": "security-scan",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "security-scan",
+    "sha256": "b1dffe3545eb05be66b1cd3e5c72a967b732aa49681ba9586726d322a523dbb2",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "security-scan",
+      "sha256": "b1dffe3545eb05be66b1cd3e5c72a967b732aa49681ba9586726d322a523dbb2",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

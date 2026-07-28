@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "name": "backend",
+  "description": "Backend design, implementation, testing, and verification candidates.",
+  "skills": [
+    "api-design",
+    "backend-patterns",
+    "java-coding-standards",
+    "springboot-patterns",
+    "springboot-security",
+    "springboot-tdd",
+    "springboot-verification",
+    "database-migrations",
+    "verification-loop"
+  ]
+}

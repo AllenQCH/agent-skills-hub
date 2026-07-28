@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "alidocs-test-delivery-doc",
+  "name": "alidocs-test-delivery-doc",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "alidocs-test-delivery-doc",
+    "sha256": "9510d07212dcb5f688aef7e2ef2b48516c2ef98e4dee9c782f38eb4ec8313353",
+    "file_count": 11
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "alidocs-test-delivery-doc",
+      "sha256": "9510d07212dcb5f688aef7e2ef2b48516c2ef98e4dee9c782f38eb4ec8313353",
+      "file_count": 11
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "onenote-to-obsidian-migration",
+  "name": "onenote-to-obsidian-migration",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "note-taking/onenote-to-obsidian-migration",
+    "sha256": "196243036c2a4793673ab0c6b3918ab75e54b42021cc91498f5633861e3e8a44",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "note-taking/onenote-to-obsidian-migration",
+      "sha256": "196243036c2a4793673ab0c6b3918ab75e54b42021cc91498f5633861e3e8a44",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

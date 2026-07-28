@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "youtube-content",
+  "name": "youtube-content",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "media/youtube-content",
+    "sha256": "8f0438ebab66574e9bf6d3dc2bddcddec12478e9f151af70466f953f46fb371b",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "media/youtube-content",
+      "sha256": "8f0438ebab66574e9bf6d3dc2bddcddec12478e9f151af70466f953f46fb371b",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

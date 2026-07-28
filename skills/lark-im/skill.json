@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-im",
+  "name": "lark-im",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-im",
+    "sha256": "d35eacbd08a26b0071a52766a9ea55e47c00f208e6a0b1e94e4b29ae77dc752e",
+    "file_count": 13
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-im",
+      "sha256": "d35eacbd08a26b0071a52766a9ea55e47c00f208e6a0b1e94e4b29ae77dc752e",
+      "file_count": 13
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-im",
+      "sha256": "10ea9b72215dddd38ca3948a1c8103865b4492f149a79f71cc53ab2a2cba9bc0",
+      "file_count": 16
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

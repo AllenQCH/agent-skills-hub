@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-workflow-standup-report",
+  "name": "lark-workflow-standup-report",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-workflow-standup-report",
+    "sha256": "eb976a75e58748c9dc9030798f3e64cc0696452f7b4cf46a97651ec5c9fd37e3",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-workflow-standup-report",
+      "sha256": "eb976a75e58748c9dc9030798f3e64cc0696452f7b4cf46a97651ec5c9fd37e3",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-workflow-standup-report",
+      "sha256": "bce85cbca82e9b352c677bb971be4f9a4b62b6a368491336eed530cfd732f89f",
+      "file_count": 1
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

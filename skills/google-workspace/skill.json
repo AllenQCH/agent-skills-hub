@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "google-workspace",
+  "name": "google-workspace",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/google-workspace",
+    "sha256": "7f015127743b29f97b39baf0c9f157dc94c45d1f366256bd78a15f49dd0e94b8",
+    "file_count": 6
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/google-workspace",
+      "sha256": "7f015127743b29f97b39baf0c9f157dc94c45d1f366256bd78a15f49dd0e94b8",
+      "file_count": 6
+    }
+  ],
+  "adapters": {}
+}

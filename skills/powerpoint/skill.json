@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "powerpoint",
+  "name": "powerpoint",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/powerpoint",
+    "sha256": "82a40025c5c023487c18aa5778c1316385ca3e1de1491d4e2c59ff3a7988c247",
+    "file_count": 50
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/powerpoint",
+      "sha256": "82a40025c5c023487c18aa5778c1316385ca3e1de1491d4e2c59ff3a7988c247",
+      "file_count": 50
+    }
+  ],
+  "adapters": {}
+}

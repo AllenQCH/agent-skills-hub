@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "excalidraw",
+  "name": "excalidraw",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "creative/excalidraw",
+    "sha256": "13e5a8190bc7f08c86cc08743da080c10534e17773be93e77af51736d002aef2",
+    "file_count": 5
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "creative/excalidraw",
+      "sha256": "13e5a8190bc7f08c86cc08743da080c10534e17773be93e77af51736d002aef2",
+      "file_count": 5
+    }
+  ],
+  "adapters": {}
+}

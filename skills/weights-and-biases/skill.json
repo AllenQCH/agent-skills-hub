@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "weights-and-biases",
+  "name": "weights-and-biases",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/evaluation/weights-and-biases",
+    "sha256": "3e8eb8f43fef4f5cc6fb28496d2d1506ab758378d6562ce1c4fcec98a277ef7b",
+    "file_count": 4
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/evaluation/weights-and-biases",
+      "sha256": "3e8eb8f43fef4f5cc6fb28496d2d1506ab758378d6562ce1c4fcec98a277ef7b",
+      "file_count": 4
+    }
+  ],
+  "adapters": {}
+}

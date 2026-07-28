@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-drive",
+  "name": "lark-drive",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-drive",
+    "sha256": "8e87ccbb78200fa5aa9bf8f8c21aad79c532827aee5f6b7c5e83f01490787183",
+    "file_count": 4
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-drive",
+      "sha256": "8e87ccbb78200fa5aa9bf8f8c21aad79c532827aee5f6b7c5e83f01490787183",
+      "file_count": 4
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-drive",
+      "sha256": "84f431bf42e079011954847ffe70ad9526b045ec5925ecb672924cf0833d8905",
+      "file_count": 4
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

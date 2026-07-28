@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "audiocraft-audio-generation",
+  "name": "audiocraft-audio-generation",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/models/audiocraft",
+    "sha256": "f467a10454bfa656820344ed156d7c89a5e715f2c50b3fa7039faab8ef063d25",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/models/audiocraft",
+      "sha256": "f467a10454bfa656820344ed156d7c89a5e715f2c50b3fa7039faab8ef063d25",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

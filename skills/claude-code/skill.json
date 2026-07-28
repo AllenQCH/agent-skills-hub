@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "claude-code",
+  "name": "claude-code",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "autonomous-ai-agents/claude-code",
+    "sha256": "21051d24377d172a02ee438338a06c52b74e68d6cf1fede972980fe130ee17a6",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "autonomous-ai-agents/claude-code",
+      "sha256": "21051d24377d172a02ee438338a06c52b74e68d6cf1fede972980fe130ee17a6",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

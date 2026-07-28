@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "ascii-art",
+  "name": "ascii-art",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "creative/ascii-art",
+    "sha256": "86f2891b57c8bf6554d158eb097cf0d180d8605172246fe79e03b096c0daa0f0",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "creative/ascii-art",
+      "sha256": "86f2891b57c8bf6554d158eb097cf0d180d8605172246fe79e03b096c0daa0f0",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

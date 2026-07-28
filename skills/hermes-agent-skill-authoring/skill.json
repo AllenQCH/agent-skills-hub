@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "hermes-agent-skill-authoring",
+  "name": "hermes-agent-skill-authoring",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/hermes-agent-skill-authoring",
+    "sha256": "6feed27eaadff351eee1340f1c105b93152bc979a8c666472e4e3933eca00fdb",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/hermes-agent-skill-authoring",
+      "sha256": "6feed27eaadff351eee1340f1c105b93152bc979a8c666472e4e3933eca00fdb",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

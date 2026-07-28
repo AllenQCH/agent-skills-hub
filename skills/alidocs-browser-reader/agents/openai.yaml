@@ -1,0 +1,3 @@
+display_name: AliDocs Browser Reader
+short_description: Read AliDocs via Chrome session.
+default_prompt: Read the provided AliDocs URL through the local Chrome DingTalk session and return title plus visible article text.

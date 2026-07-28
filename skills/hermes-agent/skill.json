@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "hermes-agent",
+  "name": "hermes-agent",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "autonomous-ai-agents/hermes-agent",
+    "sha256": "a427c799bf32bc6187c61f4e93752b84c62e64425db87cd47c8a6d0948341277",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "autonomous-ai-agents/hermes-agent",
+      "sha256": "a427c799bf32bc6187c61f4e93752b84c62e64425db87cd47c8a6d0948341277",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

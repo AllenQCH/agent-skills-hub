@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "heytea-project-stack",
+  "name": "heytea-project-stack",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "heytea-project-stack",
+    "sha256": "7014d20df154a6e93415b0c3999f0cb1985123fae4bfa8fb1e6f120f32735d41",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "heytea-project-stack",
+      "sha256": "7014d20df154a6e93415b0c3999f0cb1985123fae4bfa8fb1e6f120f32735d41",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

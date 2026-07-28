@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "cloudapi-key-group-switch-opencli",
+  "name": "cloudapi-key-group-switch-opencli",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/cloudapi-key-group-switch-opencli",
+    "sha256": "d32a18535a88223dd981515ff4fda67ca54c9d7da937070d5ef0c4d82f78c43f",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/cloudapi-key-group-switch-opencli",
+      "sha256": "d32a18535a88223dd981515ff4fda67ca54c9d7da937070d5ef0c4d82f78c43f",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

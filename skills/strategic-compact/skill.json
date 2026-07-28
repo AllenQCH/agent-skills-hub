@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "strategic-compact",
+  "name": "strategic-compact",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "strategic-compact",
+    "sha256": "9b0af4bd2708f8f434bd4fd1398cb770540d7e489ebc40864f4153cffece5e47",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "strategic-compact",
+      "sha256": "9b0af4bd2708f8f434bd4fd1398cb770540d7e489ebc40864f4153cffece5e47",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

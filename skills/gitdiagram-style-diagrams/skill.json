@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "gitdiagram-style-diagrams",
+  "name": "gitdiagram-style-diagrams",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/gitdiagram-style-diagrams",
+    "sha256": "6ea0f9aca2a19ed25044ef29753a52f46d9cd3f84e2ce3fc7943551d8090c818",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/gitdiagram-style-diagrams",
+      "sha256": "6ea0f9aca2a19ed25044ef29753a52f46d9cd3f84e2ce3fc7943551d8090c818",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

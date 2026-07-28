@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "dws",
+  "name": "dws",
+  "source_runtimes": [
+    "claude",
+    "codex",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "dws",
+    "sha256": "a4411dfebfbe686d6222971b8cc6e3ce9b3184832249a792004611849b3e5f72",
+    "file_count": 31
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "dws",
+      "sha256": "a4411dfebfbe686d6222971b8cc6e3ce9b3184832249a792004611849b3e5f72",
+      "file_count": 31
+    },
+    {
+      "runtime": "claude",
+      "relative_path": "dws",
+      "sha256": "1863c08d8b19946b45d4b630cab08018214d3051028cb8b285c37f0bc7adec92",
+      "file_count": 31
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/dws",
+      "sha256": "85275a8826ad17c67885572fc807a7ac1adfa94855e3720e77c179db555fd1fa",
+      "file_count": 35
+    }
+  ],
+  "adapters": {
+    "claude": "adapters/claude/SKILL.md",
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

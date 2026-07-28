@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "personal-migratory-agents-migration",
+  "name": "personal-migratory-agents-migration",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "autonomous-ai-agents/personal-migratory-agents-migration",
+    "sha256": "cadc409dd0276bfa916f16ded138c259deaa17b00ed3f42dc700d9b797350246",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "autonomous-ai-agents/personal-migratory-agents-migration",
+      "sha256": "cadc409dd0276bfa916f16ded138c259deaa17b00ed3f42dc700d9b797350246",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

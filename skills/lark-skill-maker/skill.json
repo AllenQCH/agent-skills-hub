@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-skill-maker",
+  "name": "lark-skill-maker",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-skill-maker",
+    "sha256": "e03f7bd154b45200f77be83be576f1c42ea536cd476952fa627daae2bd88a3cc",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-skill-maker",
+      "sha256": "e03f7bd154b45200f77be83be576f1c42ea536cd476952fa627daae2bd88a3cc",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-skill-maker",
+      "sha256": "221bfd3934e91875615e46ff0d84165d26dee8a7dcdb7e76add2725ef116af33",
+      "file_count": 1
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

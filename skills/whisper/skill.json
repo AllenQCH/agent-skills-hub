@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "whisper",
+  "name": "whisper",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/models/whisper",
+    "sha256": "0b4cf33d9caf0fce02fc5d7eb3099d9635121baf1670a8b4b1ade2dd7acc3231",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/models/whisper",
+      "sha256": "0b4cf33d9caf0fce02fc5d7eb3099d9635121baf1670a8b4b1ade2dd7acc3231",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

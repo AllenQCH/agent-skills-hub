@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "python-patterns",
+  "name": "python-patterns",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "python-patterns",
+    "sha256": "4ad77ef301ca3777ea2a52b17f7832bb34a555328418c6e595c19a1addf8fcf3",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "python-patterns",
+      "sha256": "4ad77ef301ca3777ea2a52b17f7832bb34a555328418c6e595c19a1addf8fcf3",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

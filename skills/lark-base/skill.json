@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-base",
+  "name": "lark-base",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-base",
+    "sha256": "f21fa1ae0706b39db05a407980cbf9787a122a0fe60b44f3129a083023448613",
+    "file_count": 88
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-base",
+      "sha256": "f21fa1ae0706b39db05a407980cbf9787a122a0fe60b44f3129a083023448613",
+      "file_count": 88
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-base",
+      "sha256": "9a4885bb988025782fe08999a6cf3c75461d43b228124a8a1e47e4dcb43d63c4",
+      "file_count": 88
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

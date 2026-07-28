@@ -1,0 +1,73 @@
+{
+  "role": "iterative_feature_development",
+  "region": "intl",
+  "module": "pof",
+  "requirement": {
+    "number": "p45_1234",
+    "title": "需求标题",
+    "url": "https://devops-bk.heyteago.com/console/vteam/u04c7f/twDemand/demand/IssueDetail?id=..."
+  },
+  "services": [
+    {
+      "name": "service-hsp-pom-web",
+      "branch": "feature/p45_1234-中文业务描述",
+      "owner": "开发同学",
+      "level": "L2",
+      "commits": [
+        "abc1234 增加提测字段透传"
+      ],
+      "changes": [
+        "新增 DTO 字段",
+        "补充 mapper 转换"
+      ],
+      "impact": "影响提测字段展示和接口返回",
+      "verification": [
+        "mvn test passed"
+      ],
+      "risks": [],
+      "rollback": ""
+    }
+  ],
+  "verification": [
+    {
+      "target": "整体",
+      "command": "mvn test",
+      "result": "passed",
+      "note": "本地验证"
+    }
+  ],
+  "test_configs": [
+    {
+      "service": "service-hsp-pom-web",
+      "config": "",
+      "owner": "开发同学",
+      "remark": "TEST 环境配置"
+    }
+  ],
+  "prod_configs": [
+    {
+      "service": "service-hsp-pom-web",
+      "config": "",
+      "owner": "开发同学",
+      "remark": "PROD 环境配置"
+    }
+  ],
+  "db_scripts": [],
+  "jobs": [],
+  "release_flow": [
+    {
+      "step": "1",
+      "action": "需求流水线创建/触发",
+      "status": "",
+      "eta": "",
+      "note": ""
+    }
+  ],
+  "test_focus": [
+    "接口字段回归",
+    "核心链路回归"
+  ],
+  "risks": [],
+  "rollback": "",
+  "open_questions": []
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "database-migrations",
+  "name": "database-migrations",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "database-migrations",
+    "sha256": "9379e4934622b81ddd6ca19c50e5c912a8d2c28af4a396979cbcf843b45c5f6c",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "database-migrations",
+      "sha256": "9379e4934622b81ddd6ca19c50e5c912a8d2c28af4a396979cbcf843b45c5f6c",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

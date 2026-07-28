@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "github-pr-workflow",
+  "name": "github-pr-workflow",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "github/github-pr-workflow",
+    "sha256": "a4b8d2deb8360da4303f7d2e6b1f81fa03925a2ef70d81ef86e7e369d5fd04c3",
+    "file_count": 5
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "github/github-pr-workflow",
+      "sha256": "a4b8d2deb8360da4303f7d2e6b1f81fa03925a2ef70d81ef86e7e369d5fd04c3",
+      "file_count": 5
+    }
+  ],
+  "adapters": {}
+}

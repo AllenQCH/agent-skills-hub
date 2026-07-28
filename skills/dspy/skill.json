@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "dspy",
+  "name": "dspy",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/research/dspy",
+    "sha256": "a45b245c0fc44b1a4086af7ae7424bc5df7e9f1fa52c893c4dbab4128efde46a",
+    "file_count": 4
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/research/dspy",
+      "sha256": "a45b245c0fc44b1a4086af7ae7424bc5df7e9f1fa52c893c4dbab4128efde46a",
+      "file_count": 4
+    }
+  ],
+  "adapters": {}
+}

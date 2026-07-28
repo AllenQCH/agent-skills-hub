@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "iterative-retrieval",
+  "name": "iterative-retrieval",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "iterative-retrieval",
+    "sha256": "fff090ffce7baa36271f26b8bb3502fbbd68d5bea02e24a133d932dbad3c4876",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "iterative-retrieval",
+      "sha256": "fff090ffce7baa36271f26b8bb3502fbbd68d5bea02e24a133d932dbad3c4876",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "excel-json-analysis",
+  "name": "excel-json-analysis",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "excel-json-analysis",
+    "sha256": "c3b2767377f5f2f9a42b6f85e5622dfd31c4db03c0590dffda796b8ac92e4940",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "excel-json-analysis",
+      "sha256": "c3b2767377f5f2f9a42b6f85e5622dfd31c4db03c0590dffda796b8ac92e4940",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

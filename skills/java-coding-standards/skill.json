@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "java-coding-standards",
+  "name": "java-coding-standards",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "java-coding-standards",
+    "sha256": "92688b2987ed2b2d6c33232224e48f5fd7f8844057a7424d7d86a51820afb533",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "java-coding-standards",
+      "sha256": "92688b2987ed2b2d6c33232224e48f5fd7f8844057a7424d7d86a51820afb533",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

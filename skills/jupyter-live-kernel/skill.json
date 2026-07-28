@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "jupyter-live-kernel",
+  "name": "jupyter-live-kernel",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "data-science/jupyter-live-kernel",
+    "sha256": "b6296242cf7cf08058bbff90f5c2e27f3539cf121973bf0812fbbb7d6820bf02",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "data-science/jupyter-live-kernel",
+      "sha256": "b6296242cf7cf08058bbff90f5c2e27f3539cf121973bf0812fbbb7d6820bf02",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

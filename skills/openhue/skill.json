@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "openhue",
+  "name": "openhue",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "smart-home/openhue",
+    "sha256": "a0e6ddc11d62e5fa80bce956aae73ae80ea944306fffd845c23dd9b0674333ca",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "smart-home/openhue",
+      "sha256": "a0e6ddc11d62e5fa80bce956aae73ae80ea944306fffd845c23dd9b0674333ca",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

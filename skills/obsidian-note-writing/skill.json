@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "obsidian-note-writing",
+  "name": "obsidian-note-writing",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "obsidian-note-writing",
+    "sha256": "1356230832ec2096fca92ae73e4679a88ab6d7fc6cc47604784acd37382e781e",
+    "file_count": 8
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "obsidian-note-writing",
+      "sha256": "1356230832ec2096fca92ae73e4679a88ab6d7fc6cc47604784acd37382e781e",
+      "file_count": 8
+    }
+  ],
+  "adapters": {}
+}

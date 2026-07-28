@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "alidocs-browser-reader",
+  "name": "alidocs-browser-reader",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "alidocs-browser-reader",
+    "sha256": "3f8b5d8d2fa945a7b7a5313d67d7d89fdc19d458275fda1c232c51692ec1399c",
+    "file_count": 33
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "alidocs-browser-reader",
+      "sha256": "3f8b5d8d2fa945a7b7a5313d67d7d89fdc19d458275fda1c232c51692ec1399c",
+      "file_count": 33
+    }
+  ],
+  "adapters": {}
+}

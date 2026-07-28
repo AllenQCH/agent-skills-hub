@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-workflow-meeting-summary",
+  "name": "lark-workflow-meeting-summary",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-workflow-meeting-summary",
+    "sha256": "0ce099af611bc05b6591ce445cea907570c0600dc3d57aa1328baf0a730e74cc",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-workflow-meeting-summary",
+      "sha256": "0ce099af611bc05b6591ce445cea907570c0600dc3d57aa1328baf0a730e74cc",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-workflow-meeting-summary",
+      "sha256": "1e3a32f28f13f665c0d99b4fd862ae7cc2aaf70e5a76e6995e690eb65d3b2432",
+      "file_count": 1
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

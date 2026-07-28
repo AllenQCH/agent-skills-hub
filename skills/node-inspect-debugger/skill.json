@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "node-inspect-debugger",
+  "name": "node-inspect-debugger",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/node-inspect-debugger",
+    "sha256": "d75e4bdcb9533b8e258ebcf790ac17d14e5ecaee8c8d1d64b339b2ed36a5b38f",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/node-inspect-debugger",
+      "sha256": "d75e4bdcb9533b8e258ebcf790ac17d14e5ecaee8c8d1d64b339b2ed36a5b38f",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

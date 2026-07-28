@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "plan",
+  "name": "plan",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/plan",
+    "sha256": "d7de7a1ec6e98bb0250c1a6c4ea2110201ea40aa09d44a2b26046423b1964cdd",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/plan",
+      "sha256": "d7de7a1ec6e98bb0250c1a6c4ea2110201ea40aa09d44a2b26046423b1964cdd",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

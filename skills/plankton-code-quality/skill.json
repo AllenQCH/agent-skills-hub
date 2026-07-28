@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "plankton-code-quality",
+  "name": "plankton-code-quality",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "plankton-code-quality",
+    "sha256": "c192730ed88b54fb60b7029e08dcee5583cbf76cc1396943a89fabbbdfe15272",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "plankton-code-quality",
+      "sha256": "c192730ed88b54fb60b7029e08dcee5583cbf76cc1396943a89fabbbdfe15272",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

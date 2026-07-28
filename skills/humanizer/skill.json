@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "humanizer",
+  "name": "humanizer",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "creative/humanizer",
+    "sha256": "08de5dc1711c96c8376afe30a76dc5e12699947ad8c1becc506b2faa5b94e7e0",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "creative/humanizer",
+      "sha256": "08de5dc1711c96c8376afe30a76dc5e12699947ad8c1becc506b2faa5b94e7e0",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

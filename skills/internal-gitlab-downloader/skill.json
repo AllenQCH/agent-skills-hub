@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "internal-gitlab-downloader",
+  "name": "internal-gitlab-downloader",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "internal-gitlab-downloader",
+    "sha256": "edb008314435770abd190a8a9df1b4b53524361ae37b609e28cdffd9cff9373d",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "internal-gitlab-downloader",
+      "sha256": "edb008314435770abd190a8a9df1b4b53524361ae37b609e28cdffd9cff9373d",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

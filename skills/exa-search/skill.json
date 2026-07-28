@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "exa-search",
+  "name": "exa-search",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "exa-search",
+    "sha256": "6b27531f67dc2c923d61a608ce34edc7b16c5db1bfa872cf9fccc0c61d17dd45",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "exa-search",
+      "sha256": "6b27531f67dc2c923d61a608ce34edc7b16c5db1bfa872cf9fccc0c61d17dd45",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

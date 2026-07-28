@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "codebase-inspection",
+  "name": "codebase-inspection",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "github/codebase-inspection",
+    "sha256": "67a0af7371f051b5db2e201273a857c33b565b3eb3e4acb79461556f02cbd26f",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "github/codebase-inspection",
+      "sha256": "67a0af7371f051b5db2e201273a857c33b565b3eb3e4acb79461556f02cbd26f",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

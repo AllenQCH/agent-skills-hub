@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "opencli-browser-webapp-exploration",
+  "name": "opencli-browser-webapp-exploration",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/opencli-browser-webapp-exploration",
+    "sha256": "e12d66817b116f914bf574457e251dbebbfa93c63a614965d2953219ea29dbe1",
+    "file_count": 8
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/opencli-browser-webapp-exploration",
+      "sha256": "e12d66817b116f914bf574457e251dbebbfa93c63a614965d2953219ea29dbe1",
+      "file_count": 8
+    }
+  ],
+  "adapters": {}
+}

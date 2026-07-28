@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "openclaw-to-hermes-migration",
+  "name": "openclaw-to-hermes-migration",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "autonomous-ai-agents/openclaw-to-hermes-migration",
+    "sha256": "cd06949c66ecaec99f721b145a22c0d47361885183b517abfa8c2c1db72b4472",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "autonomous-ai-agents/openclaw-to-hermes-migration",
+      "sha256": "cd06949c66ecaec99f721b145a22c0d47361885183b517abfa8c2c1db72b4472",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "bk-pipeline",
+  "name": "bk-pipeline",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "bk-pipeline",
+    "sha256": "d7de20fc217586bdf745767fd7280b0247d274f1b626cc4f59c66513a84a26ad",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "bk-pipeline",
+      "sha256": "d7de20fc217586bdf745767fd7280b0247d274f1b626cc4f59c66513a84a26ad",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

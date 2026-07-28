@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "personal-migratory-agents-review",
+  "name": "personal-migratory-agents-review",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/personal-migratory-agents-review",
+    "sha256": "321295087ce06a8f56fade1e9ad8ae1e265d1ad23c710dbe3c0f137ba2fe5c6b",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/personal-migratory-agents-review",
+      "sha256": "321295087ce06a8f56fade1e9ad8ae1e265d1ad23c710dbe3c0f137ba2fe5c6b",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

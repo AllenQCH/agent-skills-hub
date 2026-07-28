@@ -1,0 +1,2249 @@
+{
+  "version": 3,
+  "generated_at": "2026-07-28T05:54:10.005970+00:00",
+  "hub": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub",
+  "resources": [
+    {
+      "name": "acceptance-qa-agent",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/acceptance-qa-agent",
+      "sha256": "0ea82c998b6db6b2b6ab957457d6bf6556fa22ab5e9081b532f13c5b1e0fb15a",
+      "file_count": 8,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "ai-coding-daily-brief-fallback",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/ai-coding-daily-brief-fallback",
+      "sha256": "aee64a87dbd1579574b9725927536feb2ea6a5ee38f579966ec70fc56bf7a548",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "ai-regression-testing",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/ai-regression-testing",
+      "sha256": "fd55d17ce885a7b5b2ce058fdf7cb840a91aeb8ad6972c02602be64e22ceb9b0",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "airtable",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/airtable",
+      "sha256": "31ae63a9fa1870f1954f267343e0e3b232fed352c2a303c05d6ee966f2f75ca7",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "alidocs-browser-reader",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/alidocs-browser-reader",
+      "sha256": "610ff325acd16e4e6b394637f8d196f9be2571fc57a6e15d79df88a8efce68d2",
+      "file_count": 4,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "alidocs-test-delivery-doc",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/alidocs-test-delivery-doc",
+      "sha256": "fdc8b7c2a2921d0b279482896c3a4fbb183378c7a68368e10d9a3651822a90f5",
+      "file_count": 12,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "allen-development-qa-delivery-pipeline",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/allen-development-qa-delivery-pipeline",
+      "sha256": "f1629e924a02ff4e3173ff3aad8f0c10670c9898e9216086b03b7fc1f5165155",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "allen-obsidian-note-system",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/allen-obsidian-note-system",
+      "sha256": "5e0a326f82b283c2db1f70ae859b3dad9dfe5a5188719a7e560391647efdcf46",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "allen-response-formatting",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/allen-response-formatting",
+      "sha256": "15b761eae1e4b6fd0217f99b8dec3b36203e23a71812d671ec5787fc99062ebd",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "api-design",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/api-design",
+      "sha256": "5aee2a11a5db8c31916e6cf5c33860f8275db0254527b835a87ff27749c9728e",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "apple-notes",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/apple-notes",
+      "sha256": "a4bfbe7047824207f9a2784f96eade733b04545765b399c0ef1ea5f776218ad4",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "apple-reminders",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/apple-reminders",
+      "sha256": "243b4f902ba35cd50e72fc235cd6c7014f95f8aefd718e4bf009c4ea21630dab",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "architecture-diagram",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/architecture-diagram",
+      "sha256": "97db666a29dd0e73603c8da77fd298d60efbd240fe42ebe6212eaa46ced44a84",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "arxiv",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/arxiv",
+      "sha256": "d5d5d64477c5801ae10d6c5aecfed2f79d7d4009eaef03f12f721116aff05773",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "ascii-art",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/ascii-art",
+      "sha256": "c1bf412202e4e5b84c32cc8efd9bf9e0618bce0eb69c6b82ae4c4b8553e19cbd",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "ascii-video",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/ascii-video",
+      "sha256": "3b94ae1088efceb1bf2780d3ed402a44ac8eb87b064643f2704249b57aee62af",
+      "file_count": 11,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "audiocraft-audio-generation",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/audiocraft-audio-generation",
+      "sha256": "091e73c65e336be153e8c2733200c6ba30379da39d22fc9028441122a6164c86",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "axolotl",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/axolotl",
+      "sha256": "87170ab7fdb1a3b358c1c8d83f9a10ce0dfe4f07ffb165ac91db837f49858b6d",
+      "file_count": 6,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "backend-patterns",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/backend-patterns",
+      "sha256": "b5d2922f9890f350ddda045a839b5617d890b37a74e3da48e935aff2c0c129ce",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "baoyu-infographic",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/baoyu-infographic",
+      "sha256": "3f748172101395319dff2011a1c1e327776498f7b6399d7e21c06d04a436f602",
+      "file_count": 48,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "bfc-local-invoice-stack",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/bfc-local-invoice-stack",
+      "sha256": "bc2cc2063413df5e5f800ef58628e455c9299e8c30be60b3be853d2b24067994",
+      "file_count": 4,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "bk-pipeline",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/bk-pipeline",
+      "sha256": "90c7b3674cdd4cfe10f8fc2ab3c9e838c22808cdc3e63b672363eff2ee96400f",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "blogwatcher",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/blogwatcher",
+      "sha256": "b58cf6944cf2fd9c770b184a16e445b073ef40b21b019fcaf2abd3f0218b87ea",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "blueking-workhour-opencli",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/blueking-workhour-opencli",
+      "sha256": "ba3ee2e7925c09073c143102f43e325d3c4ba37a029b1b36a5b4882bd881016f",
+      "file_count": 13,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "bug-killer",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/bug-killer",
+      "sha256": "cede0a3a860bf2674a831217abf93c0e3d61ba3277734843937ef331f32f0148",
+      "file_count": 5,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "chrome-bookmark-management",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/chrome-bookmark-management",
+      "sha256": "2db25764a86170e43e0491df56296164f79c4bff9887882f1bf8ffd821227430",
+      "file_count": 5,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "claude-api",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/claude-api",
+      "sha256": "283a0bb3a7ae3e82e688fc8cd37348c99dd44253df745ec0612eb790cdae7deb",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "claude-code",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/claude-code",
+      "sha256": "9a8f6c6da3a54790f11f8ebf10d1d928900d150fa81a36163bedc50510cfa3ba",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "claude-design",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/claude-design",
+      "sha256": "edbdd2844bb1a6a6a43052c10cc85c7101dba3559c1b107ab78b8cd0975b4daf",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "cli-anything",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/cli-anything",
+      "sha256": "ed48abebe59dd4f7688aef0861606a61620b3a8f0ab671eb9bf30ef1702020d9",
+      "file_count": 5,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "clickhouse-io",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/clickhouse-io",
+      "sha256": "68d77c1234ce22575de7a303b6726071b700be38171867197c2a30265f85b7b8",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "clip",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/clip",
+      "sha256": "d84d1c875a2c4c259e86975e9184045f880b9ee5fbfc1367b0d922c6f1b58362",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "cloudapi-key-group-switch-opencli",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/cloudapi-key-group-switch-opencli",
+      "sha256": "d92de9aafce0d502c2909f27eab1a6a3af584b3afb779ea64f02b67d99e2c051",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "cn-job-board-research",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/cn-job-board-research",
+      "sha256": "5cae9f26ab5860b19b007920daac10c73415d394023f062ea227594ceb12de9a",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "codebase-inspection",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/codebase-inspection",
+      "sha256": "6fe61a4d5410db167c4385baa1b7f3dd2ddecc4e0ef0234b6e09f412cd053d8d",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "codex",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/codex",
+      "sha256": "8ce9c80768523738ee131482d8a4cc908fb2eacbb83d8d96f48323ee0df22ee3",
+      "file_count": 7,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "coding-standards",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/coding-standards",
+      "sha256": "77c7870dea930085f93e4a7fb20b0267e8a233b11f7974d22ec16e819e631f4c",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "comfyui",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/comfyui",
+      "sha256": "6c67ef365b9728b7def043300cbad0fc6efa734e5304f761f3cbfcb17b0a79c7",
+      "file_count": 34,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "configure-ecc",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/configure-ecc",
+      "sha256": "be0f0c7ee8ee038ee6103845a0266311107636f71b5a250afa612f5b2d957868",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "content-hash-cache-pattern",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/content-hash-cache-pattern",
+      "sha256": "afbf13073faa4a1669f223a47647aef1af18e6fe73d2aa805eef46bd21230909",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "context-handoff-safety",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/context-handoff-safety",
+      "sha256": "11023e49b6e63f1c5f588b469793b0c44147c3147e6cdf6382fd72f5f2b7526d",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "continuous-learning",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/continuous-learning",
+      "sha256": "a635546042799a74edd2378bb4db9ffd9ed691f6a6036f6bd5670339680db56a",
+      "file_count": 4,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "continuous-learning-v2",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/continuous-learning-v2",
+      "sha256": "3b2577156a2737ad6f61186c066c52456cfe8f7f751e41c8d2901ce877bbd2cb",
+      "file_count": 11,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "ctool-cr-plugin-setup",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/ctool-cr-plugin-setup",
+      "sha256": "d8e9fe9ed7ee57296986c0f388928a002e9ff08f480f50e722b369c3c84ca7c4",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "daily-ai-markets-brief-cron",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/daily-ai-markets-brief-cron",
+      "sha256": "06fedd428a6769ee4403446a90cc119e3d8de2b205dd6595740fe9061affe151",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "database-migrations",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/database-migrations",
+      "sha256": "27dbedd72b5dfe4363b7a89e6a9ed79ee868237b86a07076f29c2b695681d0f2",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "dbauto-export-agent",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/dbauto-export-agent",
+      "sha256": "07265cd0702e23163b0d3b4eb43050c2e36489501191edadb095e9c8f5d70cc3",
+      "file_count": 4,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "dbauto-sql-query",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/dbauto-sql-query",
+      "sha256": "387dead3d1085b3bd0864af21202951fd9409c9794950c5b401a77ae49190f8d",
+      "file_count": 4,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "deep-research",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/deep-research",
+      "sha256": "8a957db0b3c4c1bdc26cd3dab3a7e28b657e130c635575add2fe3307700dd372",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "deployment-patterns",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/deployment-patterns",
+      "sha256": "bd5e57203aabd4d0efa054cc3ef06d3f66f326903f7c42c659d3f87be8cf9b1e",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "design-md",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/design-md",
+      "sha256": "c8042a73805d6189e58373f1905aa80be5409ff2cc677b274f8dcd41ed8f68f2",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "dingtalk-to-glm-knowledge-base",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/dingtalk-to-glm-knowledge-base",
+      "sha256": "23450f4cc60901bd1ec0480f6753e4a78e891f4cfba2eace4cedb1c13a9ba935",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "dingtalk-webhook-send",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/dingtalk-webhook-send",
+      "sha256": "f29d36d618844c936bfb68996d35fa99cda741de23f72f18364b99e5af1622b1",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "django-patterns",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/django-patterns",
+      "sha256": "343eece544b3710c2ce96eca42f84e2c9c049a16a4634c90b21b2bd3643ef14c",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "django-security",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/django-security",
+      "sha256": "c98164abf9999010a65ac3cb7684c78b13c236a49b99fc01afc2f83f3b4ec18e",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "django-tdd",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/django-tdd",
+      "sha256": "aa1f12e7eb826346e8178f12d6e48a82c9dd7b21b1c3ed8e7e26cadf1a02cee1",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "django-verification",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/django-verification",
+      "sha256": "6ce69664486c430c29060d42a1b284313c42501b3eae3bb7769067445b81e228",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "docker-patterns",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/docker-patterns",
+      "sha256": "e9b7c1dc36bf6db3e23c701a6c8ad8949cd05d2045f304ee3d52fa5baae5ca3f",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "dogfood",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/dogfood",
+      "sha256": "9e8c8bd480a6531f35895714a8f111c593dc38d6dab121f29e3f06fcb40d5f46",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "dspy",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/dspy",
+      "sha256": "39e19748919e5a42ace4ac994b9fccd19982702727235f6dd6c9abb7f052a0fa",
+      "file_count": 5,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "dws",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/dws",
+      "sha256": "b81d454d05428adcad0748c54cb8905670aca7ef4a04380b89dc6925f2a1c256",
+      "file_count": 98,
+      "source_runtimes": [
+        "claude",
+        "codex",
+        "hermes"
+      ],
+      "adapters": {
+        "claude": "adapters/claude/SKILL.md",
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "dws-auth-helper",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/dws-auth-helper",
+      "sha256": "a8e09b8a89048ef28674fcfdb0850e0831c81367156e0b1e7daa1f45755cbeab",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "dws-meeting-room-booking",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/dws-meeting-room-booking",
+      "sha256": "0f01a024cbeb24b723a3bde6d4296c061f106152176b70d3c0ef36e1b9b1f297",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "e2e-testing",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/e2e-testing",
+      "sha256": "505df6de6d9a87a5ddcc566341f572db83bd338440da42320ff84822d19f32ac",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "eval-harness",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/eval-harness",
+      "sha256": "f926158acb8cb9a9b4844e3cb08bd0b29f6395351d93dc323149f413626046fd",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "evaluating-llms-harness",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/evaluating-llms-harness",
+      "sha256": "b94011e89b76a0c6a362cf2849be18fdabc94e7b2211b986267d0d8e07de04e9",
+      "file_count": 6,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "exa-search",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/exa-search",
+      "sha256": "4ada482ffa53092b14fa5d1528177513a2d1f198e54df8bd5dd77b6248b954c4",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "excalidraw",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/excalidraw",
+      "sha256": "d9bcfde2b3cb8a89d537fd7ef4df715c8c2da4730fd5e7a4eb6285d45f0ff4d4",
+      "file_count": 6,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "excel-json-analysis",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/excel-json-analysis",
+      "sha256": "8c404ee2a318c8c4cb8522175cfebf9a028bbd1f7c49a8a593abe6c586f1127e",
+      "file_count": 4,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "feishu-friend-send-macos-fallback",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/feishu-friend-send-macos-fallback",
+      "sha256": "1994119b5d0ede4e113ff2cfd517df16b629854f90be1d0a851f5a88e4ef875d",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "find-nearby",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/find-nearby",
+      "sha256": "e00c7ee59af913de7d1cc9d80f76d2952511080eb3ae1a1b8db03fbdc3c5cca7",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "find-skills",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/find-skills",
+      "sha256": "0bf53edec6ca7f230e3ae4d38634e83f67b9a72851a39a0ea4e2928a8117fefa",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "findmy",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/findmy",
+      "sha256": "8640e4b0beef6927cfc9eb5d46c4a9f3cd94495526d798ce17e4dadb1ac20eeb",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "fine-tuning-with-trl",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/fine-tuning-with-trl",
+      "sha256": "e6a03d1c9d8bd15644b4c5cdd043755c1ca4efd6088e8a88f6500810abc6ceeb",
+      "file_count": 6,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "frontend-patterns",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/frontend-patterns",
+      "sha256": "1863e77452bff224602ceedb771019d4737329b1443df9bf1607fcfa3608fc29",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "gguf-quantization",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/gguf-quantization",
+      "sha256": "ef10c56e500b3202d5e97ebff35993c911518c29c741198317effb24642c6f5d",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "ghostty-codex-inspection",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/ghostty-codex-inspection",
+      "sha256": "f0fa89d91daef46f200e12aaa12527f3e89acc20c3e83eaefdf2bf0845537143",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "gif-search",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/gif-search",
+      "sha256": "70ff9f44bc1dc03e915e817fd3ad5dfa8d8d0c58c35b8f55734ab553c3e56c28",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "gitdiagram-style-diagrams",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/gitdiagram-style-diagrams",
+      "sha256": "ee5ac5561c15dcc16d4c3b47ea6159bca12c8a88bc94fa03fc9123aa8b5a2151",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "github-auth",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/github-auth",
+      "sha256": "7c27c92932de9307e171e1b1e3ba1374ee4dc3575d3f708f090b57824add8509",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "github-code-review",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/github-code-review",
+      "sha256": "2149eb5da4c59710ced09e68b254c8a2afeeffd12809f8c92acbc4a159b88d67",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "github-daily-weekly-report",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/github-daily-weekly-report",
+      "sha256": "6ecb7e4ed1cf3bc2c4470d71baa93b8b9923470a0a28345d953f09892d9e241e",
+      "file_count": 6,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "github-issues",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/github-issues",
+      "sha256": "3f5d7f72785c12d222aa5e11d1010b462916aeaad5aed82583d55caae0a998fb",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "github-pr-workflow",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/github-pr-workflow",
+      "sha256": "562e27c45a3cdbb1965311f951fc8f03a47ed545181e22f5c2b64c5409a44b1f",
+      "file_count": 6,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "github-repo-management",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/github-repo-management",
+      "sha256": "7d030359de5c2b9e2d609d2fc9720f68b3c4e530abc9d08a36b44d80b394cf99",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "github-web-operations",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/github-web-operations",
+      "sha256": "c3e62ff68c0708a060658a41a86ae0faac20f5591a429af2d11d1285c4c93f8d",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "godmode",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/godmode",
+      "sha256": "021c6afd735df53ca49b56244a456d2dabd834c8eb9cd3bb2300c73aad7ce842",
+      "file_count": 10,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "google-workspace",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/google-workspace",
+      "sha256": "f5e91a1db43a32c0b2760d309295d0658a9eff10a685abfac126d67802ae0ee8",
+      "file_count": 7,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "grpo-rl-training",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/grpo-rl-training",
+      "sha256": "11707bf905a3b99aab6a12725646cf4b11f740d3555fe3c7363ae5e7fcf170ca",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "guidance",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/guidance",
+      "sha256": "c997d8fbf272980210dba4f28c12b10acdebfe071b468ef716e73642d39773e0",
+      "file_count": 5,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "heartmula",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/heartmula",
+      "sha256": "df20694bc6fa7f24bc8b54ebb76d269efa65c3f1d3bf8dda2e132e314af1911d",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "hermes-agent",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/hermes-agent",
+      "sha256": "cb67c309f52c569049b91fac48b613917b6b729e0ef855370618b806c6b72feb",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "hermes-agent-skill-authoring",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/hermes-agent-skill-authoring",
+      "sha256": "79ca0bd4a156734ab395ca771ba0ca843fd8e8e09116ce70fba9252572d501da",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "hermes-dingtalk-mcp-setup",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/hermes-dingtalk-mcp-setup",
+      "sha256": "231df36b034216b02087a4d65e6afabfdda4ac27602788b479dfa1cf71fda76b",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "hermes-feishu-gateway",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/hermes-feishu-gateway",
+      "sha256": "6e82d37cb3fa2bcf118c74031a33b5e8eee643e5bf82cf68e832f40ab44ec60a",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "hermes-yahoo-finance-mcp-setup",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/hermes-yahoo-finance-mcp-setup",
+      "sha256": "0621a0d733ca60d8384ccae0893e92f35db445bed31ca68588fa7a4f4210c25d",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "heytea-project-stack",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/heytea-project-stack",
+      "sha256": "6092ca9c1b54a0a9bc888c770690af7b23149412183613b485b7959f2cdeebea",
+      "file_count": 4,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "himalaya",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/himalaya",
+      "sha256": "1ec0534a0083562d7c2fe41ef570b4025def3702d9c71faee5f83cf1001ab0a6",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "huggingface-hub",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/huggingface-hub",
+      "sha256": "a976d41bcbf555f13d49213b25ce57c853fbcdaa757ee014d3264fbb594d7c82",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "humanizer",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/humanizer",
+      "sha256": "34a88d2f156c22758d0e60c3239dfa208b7c2ff95fafcdaeb54841e695b206b1",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "imessage",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/imessage",
+      "sha256": "b0b84c9cda1ac9f7495e9f73fe0ad1d23680751206a261b806b66dbf86c796b5",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "internal-gitlab-downloader",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/internal-gitlab-downloader",
+      "sha256": "35e197717f236560cf319208d32c5ca614755de7dae96714c0ff17f70706e1cd",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "iterative-retrieval",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/iterative-retrieval",
+      "sha256": "4f6dc95ed3b29c14a19add5e9d0a6420a9df8938e5ab453cc2ffddbdfe3bd749",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "java-coding-standards",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/java-coding-standards",
+      "sha256": "c9e48161a9206dccaf300719cee8c502244fb577129c6651b29020d6d1393110",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "jpa-patterns",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/jpa-patterns",
+      "sha256": "c1064eaa16e5e8038a8624d0c99d621f0a4380baab993b1c6a85ed2931b2cf24",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "jupyter-live-kernel",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/jupyter-live-kernel",
+      "sha256": "c40a2b80665c5a21180282648193c04d81baae09ee3a9f609ca08504d1b8fbd5",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "kanban-orchestrator",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/kanban-orchestrator",
+      "sha256": "8387d33349ce044a0b9000ea3ef8801d616c9f67be122e2506ae927fd55cf818",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "kanban-worker",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/kanban-worker",
+      "sha256": "360267128d62e73e1b369c998222fd70faa83c3d4012eb6e9276979356183254",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "kindle-jailbreak-recovery",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/kindle-jailbreak-recovery",
+      "sha256": "d7baeec8e944f6cc3fd36037068a9e9767b7a926ef8d62b55419d0fbab4fac76",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "koreader-device-workflows",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/koreader-device-workflows",
+      "sha256": "a857eddf80769b1b7ddf08c85b4dee5e6352030c3c9da0265a93c8dbcb7ae37d",
+      "file_count": 7,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "language-learning-group-cron",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/language-learning-group-cron",
+      "sha256": "8505e031c202619cf0c3f9163474ff84b7e6f89addb8b38833bd60d96605d34a",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "lark-base",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-base",
+      "sha256": "65aae2f3ebf4c41dd0d2e1290e4ad771ff6e53411676439e3c7d322cd8e05294",
+      "file_count": 177,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-calendar",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-calendar",
+      "sha256": "661bcbabb9f3a877acef43a9ead1641af55c62e6035cc38257446453c50d4bac",
+      "file_count": 11,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-contact",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-contact",
+      "sha256": "4195291cac1942ec56ac8cde431f60e7ed47e70cceade3a3a145a2a14d79d332",
+      "file_count": 7,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-doc",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-doc",
+      "sha256": "1191e3c70a8f402ad0c0d8f8813b581d9c40d9d96b68b8671be951e3cc8459b3",
+      "file_count": 17,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-drive",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-drive",
+      "sha256": "2424b17a1deb2bed6c38b95b503cd677275ca5a028e716b8edb851850c2f0413",
+      "file_count": 9,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-event",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-event",
+      "sha256": "3918e1ab88a74d7ab05f2e9f77bbb9df95494a8eaebb8ac6157bf3eb256e3885",
+      "file_count": 5,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-im",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-im",
+      "sha256": "1ea24f4cbbd1d968cd08760ceeb9133cfaaac78b97255937b79a86cd076c6ca4",
+      "file_count": 30,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-mail",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-mail",
+      "sha256": "6ef6693bf49a14b494e12f1b1a6e666cbec2f7cdbec06f1bd43a60c5aac35d4d",
+      "file_count": 25,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-minutes",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-minutes",
+      "sha256": "dbbb6a415b49b6de68bc6b03ff971d41cf2d81e7deda0f18d4f80c84e0b27200",
+      "file_count": 3,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-openapi-explorer",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-openapi-explorer",
+      "sha256": "3bd28924c636fdfd4b31255f9a5b5180ee8e477c39322653aed24468dfe1e826",
+      "file_count": 3,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-shared",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-shared",
+      "sha256": "f07edaf5f4e91c3f6be9f6bc7af3d13b0362a1b6a931ea6ab31c8ed11871e3e5",
+      "file_count": 3,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-sheets",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-sheets",
+      "sha256": "04739c340b578c965bef004d1413ee813a54b386a25b86294fa5d9c762a41a20",
+      "file_count": 17,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-skill-maker",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-skill-maker",
+      "sha256": "30fe1ef75619d0fe5d9497542ea2e5c2ddee6ce7973a1591f590aae1cfc12869",
+      "file_count": 3,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-task",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-task",
+      "sha256": "9766cb136e8d26dd8db6a3b0c2c48024b8d84813fdf07f2d441d0ab6fa8768e8",
+      "file_count": 27,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-vc",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-vc",
+      "sha256": "ed495bb77e12d4a7517eea0ae061a79d5fa5bfa25d903556cad46c646ca98d83",
+      "file_count": 7,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-whiteboard",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-whiteboard",
+      "sha256": "337a34d4cd0e2d746fecd9adb52f80209929b5309c50f4d0a252f82fb02f601b",
+      "file_count": 39,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-wiki",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-wiki",
+      "sha256": "e9b555f5db2084ffffc7035fcb513198323f34b3f1a6ba80a7613aab9b5c0225",
+      "file_count": 3,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-workflow-meeting-summary",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-workflow-meeting-summary",
+      "sha256": "f393a868c543b2e7b46705646d6778573688f981cdab8b49193c93fbe766efad",
+      "file_count": 3,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-workflow-standup-report",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/lark-workflow-standup-report",
+      "sha256": "53b51df5ef37b5959861b0e3464517c8b7c7a388e04afb93a4bc75a4f80fb1f0",
+      "file_count": 3,
+      "source_runtimes": [
+        "common",
+        "hermes"
+      ],
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "linear",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/linear",
+      "sha256": "46b7fc7d78a3983de2e3bf25c5432881b12498198f1be3849333b82bad48be38",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "llama-cpp",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/llama-cpp",
+      "sha256": "d541602f967a9917259863cbdb510748b13613ee6bc14a906731c86d8f82e889",
+      "file_count": 8,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "llm-wiki",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/llm-wiki",
+      "sha256": "fc1a7ed9be35af889a8ba58774314f4ac1ef7162404501bf458a8351defce27c",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "local-docs-market-architecture-analysis",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/local-docs-market-architecture-analysis",
+      "sha256": "7872fda196d66dd5e9be139ee8a6924af2cd08fb980b159832bbae332d4ba9f7",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "macos-computer-use",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/macos-computer-use",
+      "sha256": "bc16fb3e577e92aa4a79f5f91831418a2ab7a94264beb13aa0d38ec7e9978f82",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "manim-video",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/manim-video",
+      "sha256": "4afb8ce2c554b23b0e3befbe8c03271b5211b38a04b7f01159e94a7fa7459852",
+      "file_count": 18,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "maps",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/maps",
+      "sha256": "3778112a74b22722ac8d25c5b7eb61f1e3d7bd61f744308a8a4dc056082a6896",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "mcp-server-patterns",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/mcp-server-patterns",
+      "sha256": "97c926f671fec48941ba98cfa1c88cb090f21ad80eca4260b7ee553e78529396",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "mcporter",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/mcporter",
+      "sha256": "eede60d2c56a16fc4f9728e94b7dfa1ff105073d6c715fdb4d3eedcfde8ba58c",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "minecraft-modpack-server",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/minecraft-modpack-server",
+      "sha256": "0fb485376a41ee705dba2af0de7348ab6b19fdfad29aad20c97fbb3aeed75ccf",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "modal-serverless-gpu",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/modal-serverless-gpu",
+      "sha256": "e95aa4c0d09c0af60ab58e63b874c1561b488b0fe7c754e237de22d1d91c60e0",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "multi-agent-framework-maintainer",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/multi-agent-framework-maintainer",
+      "sha256": "38efc309dff79a655ab4321ef7e273607adad567220dae4c21f4d9b1d580bc7b",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "nano-pdf",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/nano-pdf",
+      "sha256": "209b6fd227a12e809d3deefcf548a24eeae86e5a394719be4e28aa2c73af40a0",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "native-mcp",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/native-mcp",
+      "sha256": "b2511a930d9c13d3adc258c8bfc456fe4d3c66d0057977051f6c985a3c0c54fa",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "node-inspect-debugger",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/node-inspect-debugger",
+      "sha256": "967af3d204cb1638c795f6292089ce41da65e6642b88393a41b4215dbecedd78",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "notion",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/notion",
+      "sha256": "f2015e0640d043107f643b8dc6c1b2d7629a5d7ad7ad9fa0aabf0e9a52fef661",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "obliteratus",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/obliteratus",
+      "sha256": "e06f391168518650674b6042c21d0af622c0f5a0c9f7f108baa8eb51cbfbaf0b",
+      "file_count": 7,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "obsidian",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/obsidian",
+      "sha256": "51b8585f31e5960d89c0e0095ad0435e7c67aa9ab6ff8ac4a3cae32c225824d2",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "obsidian-knowledge-curation",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/obsidian-knowledge-curation",
+      "sha256": "926ad5cd338283ce994ec45f83c75231eba70a8bf121c94ea31a157e71aaab27",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "obsidian-note-writing",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/obsidian-note-writing",
+      "sha256": "d4cafe450b8ceac5e66c78ca5055d2faa444cd377c7623f8c75ab768e79315c4",
+      "file_count": 9,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "ocr-and-documents",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/ocr-and-documents",
+      "sha256": "b05ef564ea5c4b498b20ab8e5d6bcbf86cfc203da16ea3fd9506ec708c5de89b",
+      "file_count": 6,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "onenote-to-obsidian-migration",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/onenote-to-obsidian-migration",
+      "sha256": "7eb8b140a23785a8a7102753255dd20b786f2bbc68c8a316854f4c60ce44f13e",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "openai-codex-release-monitoring",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/openai-codex-release-monitoring",
+      "sha256": "b23f100309495656f629c86187f39e7a3e0f29d6aef04b26270aaf83aa94aa6b",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "openclaw-to-hermes-migration",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/openclaw-to-hermes-migration",
+      "sha256": "b1d193c2b47454fa4c1a6c4a96e86ecbb61c25156af927f3edef50cf05d12a73",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "opencli-browser-reuse",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/opencli-browser-reuse",
+      "sha256": "7b4702b3624d6ce437147649a430022b07512604aa32b67d07b93fb45ee33efd",
+      "file_count": 4,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "opencli-browser-webapp-exploration",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/opencli-browser-webapp-exploration",
+      "sha256": "620d09134615039bb904048f01d82859f22bdc7940ad00df66c406ea9d0aa3cc",
+      "file_count": 9,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "opencode",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/opencode",
+      "sha256": "6549d184df4aa7e87512488d99e0ec4357dd220fa2471df64ea4d44dc909d0d6",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "openhue",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/openhue",
+      "sha256": "4693ca22ec84dc8eed82470791ad0c1148f989d5849e74ad9f34ffafc812c0ac",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "openspec-demand-workflow",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/openspec-demand-workflow",
+      "sha256": "19b746111f3814cdc7ecc1274e5c63fe2f2c19fcf924ef18a6a3f8f216ac1a99",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "outlines",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/outlines",
+      "sha256": "6cd8033858a0553a672ee8eb6360e8b5327e9d08ccfd52dd71cf4c689f595250",
+      "file_count": 5,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "p5js",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/p5js",
+      "sha256": "521eac0d1585b2118bdfcd28424bcdb83c90c0b04cd1aa6dae5b625c0c5e9ab5",
+      "file_count": 18,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "peft-fine-tuning",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/peft-fine-tuning",
+      "sha256": "b7bf6474a2105505634ed01a98f10a3ad269972e8f6bfd8101b0d916d76cd7f3",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "personal-migratory-agents-migration",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/personal-migratory-agents-migration",
+      "sha256": "f8d01951c8cde0c3ad9723ec71becb7150a959ac09b629bcf8b3b561862112f4",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "personal-migratory-agents-review",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/personal-migratory-agents-review",
+      "sha256": "bc51aa4049369eda8512574e96f518f305fbfa040f30bbb01b04385382bb757d",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "plan",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/plan",
+      "sha256": "56f8ae311a0e4aff8886c1cc49904ca92e644177480c2840b3afb152eefebd3b",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "plankton-code-quality",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/plankton-code-quality",
+      "sha256": "d13720f81a0f5538d55da4054514b7ffb896caa8787837f7b2ec7e92c68876c3",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "pokemon-player",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/pokemon-player",
+      "sha256": "838b057e1c6bb3fc42e389790bc28ca1a2ce8266e4b7a4baa0ac4968dfe5778c",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "polymarket",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/polymarket",
+      "sha256": "41cfaf12a54af309528fb4ad73d48434281ffa278cbd3d3603e9a29e1ae4cf54",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "popular-web-designs",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/popular-web-designs",
+      "sha256": "0f8a1c326f62684f26864d0a97e0998017c0708c4f5aa46e6cb231485a61e823",
+      "file_count": 56,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "postgres-patterns",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/postgres-patterns",
+      "sha256": "159fff2ade15366cd92b6d618560e177d0c8291e73cb2085c80d5be1be0fd95d",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "powerpoint",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/powerpoint",
+      "sha256": "809d466986ad90f1eddea8079adac6d273676abf231ed1cc6e16a5658b6c0594",
+      "file_count": 51,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "pretext",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/pretext",
+      "sha256": "e6019d2c36fd49b4dbb2d8edcef6023ca438ccb459d6ee92506128bfea477ac1",
+      "file_count": 5,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "python-debugpy",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/python-debugpy",
+      "sha256": "69404f69fbd653c21638054589450ca0c72e4efeb4f9d4ed88c223fe16306393",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "python-patterns",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/python-patterns",
+      "sha256": "8ea72862d014961b871fc64ed2d9c17c06c9eb54314ee0abb9e69f96dd159765",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "python-testing",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/python-testing",
+      "sha256": "9db877f19b70c0b12b763fe2f6d75f62611b5898751de9d845b4c623d9681ed7",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "pytorch-fsdp",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/pytorch-fsdp",
+      "sha256": "d8929a2cb667113ffe3af2d5b8ae999399177c836120c39164e81ebce08af640",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "release-workflow",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/release-workflow",
+      "sha256": "13dd7c2c8fc12cf26db1ee8501b625c8cecc5f483c805d17268b341ad6f3151b",
+      "file_count": 7,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "requesting-code-review",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/requesting-code-review",
+      "sha256": "1fdd6c6e59ce26b01f58f16e7f4e3cd4911b85fce40286121b7b2daf6b831eef",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "research-paper-writing",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/research-paper-writing",
+      "sha256": "fd99e5930e3bb22166ac66540f83db8b228f0409ad36d4301901ed38bf4e9967",
+      "file_count": 56,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "search-first",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/search-first",
+      "sha256": "2d16d55f898310e1208c81d9dca4c679f285d91bab0db13e59ad5363176a5f03",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "security-review",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/security-review",
+      "sha256": "4d7ac732ecb09f41e7594cf35a0b804ebe6453972b1330c25c386efe4afdebd1",
+      "file_count": 4,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "security-scan",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/security-scan",
+      "sha256": "d395de3bfca68619a08ded91872b362e8b7a558f3d9d18223c8bdd88711439d4",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "segment-anything-model",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/segment-anything-model",
+      "sha256": "4ab7994c5b241750f5aa4fe1e07d493b950d86c3a380fbc4a4bd0ae50c7f833f",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "serving-llms-vllm",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/serving-llms-vllm",
+      "sha256": "cca04280d8fbfa6a882e80f83003ae2659dd6b2e2bc45a16816e12b0e925e01a",
+      "file_count": 6,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "simplify-code",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/simplify-code",
+      "sha256": "e3b016df47360a92cfcae5a5c9554398af5b3a5a5142a8c43c12dc8bc4d21a4f",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "sketch",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/sketch",
+      "sha256": "3b7ec535350e415148ae4fb48279c742480cf9e526632d3cab46dff9978bc2fe",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "skill-router",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/skill-router",
+      "sha256": "962f8e66a05ecda1324d0df62748c30bcf61c2ff72809820b8cf2c337a30cec3",
+      "file_count": 3,
+      "source_runtimes": [
+        "all"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "songsee",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/songsee",
+      "sha256": "19cbdee9b98c27693d9e291655c4a40f78b87e05e920c8db6f9eeac96365c6b4",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "songwriting-and-ai-music",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/songwriting-and-ai-music",
+      "sha256": "945b67226e5cd3cb49d98ff9377d75105839ca3b219930db0110901166943937",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "spike",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/spike",
+      "sha256": "043ecff22676162cc271e413f463ecaaf5df1e266dc96548cee934a07804efa9",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "springboot-patterns",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/springboot-patterns",
+      "sha256": "57583a7bb2770b2842547de6c2f2956804b13763aa8f6ebe54bd942a08c2685d",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "springboot-security",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/springboot-security",
+      "sha256": "92f0d1d1351035eb4b5186453cfd4679c96fd117ca2e0ee43f16eeba1ec57f92",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "springboot-tdd",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/springboot-tdd",
+      "sha256": "83b6f0f1c2e88ec6599a05b30692b7113922c9178b33f9eeeabdf9215d5fa912",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "springboot-verification",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/springboot-verification",
+      "sha256": "e6e9a87d5f41bc14f89c21940dd8896afcf3f3174b52a6c5702721db1a53eca2",
+      "file_count": 2,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "sso-login",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/sso-login",
+      "sha256": "418f7f3e9580a86f9cd1d8eb60efd1696da626f46132f3f93c8fca1de336de5b",
+      "file_count": 4,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "stable-diffusion-image-generation",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/stable-diffusion-image-generation",
+      "sha256": "94c62e1ea41f713541d0118f27bcdfb89297a1cff1d421fa2830a22dd65ab9bc",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "stock-momentum-fallback",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/stock-momentum-fallback",
+      "sha256": "5f3467376de98ada8a41d50d70b0674ae0adaa0b03db0c0f09a6808c6f6da361",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "strategic-compact",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/strategic-compact",
+      "sha256": "6f61dabd8f03f274c37a863ef36afb147c82b901616302cc306d6d23a9657683",
+      "file_count": 4,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "study-repo-curation",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/study-repo-curation",
+      "sha256": "1ba45df5fe3fe14dd1ce9c3e63e271b702e1dae82cc4968dd8a7758213edb76f",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "subagent-driven-development",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/subagent-driven-development",
+      "sha256": "ce75bb5c04189e82839cc045d1bd492dcf7cd82e0ab930386b74f995d2724722",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "systematic-debugging",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/systematic-debugging",
+      "sha256": "657aac7ef16799a35be3fce7a6a65fd9c3350a62d70ecd6712969de48ecd2401",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "tdd-workflow",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/tdd-workflow",
+      "sha256": "a749a22c98e9636e3b4d0c998f5cf65f98e08b12e358bfb4daa1d0d85ee8c3f7",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "teams-meeting-pipeline",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/teams-meeting-pipeline",
+      "sha256": "c372908712b8d02ef9624369130cdd803bd451d610b0acd6fd1b004578915b32",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "test-driven-development",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/test-driven-development",
+      "sha256": "776a3a985c28821fca560f4324316645650b7f2b55622a804ac4fc341f074dc9",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "touchdesigner-mcp",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/touchdesigner-mcp",
+      "sha256": "d324ec69ee0a0db4a79aeebba1bbac5e6eb6880a5694c7178bf92933e4984842",
+      "file_count": 24,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "trace-log-analysis",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/trace-log-analysis",
+      "sha256": "4b6d592f41ff3fd82e1762a7061f59c1d300ceb87d9f7091a15d7d30c3411419",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "unsloth",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/unsloth",
+      "sha256": "086c5957bd9e89e36a39e42c1919874d30da43de7dbf1f79936370bbeb14f6f1",
+      "file_count": 6,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "us-stock-research",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/us-stock-research",
+      "sha256": "19d251cbdbf14b95dc21f2a37fb059ae0586ae5361750ee291513be6fb68e4dc",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "verification-loop",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/verification-loop",
+      "sha256": "d3ef02ef1283b721a937fd8ecdcf5130d687a2b8b960a61846ab73fe78ef213f",
+      "file_count": 3,
+      "source_runtimes": [
+        "codex"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "webhook-subscriptions",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/webhook-subscriptions",
+      "sha256": "d5c5274d752c8e5762413e156ea1add850604068e2bd269e1a179c17e7b8b123",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "weights-and-biases",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/weights-and-biases",
+      "sha256": "43f1b6b29fb7587964fe30e513eafe9db36e814de83ac9cd7389e75e49c307bc",
+      "file_count": 5,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "whisper",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/whisper",
+      "sha256": "fee891207fdfb8129fb06f5e695396b0372f22c6938c3be89c16fd22a6e40c93",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "writing-plans",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/writing-plans",
+      "sha256": "8e3bc47ae7157f89242dee376610a77c0e83a42485d05c81087a041edcef2987",
+      "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "x-content-cron",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/x-content-cron",
+      "sha256": "1e69d95657d03814d9e445bbb421c42d53af4d329ea18ad73ae19983c84b8d46",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "xitter",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/xitter",
+      "sha256": "dd2acba05b8074f2320ce148bb0870da67fe4785185217e3a84fe6bce2f6320c",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "xurl",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/xurl",
+      "sha256": "ba2c2e5ca377046c9f11488dbed1a96cc08fed472d4256cd7e65e3f6421e86ef",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "youtube-content",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/youtube-content",
+      "sha256": "2e2cca57f64e471b586094f94a62be2aa204ed44176d639bcc2adb4b1fbdb86f",
+      "file_count": 4,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "yuanbao",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/yuanbao",
+      "sha256": "6264eba2026f85419d82c9409197ed1e19c12fac6d5b68e012774993fba2db6a",
+      "file_count": 2,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    }
+  ]
+}

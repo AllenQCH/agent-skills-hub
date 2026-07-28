@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "context-handoff-safety",
+  "name": "context-handoff-safety",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/context-handoff-safety",
+    "sha256": "f5913ba5fb9306967fbdc964607cc7f0db3ac216048c494a873d6552ee5da508",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/context-handoff-safety",
+      "sha256": "f5913ba5fb9306967fbdc964607cc7f0db3ac216048c494a873d6552ee5da508",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

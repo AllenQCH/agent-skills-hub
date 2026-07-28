@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "clickhouse-io",
+  "name": "clickhouse-io",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "clickhouse-io",
+    "sha256": "9a6385b580394e4cccd07001b34924aebc977c47859ccd28483274da683f2d50",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "clickhouse-io",
+      "sha256": "9a6385b580394e4cccd07001b34924aebc977c47859ccd28483274da683f2d50",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "dbauto-sql-query",
+  "name": "dbauto-sql-query",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "dbauto-sql-query",
+    "sha256": "3b9ec4535abbc2dd4e21a618b85fab1e0c403cf328d6493da27dc31adaaaf219",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "dbauto-sql-query",
+      "sha256": "3b9ec4535abbc2dd4e21a618b85fab1e0c403cf328d6493da27dc31adaaaf219",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

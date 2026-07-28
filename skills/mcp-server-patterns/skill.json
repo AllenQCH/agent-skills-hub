@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "mcp-server-patterns",
+  "name": "mcp-server-patterns",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "mcp-server-patterns",
+    "sha256": "6eb43eebbf3c0283d19ea21eb572004630e8805a19443f3e10729f9da4f88ffc",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "mcp-server-patterns",
+      "sha256": "6eb43eebbf3c0283d19ea21eb572004630e8805a19443f3e10729f9da4f88ffc",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

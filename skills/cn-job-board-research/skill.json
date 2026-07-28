@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "cn-job-board-research",
+  "name": "cn-job-board-research",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "research/cn-job-board-research",
+    "sha256": "37029b663be00af0a27ba7a34e156a9e31a8e08399d3ed8535f36192453ca64c",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "research/cn-job-board-research",
+      "sha256": "37029b663be00af0a27ba7a34e156a9e31a8e08399d3ed8535f36192453ca64c",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

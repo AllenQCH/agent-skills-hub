@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "segment-anything-model",
+  "name": "segment-anything-model",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/models/segment-anything",
+    "sha256": "7c28a928e8d72f1a4f43d3428585b08d9feb086498dc7af10fa605d5c8814bd4",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/models/segment-anything",
+      "sha256": "7c28a928e8d72f1a4f43d3428585b08d9feb086498dc7af10fa605d5c8814bd4",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "grpo-rl-training",
+  "name": "grpo-rl-training",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/training/grpo-rl-training",
+    "sha256": "dd6afaef68fba18a2d8e02f7e6447fcc03e0b8ea9102e0ee7d91370fbeafc63d",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/training/grpo-rl-training",
+      "sha256": "dd6afaef68fba18a2d8e02f7e6447fcc03e0b8ea9102e0ee7d91370fbeafc63d",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

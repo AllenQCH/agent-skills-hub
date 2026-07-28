@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-calendar",
+  "name": "lark-calendar",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-calendar",
+    "sha256": "732090315c231a3d906984561c0b7440f1d8b5e9b04c641cc6b6378158da9c5e",
+    "file_count": 5
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-calendar",
+      "sha256": "732090315c231a3d906984561c0b7440f1d8b5e9b04c641cc6b6378158da9c5e",
+      "file_count": 5
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-calendar",
+      "sha256": "211b2a7b3f99c7ab80658f071819582f950f8f69594a55458132af507e782fa2",
+      "file_count": 5
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

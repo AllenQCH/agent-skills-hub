@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "github-code-review",
+  "name": "github-code-review",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "github/github-code-review",
+    "sha256": "4be2f275c727735c4826a8fd74cfb554bedbc81259b488b937527594770bc2e4",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "github/github-code-review",
+      "sha256": "4be2f275c727735c4826a8fd74cfb554bedbc81259b488b937527594770bc2e4",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

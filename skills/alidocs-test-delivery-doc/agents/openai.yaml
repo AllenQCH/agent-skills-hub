@@ -1,0 +1,4 @@
+interface:
+  display_name: "AliDocs Test Delivery"
+  short_description: "Create AliDocs online test delivery docs"
+  default_prompt: "Create a DingTalk online test-delivery spreadsheet from BK pipeline output and development evidence."

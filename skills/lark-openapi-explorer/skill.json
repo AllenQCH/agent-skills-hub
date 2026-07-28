@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-openapi-explorer",
+  "name": "lark-openapi-explorer",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-openapi-explorer",
+    "sha256": "187ac6d806aad57c989d37be1bc61caf6d3564040f8946dad0a45da11a58d272",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-openapi-explorer",
+      "sha256": "187ac6d806aad57c989d37be1bc61caf6d3564040f8946dad0a45da11a58d272",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-openapi-explorer",
+      "sha256": "41f68a4c95dd01028787c5aab6a3f48d5265ea25217b3da4cdcc80f3b03b7c66",
+      "file_count": 1
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

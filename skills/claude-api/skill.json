@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "claude-api",
+  "name": "claude-api",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "claude-api",
+    "sha256": "ce4b6cd962a5f3c8d93ee51702a376c272f73cbdf918c35a2df7ba6a3b38e674",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "claude-api",
+      "sha256": "ce4b6cd962a5f3c8d93ee51702a376c272f73cbdf918c35a2df7ba6a3b38e674",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

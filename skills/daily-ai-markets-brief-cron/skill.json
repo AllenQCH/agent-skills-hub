@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "daily-ai-markets-brief-cron",
+  "name": "daily-ai-markets-brief-cron",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "research/daily-ai-markets-brief-cron",
+    "sha256": "7ac3d7343ab6785c0d724eccca6a733dca392e15ffe0696fef3a2b2198944eeb",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "research/daily-ai-markets-brief-cron",
+      "sha256": "7ac3d7343ab6785c0d724eccca6a733dca392e15ffe0696fef3a2b2198944eeb",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

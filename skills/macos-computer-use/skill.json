@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "macos-computer-use",
+  "name": "macos-computer-use",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "apple/macos-computer-use",
+    "sha256": "f732bb9169596cde2a24cd0d4ba87e28d34d1284252f5f45fbbd90b10a85a0bf",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "apple/macos-computer-use",
+      "sha256": "f732bb9169596cde2a24cd0d4ba87e28d34d1284252f5f45fbbd90b10a85a0bf",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

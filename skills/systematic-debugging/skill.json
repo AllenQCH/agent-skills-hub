@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "systematic-debugging",
+  "name": "systematic-debugging",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/systematic-debugging",
+    "sha256": "1583a8e6f86f3fee7d5213d4f9a00d21f1e461b04bc54acda15305b4650a7048",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/systematic-debugging",
+      "sha256": "1583a8e6f86f3fee7d5213d4f9a00d21f1e461b04bc54acda15305b4650a7048",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "name": "agents",
+  "description": "Agent, Skill, MCP, OpenSpec, and framework-maintenance candidates.",
+  "skills": [
+    "skill-router",
+    "multi-agent-framework-maintainer",
+    "openspec-demand-workflow",
+    "mcp-server-patterns",
+    "ai-regression-testing",
+    "eval-harness"
+  ]
+}

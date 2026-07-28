@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-contact",
+  "name": "lark-contact",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-contact",
+    "sha256": "0442d40dc77e2c7140e39d8e1c3b445871cc184ae40d0c95340432b4e07b4df8",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-contact",
+      "sha256": "0442d40dc77e2c7140e39d8e1c3b445871cc184ae40d0c95340432b4e07b4df8",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-contact",
+      "sha256": "b541a6fc0c70dd6e7662c32e2884b78f8238ad8b55629805404d7ecbd0ba72f8",
+      "file_count": 3
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

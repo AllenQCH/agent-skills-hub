@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "requesting-code-review",
+  "name": "requesting-code-review",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/requesting-code-review",
+    "sha256": "e20d4aeb74e0745ef71f52d520ed55d2a47a80ef2aeb1adb9b9f9971601a486e",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/requesting-code-review",
+      "sha256": "e20d4aeb74e0745ef71f52d520ed55d2a47a80ef2aeb1adb9b9f9971601a486e",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

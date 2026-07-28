@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-minutes",
+  "name": "lark-minutes",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-minutes",
+    "sha256": "5b9a9eb15996d68d841bd9f82df77ba465b4faeaf6ec4c987a6e72195cf0df9c",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-minutes",
+      "sha256": "5b9a9eb15996d68d841bd9f82df77ba465b4faeaf6ec4c987a6e72195cf0df9c",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-minutes",
+      "sha256": "8f1336548426c28dfe437cae50a49ec363afac984852cdd10ac8664b42197661",
+      "file_count": 1
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

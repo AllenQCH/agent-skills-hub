@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "eval-harness",
+  "name": "eval-harness",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "eval-harness",
+    "sha256": "f82bd9c24e1cd53e2699ed44283c9ad6db44556633c9b325db028d30f0107960",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "eval-harness",
+      "sha256": "f82bd9c24e1cd53e2699ed44283c9ad6db44556633c9b325db028d30f0107960",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

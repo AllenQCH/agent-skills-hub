@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "pretext",
+  "name": "pretext",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "creative/pretext",
+    "sha256": "45577abf0d86a5af5a5c6c40cbaa93b376640bce896e3feed4f6349318ad6511",
+    "file_count": 4
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "creative/pretext",
+      "sha256": "45577abf0d86a5af5a5c6c40cbaa93b376640bce896e3feed4f6349318ad6511",
+      "file_count": 4
+    }
+  ],
+  "adapters": {}
+}

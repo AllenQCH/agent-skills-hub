@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "study-repo-curation",
+  "name": "study-repo-curation",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "note-taking/study-repo-curation",
+    "sha256": "04864ce6a8e4cf16bed987f69266e7e5d2aec33cd5947a08de07472f8a216903",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "note-taking/study-repo-curation",
+      "sha256": "04864ce6a8e4cf16bed987f69266e7e5d2aec33cd5947a08de07472f8a216903",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

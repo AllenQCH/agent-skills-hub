@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "blogwatcher",
+  "name": "blogwatcher",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "research/blogwatcher",
+    "sha256": "7b30abc79f05c517bd9074efe5417a9c05dd4abfd08257d58aba1e3244d39192",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "research/blogwatcher",
+      "sha256": "7b30abc79f05c517bd9074efe5417a9c05dd4abfd08257d58aba1e3244d39192",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

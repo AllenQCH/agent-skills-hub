@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "openai-codex-release-monitoring",
+  "name": "openai-codex-release-monitoring",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "autonomous-ai-agents/openai-codex-release-monitoring",
+    "sha256": "125e8118aba709b7bd82db3d1fa2e8cd40d120d048f143e721ae3dec37186571",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "autonomous-ai-agents/openai-codex-release-monitoring",
+      "sha256": "125e8118aba709b7bd82db3d1fa2e8cd40d120d048f143e721ae3dec37186571",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

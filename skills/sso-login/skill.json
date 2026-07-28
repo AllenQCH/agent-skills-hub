@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "sso-login",
+  "name": "sso-login",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "sso-login",
+    "sha256": "54f7a8177745922dbee79bbc7351e23e882f5f53035029ffc8803c2fe15cc824",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "sso-login",
+      "sha256": "54f7a8177745922dbee79bbc7351e23e882f5f53035029ffc8803c2fe15cc824",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "dingtalk-webhook-send",
+  "name": "dingtalk-webhook-send",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "openclaw-imports/dingtalk-webhook-send",
+    "sha256": "f424cb0445548cd1088f21815a4f723a7cdfcf9ec5a99cb138e533dad5ce82fc",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/dingtalk-webhook-send",
+      "sha256": "f424cb0445548cd1088f21815a4f723a7cdfcf9ec5a99cb138e533dad5ce82fc",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

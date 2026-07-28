@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "content-hash-cache-pattern",
+  "name": "content-hash-cache-pattern",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "content-hash-cache-pattern",
+    "sha256": "1c0f93333cad47a0d0485882f89ceea3a948d4daedb892344f55617c90395bff",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "content-hash-cache-pattern",
+      "sha256": "1c0f93333cad47a0d0485882f89ceea3a948d4daedb892344f55617c90395bff",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

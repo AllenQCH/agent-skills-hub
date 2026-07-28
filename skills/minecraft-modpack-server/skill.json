@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "minecraft-modpack-server",
+  "name": "minecraft-modpack-server",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "gaming/minecraft-modpack-server",
+    "sha256": "a62f17d483b5ee79179abe7608facf3a3089079145a550ae4ce1602483ca2975",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "gaming/minecraft-modpack-server",
+      "sha256": "a62f17d483b5ee79179abe7608facf3a3089079145a550ae4ce1602483ca2975",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

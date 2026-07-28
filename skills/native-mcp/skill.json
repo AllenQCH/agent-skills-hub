@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "native-mcp",
+  "name": "native-mcp",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mcp/native-mcp",
+    "sha256": "a006300ee22dcd6b6bf77a2e1e0d168faf55255b6e5a1f4cde9d5bf7eb60c170",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mcp/native-mcp",
+      "sha256": "a006300ee22dcd6b6bf77a2e1e0d168faf55255b6e5a1f4cde9d5bf7eb60c170",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

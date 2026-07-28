@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "multi-agent-framework-maintainer",
+  "name": "multi-agent-framework-maintainer",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "multi-agent-framework-maintainer",
+    "sha256": "75912e04ed3c3ec2f5a00174d13abddeb34ccb1cfcadc1dc00620dc1adf6d0a3",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "multi-agent-framework-maintainer",
+      "sha256": "75912e04ed3c3ec2f5a00174d13abddeb34ccb1cfcadc1dc00620dc1adf6d0a3",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

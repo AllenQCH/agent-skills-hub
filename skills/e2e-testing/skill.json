@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "e2e-testing",
+  "name": "e2e-testing",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "e2e-testing",
+    "sha256": "dd855000bcaf769e92c4d059832dd4fdec1fc06d285d6b803b7589d8f85a5414",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "e2e-testing",
+      "sha256": "dd855000bcaf769e92c4d059832dd4fdec1fc06d285d6b803b7589d8f85a5414",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "id": "skill-router",
+  "name": "skill-router",
+  "source_runtimes": [
+    "all"
+  ],
+  "source_variants": [],
+  "adapters": {},
+  "risk": "readonly",
+  "manual_only": false,
+  "tags": [
+    "agents",
+    "discovery"
+  ]
+}

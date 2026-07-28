@@ -1,0 +1,3 @@
+display_name: SSO Login
+short_description: HeyTea SSO via opencli Browser Bridge.
+default_prompt: Use $sso-login to check the cn SSO session with opencli and guide a browser-backed login refresh without printing cookies or tokens.

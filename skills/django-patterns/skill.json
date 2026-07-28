@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "django-patterns",
+  "name": "django-patterns",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "django-patterns",
+    "sha256": "40cdc40192c494ba5e3dba175015cc68a3917fe76d9d1e525ea318999014e411",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "django-patterns",
+      "sha256": "40cdc40192c494ba5e3dba175015cc68a3917fe76d9d1e525ea318999014e411",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

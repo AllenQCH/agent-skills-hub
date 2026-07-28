@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "songsee",
+  "name": "songsee",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "media/songsee",
+    "sha256": "e14b72017187f995374f84a3983d10d6f96aae22debf42f79227579e10b42166",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "media/songsee",
+      "sha256": "e14b72017187f995374f84a3983d10d6f96aae22debf42f79227579e10b42166",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "design-md",
+  "name": "design-md",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "creative/design-md",
+    "sha256": "69d172e87e9f699c3d6fc15a8af8ac1ef0952648d427bd02d18212951d791cf0",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "creative/design-md",
+      "sha256": "69d172e87e9f699c3d6fc15a8af8ac1ef0952648d427bd02d18212951d791cf0",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

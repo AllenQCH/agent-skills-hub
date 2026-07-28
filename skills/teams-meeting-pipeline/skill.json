@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "teams-meeting-pipeline",
+  "name": "teams-meeting-pipeline",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/teams-meeting-pipeline",
+    "sha256": "4e53b6d99f7acba16fe5412f931dbb699319a7f7f4a926dbe272a91cc51838ba",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/teams-meeting-pipeline",
+      "sha256": "4e53b6d99f7acba16fe5412f931dbb699319a7f7f4a926dbe272a91cc51838ba",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

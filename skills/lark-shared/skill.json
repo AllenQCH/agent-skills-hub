@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-shared",
+  "name": "lark-shared",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-shared",
+    "sha256": "097519fea469194fc916971bcca7bb2779102a3cb83000873f76811f16d46a4b",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-shared",
+      "sha256": "097519fea469194fc916971bcca7bb2779102a3cb83000873f76811f16d46a4b",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-shared",
+      "sha256": "3c3d818e3270b7c8971d35bb9b6f611b0d885461cd5c6c60b4e0c88bf5e13bad",
+      "file_count": 1
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

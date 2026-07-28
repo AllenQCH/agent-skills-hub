@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "popular-web-designs",
+  "name": "popular-web-designs",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "creative/popular-web-designs",
+    "sha256": "469ca13c3de013e9b5c0cfb908e11d01c9fdbfa7cbe179ea784dd1072641b9d4",
+    "file_count": 55
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "creative/popular-web-designs",
+      "sha256": "469ca13c3de013e9b5c0cfb908e11d01c9fdbfa7cbe179ea784dd1072641b9d4",
+      "file_count": 55
+    }
+  ],
+  "adapters": {}
+}

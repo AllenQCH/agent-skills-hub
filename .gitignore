@@ -1,0 +1,8 @@
+.DS_Store
+*.pyc
+__pycache__/
+.pytest_cache/
+.v3-build/
+active/
+*.log
+*.tmp

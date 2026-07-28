@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "chrome-bookmark-management",
+  "name": "chrome-bookmark-management",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/chrome-bookmark-management",
+    "sha256": "5d8d7c77b8bfb70a05f25e1d382bb5aa53dbb95952ba8c5c93484e1edb134fdb",
+    "file_count": 4
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/chrome-bookmark-management",
+      "sha256": "5d8d7c77b8bfb70a05f25e1d382bb5aa53dbb95952ba8c5c93484e1edb134fdb",
+      "file_count": 4
+    }
+  ],
+  "adapters": {}
+}

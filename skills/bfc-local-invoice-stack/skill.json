@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "bfc-local-invoice-stack",
+  "name": "bfc-local-invoice-stack",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "bfc-local-invoice-stack",
+    "sha256": "0e8bc7cf67488c2b826877282202d5e7efa2fc490c8c603a66f79aa178f2986c",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "bfc-local-invoice-stack",
+      "sha256": "0e8bc7cf67488c2b826877282202d5e7efa2fc490c8c603a66f79aa178f2986c",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

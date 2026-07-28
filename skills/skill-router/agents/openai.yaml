@@ -1,0 +1,5 @@
+interface:
+  display_name: "Shared Skill Router"
+  short_description: "Find and load one matching local Skill on demand."
+policy:
+  allow_implicit_invocation: true

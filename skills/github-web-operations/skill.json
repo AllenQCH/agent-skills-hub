@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "github-web-operations",
+  "name": "github-web-operations",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "github-web-operations",
+    "sha256": "46a76e08a670c7cd1acc77913ef70a1d0a304f30b2197587326dd6c44231a9a5",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "github-web-operations",
+      "sha256": "46a76e08a670c7cd1acc77913ef70a1d0a304f30b2197587326dd6c44231a9a5",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "huggingface-hub",
+  "name": "huggingface-hub",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/huggingface-hub",
+    "sha256": "88ce13f98a24bec625dc65dba97724596327b63a3a83d73c89fa90d31a927e43",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/huggingface-hub",
+      "sha256": "88ce13f98a24bec625dc65dba97724596327b63a3a83d73c89fa90d31a927e43",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

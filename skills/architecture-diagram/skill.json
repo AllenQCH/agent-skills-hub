@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "architecture-diagram",
+  "name": "architecture-diagram",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "creative/architecture-diagram",
+    "sha256": "1fc25a474c17df3e5706fdf4eda0d74b97866280cc45e4bd11c5909d61e65286",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "creative/architecture-diagram",
+      "sha256": "1fc25a474c17df3e5706fdf4eda0d74b97866280cc45e4bd11c5909d61e65286",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

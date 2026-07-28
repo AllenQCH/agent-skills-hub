@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "imessage",
+  "name": "imessage",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "apple/imessage",
+    "sha256": "75b606d74384bf0047fb8af66a2b8fe8003afbcd48e5699bcc71092957aeb11d",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "apple/imessage",
+      "sha256": "75b606d74384bf0047fb8af66a2b8fe8003afbcd48e5699bcc71092957aeb11d",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

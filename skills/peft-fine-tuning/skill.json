@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "peft-fine-tuning",
+  "name": "peft-fine-tuning",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/training/peft",
+    "sha256": "5606d18e537dfa71c991e85efe374fb683ef6c47a0a50e19eb6b50d90d57512b",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/training/peft",
+      "sha256": "5606d18e537dfa71c991e85efe374fb683ef6c47a0a50e19eb6b50d90d57512b",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

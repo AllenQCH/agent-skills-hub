@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "search-first",
+  "name": "search-first",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "search-first",
+    "sha256": "d9046c20b202b8893e3c008d113e33d0830ae3d48004cd9e436578daf8dd7efe",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "search-first",
+      "sha256": "d9046c20b202b8893e3c008d113e33d0830ae3d48004cd9e436578daf8dd7efe",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

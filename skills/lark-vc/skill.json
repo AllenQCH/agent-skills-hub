@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-vc",
+  "name": "lark-vc",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-vc",
+    "sha256": "22eef08d307928294b3015114713a97b3791efb4269e29c67da462d8d64d525f",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-vc",
+      "sha256": "22eef08d307928294b3015114713a97b3791efb4269e29c67da462d8d64d525f",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-vc",
+      "sha256": "73b0fa938db8881c0976a3fc756c3c844d9430ede926e29f3279705180f37c92",
+      "file_count": 3
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

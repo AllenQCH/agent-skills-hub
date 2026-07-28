@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "github-issues",
+  "name": "github-issues",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "github/github-issues",
+    "sha256": "cf3dadbe340ba744c6a7e55cfcf4c3d594b9be83fb3a702147527c57b3fed4d0",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "github/github-issues",
+      "sha256": "cf3dadbe340ba744c6a7e55cfcf4c3d594b9be83fb3a702147527c57b3fed4d0",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

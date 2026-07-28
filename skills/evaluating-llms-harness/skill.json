@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "evaluating-llms-harness",
+  "name": "evaluating-llms-harness",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/evaluation/lm-evaluation-harness",
+    "sha256": "41a4076f0878b9b195a4551fec3c0e2aa03bf914386d30288460734d961d43ef",
+    "file_count": 5
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/evaluation/lm-evaluation-harness",
+      "sha256": "41a4076f0878b9b195a4551fec3c0e2aa03bf914386d30288460734d961d43ef",
+      "file_count": 5
+    }
+  ],
+  "adapters": {}
+}

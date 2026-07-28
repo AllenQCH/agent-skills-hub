@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "backend-patterns",
+  "name": "backend-patterns",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "backend-patterns",
+    "sha256": "b1bbf6c8ab681ec5cd6c4e81c5cc4b9111a5e34591a29b763118e2d0df736a15",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "backend-patterns",
+      "sha256": "b1bbf6c8ab681ec5cd6c4e81c5cc4b9111a5e34591a29b763118e2d0df736a15",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

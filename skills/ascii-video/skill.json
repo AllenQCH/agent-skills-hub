@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "ascii-video",
+  "name": "ascii-video",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "creative/ascii-video",
+    "sha256": "7d0af7393be2ca160b01277df1e89456043cb0f5e668f9642095d00fd2029e99",
+    "file_count": 10
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "creative/ascii-video",
+      "sha256": "7d0af7393be2ca160b01277df1e89456043cb0f5e668f9642095d00fd2029e99",
+      "file_count": 10
+    }
+  ],
+  "adapters": {}
+}

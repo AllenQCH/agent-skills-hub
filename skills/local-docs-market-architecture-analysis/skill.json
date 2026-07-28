@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "local-docs-market-architecture-analysis",
+  "name": "local-docs-market-architecture-analysis",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/local-docs-market-architecture-analysis",
+    "sha256": "37db1fac9cb712aa7d961ca7d72fc6b4f4ff27604be67c3acd8e7d7ce105ff0c",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/local-docs-market-architecture-analysis",
+      "sha256": "37db1fac9cb712aa7d961ca7d72fc6b4f4ff27604be67c3acd8e7d7ce105ff0c",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

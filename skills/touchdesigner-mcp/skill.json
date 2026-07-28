@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "touchdesigner-mcp",
+  "name": "touchdesigner-mcp",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "creative/touchdesigner-mcp",
+    "sha256": "d13fadee5553e82c92089cf61c1dd225f93187bc5599bce778b337ded2f985b2",
+    "file_count": 23
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "creative/touchdesigner-mcp",
+      "sha256": "d13fadee5553e82c92089cf61c1dd225f93187bc5599bce778b337ded2f985b2",
+      "file_count": 23
+    }
+  ],
+  "adapters": {}
+}

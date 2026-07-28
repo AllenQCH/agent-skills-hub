@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "polymarket",
+  "name": "polymarket",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "research/polymarket",
+    "sha256": "e854216842e667d3b3e4c182118432113b1f95a432c7381688728a1be3136e1b",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "research/polymarket",
+      "sha256": "e854216842e667d3b3e4c182118432113b1f95a432c7381688728a1be3136e1b",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

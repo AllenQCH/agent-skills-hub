@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "hermes-yahoo-finance-mcp-setup",
+  "name": "hermes-yahoo-finance-mcp-setup",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mcp/hermes-yahoo-finance-mcp-setup",
+    "sha256": "68f59ec318618894943698784d366610bd188345f88aeaa2110e5cacb11cc76c",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mcp/hermes-yahoo-finance-mcp-setup",
+      "sha256": "68f59ec318618894943698784d366610bd188345f88aeaa2110e5cacb11cc76c",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

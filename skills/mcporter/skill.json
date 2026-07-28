@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "mcporter",
+  "name": "mcporter",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mcp/mcporter",
+    "sha256": "be7b9f286994b19cc3c80e2fc214d988d80f9c3efe582c5e143a4474c0e79755",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mcp/mcporter",
+      "sha256": "be7b9f286994b19cc3c80e2fc214d988d80f9c3efe582c5e143a4474c0e79755",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

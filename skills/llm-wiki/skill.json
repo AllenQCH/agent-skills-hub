@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "llm-wiki",
+  "name": "llm-wiki",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "research/llm-wiki",
+    "sha256": "6c7604fd5655a84a0c372417071f016b56186f1cf638bdb21c6b35b3c9f343be",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "research/llm-wiki",
+      "sha256": "6c7604fd5655a84a0c372417071f016b56186f1cf638bdb21c6b35b3c9f343be",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

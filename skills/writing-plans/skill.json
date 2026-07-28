@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "writing-plans",
+  "name": "writing-plans",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/writing-plans",
+    "sha256": "994b94065f6f8704cb02ee5198d43836c08b70c30492c2b53db316d12482369a",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/writing-plans",
+      "sha256": "994b94065f6f8704cb02ee5198d43836c08b70c30492c2b53db316d12482369a",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

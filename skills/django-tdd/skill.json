@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "django-tdd",
+  "name": "django-tdd",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "django-tdd",
+    "sha256": "d5e03b3cef91d2cc4058f192f4699486ee9460cb7bd1af2db57ed7443b9e8635",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "django-tdd",
+      "sha256": "d5e03b3cef91d2cc4058f192f4699486ee9460cb7bd1af2db57ed7443b9e8635",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

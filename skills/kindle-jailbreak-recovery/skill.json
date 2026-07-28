@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "kindle-jailbreak-recovery",
+  "name": "kindle-jailbreak-recovery",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/kindle-jailbreak-recovery",
+    "sha256": "127ebff2445abbdf613aa5c2d41335aa96c3a7253bddb3527980215599d9038f",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/kindle-jailbreak-recovery",
+      "sha256": "127ebff2445abbdf613aa5c2d41335aa96c3a7253bddb3527980215599d9038f",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

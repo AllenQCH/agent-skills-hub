@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-doc",
+  "name": "lark-doc",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-doc",
+    "sha256": "c79bf12afc8af7b3fd394dcc65736573bb93b12abcc4bf77da6cd63b12cb53eb",
+    "file_count": 8
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-doc",
+      "sha256": "c79bf12afc8af7b3fd394dcc65736573bb93b12abcc4bf77da6cd63b12cb53eb",
+      "file_count": 8
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-doc",
+      "sha256": "c6e367131d914557d8f8fb12c9b0be7f3bfba00c92295d55b5541777519b50cf",
+      "file_count": 8
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

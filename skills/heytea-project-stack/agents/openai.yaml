@@ -1,0 +1,4 @@
+interface:
+  display_name: "HeyTea Project Stack"
+  short_description: "Plan dependency publishing and service startup"
+  default_prompt: "Use $heytea-project-stack to classify changed repositories and plan the required local or remote project actions."

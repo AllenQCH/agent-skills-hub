@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "springboot-verification",
+  "name": "springboot-verification",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "springboot-verification",
+    "sha256": "9c127795b6906f7221bd4db33188a5ed474f6372b5b10e44bf5a3a66cd6ed7e8",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "springboot-verification",
+      "sha256": "9c127795b6906f7221bd4db33188a5ed474f6372b5b10e44bf5a3a66cd6ed7e8",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

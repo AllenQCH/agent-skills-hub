@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "acceptance-qa-agent",
+  "name": "acceptance-qa-agent",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/acceptance-qa-agent",
+    "sha256": "2d73b6ffaf5f93a3b806c1d28b3a04f28a64f26df903d795b811ee1970964a2c",
+    "file_count": 7
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/acceptance-qa-agent",
+      "sha256": "2d73b6ffaf5f93a3b806c1d28b3a04f28a64f26df903d795b811ee1970964a2c",
+      "file_count": 7
+    }
+  ],
+  "adapters": {}
+}

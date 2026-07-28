@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "us-stock-research",
+  "name": "us-stock-research",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "research/us-stock-research",
+    "sha256": "1bbda868f523c47911dc9017209e233ce6e5c11e68e22358c75b032e552d6f0b",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "research/us-stock-research",
+      "sha256": "1bbda868f523c47911dc9017209e233ce6e5c11e68e22358c75b032e552d6f0b",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

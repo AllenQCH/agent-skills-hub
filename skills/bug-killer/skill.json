@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "bug-killer",
+  "name": "bug-killer",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "bug-killer",
+    "sha256": "5872019616ad193729298d0fa9a5df52935db1ace879191f6a07ebab4609eda9",
+    "file_count": 4
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "bug-killer",
+      "sha256": "5872019616ad193729298d0fa9a5df52935db1ace879191f6a07ebab4609eda9",
+      "file_count": 4
+    }
+  ],
+  "adapters": {}
+}

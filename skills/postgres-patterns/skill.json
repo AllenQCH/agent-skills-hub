@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "postgres-patterns",
+  "name": "postgres-patterns",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "postgres-patterns",
+    "sha256": "b609400f70efc15f4bb99851879339f647c99d536f76faf62dac8fa8f5df25b6",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "postgres-patterns",
+      "sha256": "b609400f70efc15f4bb99851879339f647c99d536f76faf62dac8fa8f5df25b6",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

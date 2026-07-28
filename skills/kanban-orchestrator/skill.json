@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "kanban-orchestrator",
+  "name": "kanban-orchestrator",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "devops/kanban-orchestrator",
+    "sha256": "84ea016c6af5d2d33560affb1c5ed4f087109a46728ddbb867365ef976dbb273",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "devops/kanban-orchestrator",
+      "sha256": "84ea016c6af5d2d33560affb1c5ed4f087109a46728ddbb867365ef976dbb273",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

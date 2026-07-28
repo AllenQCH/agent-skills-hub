@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "airtable",
+  "name": "airtable",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/airtable",
+    "sha256": "02408ad11684212fb694292d3e31b2f06d123c744f4bb8ca2e204020dd78cb07",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/airtable",
+      "sha256": "02408ad11684212fb694292d3e31b2f06d123c744f4bb8ca2e204020dd78cb07",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

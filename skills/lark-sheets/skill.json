@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-sheets",
+  "name": "lark-sheets",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-sheets",
+    "sha256": "b1a14db87ceb52c33ea750c987505452f964fb66b24873ff0aaf9fc3fbe42919",
+    "file_count": 8
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-sheets",
+      "sha256": "b1a14db87ceb52c33ea750c987505452f964fb66b24873ff0aaf9fc3fbe42919",
+      "file_count": 8
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-sheets",
+      "sha256": "80b2ad41904f83a05e5c1cd2ea2ba6f88c18c1f69b47dfe2f52c9853a02981c5",
+      "file_count": 8
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

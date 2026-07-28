@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "ai-coding-daily-brief-fallback",
+  "name": "ai-coding-daily-brief-fallback",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "research/ai-coding-daily-brief-fallback",
+    "sha256": "68e35d021bc5a2755bd1d1b106fe8e1c2769014d6c414848ebb09812d574419d",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "research/ai-coding-daily-brief-fallback",
+      "sha256": "68e35d021bc5a2755bd1d1b106fe8e1c2769014d6c414848ebb09812d574419d",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

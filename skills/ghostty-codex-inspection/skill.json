@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "ghostty-codex-inspection",
+  "name": "ghostty-codex-inspection",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "autonomous-ai-agents/ghostty-codex-inspection",
+    "sha256": "eb247a7934443dde96282de7bd42dda4eb4c4888cf87b088dc380dd6ada8c85b",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "autonomous-ai-agents/ghostty-codex-inspection",
+      "sha256": "eb247a7934443dde96282de7bd42dda4eb4c4888cf87b088dc380dd6ada8c85b",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

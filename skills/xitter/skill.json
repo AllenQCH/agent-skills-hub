@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "xitter",
+  "name": "xitter",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "social-media/xitter",
+    "sha256": "4ca6390db9ce5a761301f8d64aa0a838965cacba21021f97fbb8434891900a8c",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "social-media/xitter",
+      "sha256": "4ca6390db9ce5a761301f8d64aa0a838965cacba21021f97fbb8434891900a8c",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

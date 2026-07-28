@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "spike",
+  "name": "spike",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/spike",
+    "sha256": "8261bfdd93e6516453d76a86471ada74c9b9e4e706314f87b56aacd60f198c78",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/spike",
+      "sha256": "8261bfdd93e6516453d76a86471ada74c9b9e4e706314f87b56aacd60f198c78",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

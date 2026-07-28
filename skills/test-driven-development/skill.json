@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "test-driven-development",
+  "name": "test-driven-development",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/test-driven-development",
+    "sha256": "c5afb6e0aa5b3708a8ed5d43563a76dfd82297ac6e1947ee3c8feb0d2a8031db",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/test-driven-development",
+      "sha256": "c5afb6e0aa5b3708a8ed5d43563a76dfd82297ac6e1947ee3c8feb0d2a8031db",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

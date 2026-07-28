@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "jpa-patterns",
+  "name": "jpa-patterns",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "jpa-patterns",
+    "sha256": "27615ba8658db1a131b2e8b39847dd508ffad8e12b200743f2830c924f7691ca",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "jpa-patterns",
+      "sha256": "27615ba8658db1a131b2e8b39847dd508ffad8e12b200743f2830c924f7691ca",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

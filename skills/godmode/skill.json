@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "godmode",
+  "name": "godmode",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "red-teaming/godmode",
+    "sha256": "4af098bd12d64c4ce30cd77026bf0361ebdc76611fb8025fc2cd05adf3d0bfb6",
+    "file_count": 9
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "red-teaming/godmode",
+      "sha256": "4af098bd12d64c4ce30cd77026bf0361ebdc76611fb8025fc2cd05adf3d0bfb6",
+      "file_count": 9
+    }
+  ],
+  "adapters": {}
+}

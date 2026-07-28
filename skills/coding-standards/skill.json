@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "coding-standards",
+  "name": "coding-standards",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "coding-standards",
+    "sha256": "45ffde94da4d4162c814202da768d0bbebed745392c7dd17120a79d9a3b1a170",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "coding-standards",
+      "sha256": "45ffde94da4d4162c814202da768d0bbebed745392c7dd17120a79d9a3b1a170",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

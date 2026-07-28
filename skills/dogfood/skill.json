@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "dogfood",
+  "name": "dogfood",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "dogfood",
+    "sha256": "aa860bcd8be5b1458e690f12fda1f0fae57ced98bde0ef39764cf5cb8b984cf2",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "dogfood",
+      "sha256": "aa860bcd8be5b1458e690f12fda1f0fae57ced98bde0ef39764cf5cb8b984cf2",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

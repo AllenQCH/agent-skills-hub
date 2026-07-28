@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "sketch",
+  "name": "sketch",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "creative/sketch",
+    "sha256": "b48aadae62be4a5573e8bf710d530ecc58253a73462fd3fa9fc322be1038b374",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "creative/sketch",
+      "sha256": "b48aadae62be4a5573e8bf710d530ecc58253a73462fd3fa9fc322be1038b374",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

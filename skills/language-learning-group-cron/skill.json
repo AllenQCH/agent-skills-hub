@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "language-learning-group-cron",
+  "name": "language-learning-group-cron",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/language-learning-group-cron",
+    "sha256": "1f7f8056205368e3520f0b0f78dc349b9d6a26a95e643c0051c295c4c81cff7d",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/language-learning-group-cron",
+      "sha256": "1f7f8056205368e3520f0b0f78dc349b9d6a26a95e643c0051c295c4c81cff7d",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

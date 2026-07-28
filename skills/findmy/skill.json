@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "findmy",
+  "name": "findmy",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "apple/findmy",
+    "sha256": "4954456483b2e2f2800c107f4ec1c63c4f12f5e83101bd4eac5b86b61fd65b01",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "apple/findmy",
+      "sha256": "4954456483b2e2f2800c107f4ec1c63c4f12f5e83101bd4eac5b86b61fd65b01",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

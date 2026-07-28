@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "name": "heytea-operations",
+  "description": "HeyTea internal read, delivery, and local-service capabilities.",
+  "skills": [
+    "dbauto-sql-query",
+    "dbauto-export-agent",
+    "trace-log-analysis",
+    "bk-pipeline",
+    "release-workflow",
+    "heytea-project-stack",
+    "bfc-local-invoice-stack",
+    "sso-login",
+    "opencli-browser-reuse"
+  ]
+}

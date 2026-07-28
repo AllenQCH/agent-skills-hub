@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "name": "collaboration",
+  "description": "Lark, DingTalk, AliDocs, GitHub, and knowledge-management candidates.",
+  "skills": [
+    "dws",
+    "lark-doc",
+    "lark-im",
+    "lark-mail",
+    "lark-sheets",
+    "alidocs-browser-reader",
+    "alidocs-test-delivery-doc",
+    "github-web-operations",
+    "obsidian-note-writing"
+  ]
+}

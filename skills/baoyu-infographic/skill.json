@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "baoyu-infographic",
+  "name": "baoyu-infographic",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "creative/baoyu-infographic",
+    "sha256": "71b26dcca07867d646916b0dea82ebed5140b1da1d225e89119ff4f348196d09",
+    "file_count": 47
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "creative/baoyu-infographic",
+      "sha256": "71b26dcca07867d646916b0dea82ebed5140b1da1d225e89119ff4f348196d09",
+      "file_count": 47
+    }
+  ],
+  "adapters": {}
+}

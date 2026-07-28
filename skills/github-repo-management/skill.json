@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "github-repo-management",
+  "name": "github-repo-management",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "github/github-repo-management",
+    "sha256": "a0a8d5f7739c001e014a8c75fc33a48b102fe30860ed26464bd4d8b2f5eadddb",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "github/github-repo-management",
+      "sha256": "a0a8d5f7739c001e014a8c75fc33a48b102fe30860ed26464bd4d8b2f5eadddb",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

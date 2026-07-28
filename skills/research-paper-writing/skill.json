@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "research-paper-writing",
+  "name": "research-paper-writing",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "research/research-paper-writing",
+    "sha256": "84dd35110bbcf3946339f59e156dde4fee47b55b893f1f86aa68a36763e3dec8",
+    "file_count": 55
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "research/research-paper-writing",
+      "sha256": "84dd35110bbcf3946339f59e156dde4fee47b55b893f1f86aa68a36763e3dec8",
+      "file_count": 55
+    }
+  ],
+  "adapters": {}
+}

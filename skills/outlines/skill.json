@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "outlines",
+  "name": "outlines",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/inference/outlines",
+    "sha256": "9cacdba2930d29fd5a0196265afbfbe2f387c82c946cc13ab8931d2c1bee6850",
+    "file_count": 4
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/inference/outlines",
+      "sha256": "9cacdba2930d29fd5a0196265afbfbe2f387c82c946cc13ab8931d2c1bee6850",
+      "file_count": 4
+    }
+  ],
+  "adapters": {}
+}

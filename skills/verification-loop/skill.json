@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "verification-loop",
+  "name": "verification-loop",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "verification-loop",
+    "sha256": "00a0541097a5460d9532f4206b4491b58c97d637b4e4a67bc369e41c9523f116",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "verification-loop",
+      "sha256": "00a0541097a5460d9532f4206b4491b58c97d637b4e4a67bc369e41c9523f116",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

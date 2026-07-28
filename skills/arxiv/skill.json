@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "arxiv",
+  "name": "arxiv",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "research/arxiv",
+    "sha256": "6ad30f04faf0c5763e267681acf7cecb9d885806bd404f5c68d8fee1a120ee30",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "research/arxiv",
+      "sha256": "6ad30f04faf0c5763e267681acf7cecb9d885806bd404f5c68d8fee1a120ee30",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

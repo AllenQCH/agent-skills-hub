@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "docker-patterns",
+  "name": "docker-patterns",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "docker-patterns",
+    "sha256": "66f9f6f2eac3011a47bf38aafde35bc3066e93096ca20d32d62707b131127a10",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "docker-patterns",
+      "sha256": "66f9f6f2eac3011a47bf38aafde35bc3066e93096ca20d32d62707b131127a10",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

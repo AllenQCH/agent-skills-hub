@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "python-debugpy",
+  "name": "python-debugpy",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/python-debugpy",
+    "sha256": "edb599720ded15dafb78a3902c582da9ba5e7d584cb3e8906756effa0b36d277",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/python-debugpy",
+      "sha256": "edb599720ded15dafb78a3902c582da9ba5e7d584cb3e8906756effa0b36d277",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

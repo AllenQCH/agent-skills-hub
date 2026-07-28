@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "security-review",
+  "name": "security-review",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "security-review",
+    "sha256": "8f6466b42fa8e2b6ebf21903a75ef7e157faedc761cecbdeabba86b3429e5a31",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "security-review",
+      "sha256": "8f6466b42fa8e2b6ebf21903a75ef7e157faedc761cecbdeabba86b3429e5a31",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

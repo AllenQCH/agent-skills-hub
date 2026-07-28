@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "stable-diffusion-image-generation",
+  "name": "stable-diffusion-image-generation",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/models/stable-diffusion",
+    "sha256": "0ad45953531a4be4f1d0b239de19074c4eb0367d26364646f880c791b0d6731a",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/models/stable-diffusion",
+      "sha256": "0ad45953531a4be4f1d0b239de19074c4eb0367d26364646f880c791b0d6731a",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "dbauto-export-agent",
+  "name": "dbauto-export-agent",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "dbauto-export-agent",
+    "sha256": "61872a3f639e91b71432b201f9f736b77f2977721f20bc8836691ece25ae938b",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "dbauto-export-agent",
+      "sha256": "61872a3f639e91b71432b201f9f736b77f2977721f20bc8836691ece25ae938b",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,2396 @@
+{
+  "version": 1,
+  "migrated_at": "2026-07-27T10:23:44.749369+00:00",
+  "hub": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub",
+  "backup": "/Users/heytea/.codex/backups/skill-hub-migration-20260727-181937",
+  "policy": {
+    "archive_existing": false,
+    "shorten_descriptions": false,
+    "merge_same_name": false,
+    "commit_or_push": false
+  },
+  "resources": [
+    {
+      "runtime": "common",
+      "name": "lark-base",
+      "relative_path": "lark-base",
+      "source": "/Users/heytea/.agents/skills/lark-base",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-base",
+      "sha256": "f21fa1ae0706b39db05a407980cbf9787a122a0fe60b44f3129a083023448613",
+      "file_count": 88
+    },
+    {
+      "runtime": "common",
+      "name": "lark-calendar",
+      "relative_path": "lark-calendar",
+      "source": "/Users/heytea/.agents/skills/lark-calendar",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-calendar",
+      "sha256": "732090315c231a3d906984561c0b7440f1d8b5e9b04c641cc6b6378158da9c5e",
+      "file_count": 5
+    },
+    {
+      "runtime": "common",
+      "name": "lark-contact",
+      "relative_path": "lark-contact",
+      "source": "/Users/heytea/.agents/skills/lark-contact",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-contact",
+      "sha256": "0442d40dc77e2c7140e39d8e1c3b445871cc184ae40d0c95340432b4e07b4df8",
+      "file_count": 3
+    },
+    {
+      "runtime": "common",
+      "name": "lark-doc",
+      "relative_path": "lark-doc",
+      "source": "/Users/heytea/.agents/skills/lark-doc",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-doc",
+      "sha256": "c79bf12afc8af7b3fd394dcc65736573bb93b12abcc4bf77da6cd63b12cb53eb",
+      "file_count": 8
+    },
+    {
+      "runtime": "common",
+      "name": "lark-drive",
+      "relative_path": "lark-drive",
+      "source": "/Users/heytea/.agents/skills/lark-drive",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-drive",
+      "sha256": "8e87ccbb78200fa5aa9bf8f8c21aad79c532827aee5f6b7c5e83f01490787183",
+      "file_count": 4
+    },
+    {
+      "runtime": "common",
+      "name": "lark-event",
+      "relative_path": "lark-event",
+      "source": "/Users/heytea/.agents/skills/lark-event",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-event",
+      "sha256": "2fca38adf09c12d0c90a90088df78ca552e2b8bf938264507f6df74242e44f58",
+      "file_count": 2
+    },
+    {
+      "runtime": "common",
+      "name": "lark-im",
+      "relative_path": "lark-im",
+      "source": "/Users/heytea/.agents/skills/lark-im",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-im",
+      "sha256": "d35eacbd08a26b0071a52766a9ea55e47c00f208e6a0b1e94e4b29ae77dc752e",
+      "file_count": 13
+    },
+    {
+      "runtime": "common",
+      "name": "lark-mail",
+      "relative_path": "lark-mail",
+      "source": "/Users/heytea/.agents/skills/lark-mail",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-mail",
+      "sha256": "8d7a6853aa2fd381e20360582440d54c21a21efbf12084d976f42c953fe311e9",
+      "file_count": 12
+    },
+    {
+      "runtime": "common",
+      "name": "lark-minutes",
+      "relative_path": "lark-minutes",
+      "source": "/Users/heytea/.agents/skills/lark-minutes",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-minutes",
+      "sha256": "5b9a9eb15996d68d841bd9f82df77ba465b4faeaf6ec4c987a6e72195cf0df9c",
+      "file_count": 1
+    },
+    {
+      "runtime": "common",
+      "name": "lark-openapi-explorer",
+      "relative_path": "lark-openapi-explorer",
+      "source": "/Users/heytea/.agents/skills/lark-openapi-explorer",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-openapi-explorer",
+      "sha256": "187ac6d806aad57c989d37be1bc61caf6d3564040f8946dad0a45da11a58d272",
+      "file_count": 1
+    },
+    {
+      "runtime": "common",
+      "name": "lark-shared",
+      "relative_path": "lark-shared",
+      "source": "/Users/heytea/.agents/skills/lark-shared",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-shared",
+      "sha256": "097519fea469194fc916971bcca7bb2779102a3cb83000873f76811f16d46a4b",
+      "file_count": 1
+    },
+    {
+      "runtime": "common",
+      "name": "lark-sheets",
+      "relative_path": "lark-sheets",
+      "source": "/Users/heytea/.agents/skills/lark-sheets",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-sheets",
+      "sha256": "b1a14db87ceb52c33ea750c987505452f964fb66b24873ff0aaf9fc3fbe42919",
+      "file_count": 8
+    },
+    {
+      "runtime": "common",
+      "name": "lark-skill-maker",
+      "relative_path": "lark-skill-maker",
+      "source": "/Users/heytea/.agents/skills/lark-skill-maker",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-skill-maker",
+      "sha256": "e03f7bd154b45200f77be83be576f1c42ea536cd476952fa627daae2bd88a3cc",
+      "file_count": 1
+    },
+    {
+      "runtime": "common",
+      "name": "lark-task",
+      "relative_path": "lark-task",
+      "source": "/Users/heytea/.agents/skills/lark-task",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-task",
+      "sha256": "449e722bf806f24062b1cf723598b4224ee3c71784b511a237b46ff8b0fd34db",
+      "file_count": 13
+    },
+    {
+      "runtime": "common",
+      "name": "lark-vc",
+      "relative_path": "lark-vc",
+      "source": "/Users/heytea/.agents/skills/lark-vc",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-vc",
+      "sha256": "22eef08d307928294b3015114713a97b3791efb4269e29c67da462d8d64d525f",
+      "file_count": 3
+    },
+    {
+      "runtime": "common",
+      "name": "lark-whiteboard",
+      "relative_path": "lark-whiteboard",
+      "source": "/Users/heytea/.agents/skills/lark-whiteboard",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-whiteboard",
+      "sha256": "529fee08ce62d88c85d86a0f3b17ee77ef10086ab18cfb96d9d439c961ea7620",
+      "file_count": 19
+    },
+    {
+      "runtime": "common",
+      "name": "lark-wiki",
+      "relative_path": "lark-wiki",
+      "source": "/Users/heytea/.agents/skills/lark-wiki",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-wiki",
+      "sha256": "3c65ec0f7b37406366f21d873cd77dd5beefd943adf47ec8a483ba99e89bb4c4",
+      "file_count": 1
+    },
+    {
+      "runtime": "common",
+      "name": "lark-workflow-meeting-summary",
+      "relative_path": "lark-workflow-meeting-summary",
+      "source": "/Users/heytea/.agents/skills/lark-workflow-meeting-summary",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-workflow-meeting-summary",
+      "sha256": "0ce099af611bc05b6591ce445cea907570c0600dc3d57aa1328baf0a730e74cc",
+      "file_count": 1
+    },
+    {
+      "runtime": "common",
+      "name": "lark-workflow-standup-report",
+      "relative_path": "lark-workflow-standup-report",
+      "source": "/Users/heytea/.agents/skills/lark-workflow-standup-report",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/common/lark-workflow-standup-report",
+      "sha256": "eb976a75e58748c9dc9030798f3e64cc0696452f7b4cf46a97651ec5c9fd37e3",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "ai-regression-testing",
+      "relative_path": "ai-regression-testing",
+      "source": "/Users/heytea/.codex/skills/ai-regression-testing",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/ai-regression-testing",
+      "sha256": "168af59bff3b5bed671e95ce1c6f421522d0f5db04031e260aaa40d47103a309",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "alidocs-browser-reader",
+      "relative_path": "alidocs-browser-reader",
+      "source": "/Users/heytea/.codex/skills/alidocs-browser-reader",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/alidocs-browser-reader",
+      "sha256": "3f8b5d8d2fa945a7b7a5313d67d7d89fdc19d458275fda1c232c51692ec1399c",
+      "file_count": 33
+    },
+    {
+      "runtime": "codex",
+      "name": "alidocs-test-delivery-doc",
+      "relative_path": "alidocs-test-delivery-doc",
+      "source": "/Users/heytea/.codex/skills/alidocs-test-delivery-doc",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/alidocs-test-delivery-doc",
+      "sha256": "466c08e9969dd2241917853791dddc7fb87b2ad58bccf708ed05ea36d78fb60e",
+      "file_count": 16
+    },
+    {
+      "runtime": "codex",
+      "name": "api-design",
+      "relative_path": "api-design",
+      "source": "/Users/heytea/.codex/skills/api-design",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/api-design",
+      "sha256": "07437ada613d4e787fee91e10453e0e2c39521cb1fb58c94b50e36528c20a38d",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "backend-patterns",
+      "relative_path": "backend-patterns",
+      "source": "/Users/heytea/.codex/skills/backend-patterns",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/backend-patterns",
+      "sha256": "b1bbf6c8ab681ec5cd6c4e81c5cc4b9111a5e34591a29b763118e2d0df736a15",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "bfc-local-invoice-stack",
+      "relative_path": "bfc-local-invoice-stack",
+      "source": "/Users/heytea/.codex/skills/bfc-local-invoice-stack",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/bfc-local-invoice-stack",
+      "sha256": "0e8bc7cf67488c2b826877282202d5e7efa2fc490c8c603a66f79aa178f2986c",
+      "file_count": 3
+    },
+    {
+      "runtime": "codex",
+      "name": "bk-pipeline",
+      "relative_path": "bk-pipeline",
+      "source": "/Users/heytea/.codex/skills/bk-pipeline",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/bk-pipeline",
+      "sha256": "8e01a3aee4b6b78422d7237823052d30608fd1d3658b7c0335b2fcd2acb7c4aa",
+      "file_count": 3
+    },
+    {
+      "runtime": "codex",
+      "name": "bug-killer",
+      "relative_path": "bug-killer",
+      "source": "/Users/heytea/.codex/skills/bug-killer",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/bug-killer",
+      "sha256": "5872019616ad193729298d0fa9a5df52935db1ace879191f6a07ebab4609eda9",
+      "file_count": 4
+    },
+    {
+      "runtime": "codex",
+      "name": "claude-api",
+      "relative_path": "claude-api",
+      "source": "/Users/heytea/.codex/skills/claude-api",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/claude-api",
+      "sha256": "ce4b6cd962a5f3c8d93ee51702a376c272f73cbdf918c35a2df7ba6a3b38e674",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "cli-anything",
+      "relative_path": "cli-anything",
+      "source": "/Users/heytea/.codex/skills/cli-anything",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/cli-anything",
+      "sha256": "65637bd184659cadbfd16d1b8b8981439acbbd8f072d77cfc5d5d64c4d84d339",
+      "file_count": 4
+    },
+    {
+      "runtime": "codex",
+      "name": "clickhouse-io",
+      "relative_path": "clickhouse-io",
+      "source": "/Users/heytea/.codex/skills/clickhouse-io",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/clickhouse-io",
+      "sha256": "9a6385b580394e4cccd07001b34924aebc977c47859ccd28483274da683f2d50",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "coding-standards",
+      "relative_path": "coding-standards",
+      "source": "/Users/heytea/.codex/skills/coding-standards",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/coding-standards",
+      "sha256": "45ffde94da4d4162c814202da768d0bbebed745392c7dd17120a79d9a3b1a170",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "configure-ecc",
+      "relative_path": "configure-ecc",
+      "source": "/Users/heytea/.codex/skills/configure-ecc",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/configure-ecc",
+      "sha256": "c656d039e4fc92e43c24d4abf8aa43cb3dae7771598dd792011c0ef5649ec4db",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "content-hash-cache-pattern",
+      "relative_path": "content-hash-cache-pattern",
+      "source": "/Users/heytea/.codex/skills/content-hash-cache-pattern",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/content-hash-cache-pattern",
+      "sha256": "1c0f93333cad47a0d0485882f89ceea3a948d4daedb892344f55617c90395bff",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "continuous-learning",
+      "relative_path": "continuous-learning",
+      "source": "/Users/heytea/.codex/skills/continuous-learning",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/continuous-learning",
+      "sha256": "ed427e9ad76a26010d9ca9a7cc53690f7c91107768d340683651c58aea8752af",
+      "file_count": 3
+    },
+    {
+      "runtime": "codex",
+      "name": "continuous-learning-v2",
+      "relative_path": "continuous-learning-v2",
+      "source": "/Users/heytea/.codex/skills/continuous-learning-v2",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/continuous-learning-v2",
+      "sha256": "e64f697292c45b39cf38bd9d710d8ff6edb8d6463984fb737ff7b421d1b934cc",
+      "file_count": 10
+    },
+    {
+      "runtime": "codex",
+      "name": "database-migrations",
+      "relative_path": "database-migrations",
+      "source": "/Users/heytea/.codex/skills/database-migrations",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/database-migrations",
+      "sha256": "9379e4934622b81ddd6ca19c50e5c912a8d2c28af4a396979cbcf843b45c5f6c",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "dbauto-export-agent",
+      "relative_path": "dbauto-export-agent",
+      "source": "/Users/heytea/.codex/skills/dbauto-export-agent",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/dbauto-export-agent",
+      "sha256": "61872a3f639e91b71432b201f9f736b77f2977721f20bc8836691ece25ae938b",
+      "file_count": 3
+    },
+    {
+      "runtime": "codex",
+      "name": "dbauto-sql-query",
+      "relative_path": "dbauto-sql-query",
+      "source": "/Users/heytea/.codex/skills/dbauto-sql-query",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/dbauto-sql-query",
+      "sha256": "4ea8f58e7bc90e4870324aef0c835338c2556a6ee175d23af1dafc6051c7280c",
+      "file_count": 4
+    },
+    {
+      "runtime": "codex",
+      "name": "deep-research",
+      "relative_path": "deep-research",
+      "source": "/Users/heytea/.codex/skills/deep-research",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/deep-research",
+      "sha256": "facdb784f343be5b95be29e1fc0af7b1ab220088b00d5b1c3eed321fd4424f19",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "deployment-patterns",
+      "relative_path": "deployment-patterns",
+      "source": "/Users/heytea/.codex/skills/deployment-patterns",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/deployment-patterns",
+      "sha256": "693f57bbf57b3db661e9a62561ef183ea9e9ad5d17b08009deee3d0322982ab2",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "django-patterns",
+      "relative_path": "django-patterns",
+      "source": "/Users/heytea/.codex/skills/django-patterns",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/django-patterns",
+      "sha256": "40cdc40192c494ba5e3dba175015cc68a3917fe76d9d1e525ea318999014e411",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "django-security",
+      "relative_path": "django-security",
+      "source": "/Users/heytea/.codex/skills/django-security",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/django-security",
+      "sha256": "6f88d96edbfe0ee832059212d874beced44472204b5c0698ee59a97d22e75886",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "django-tdd",
+      "relative_path": "django-tdd",
+      "source": "/Users/heytea/.codex/skills/django-tdd",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/django-tdd",
+      "sha256": "d5e03b3cef91d2cc4058f192f4699486ee9460cb7bd1af2db57ed7443b9e8635",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "django-verification",
+      "relative_path": "django-verification",
+      "source": "/Users/heytea/.codex/skills/django-verification",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/django-verification",
+      "sha256": "c6cd50fb05aad7701ad026dfa8f43e20aa6a6ed02faba78b15c487b2f88d0cba",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "docker-patterns",
+      "relative_path": "docker-patterns",
+      "source": "/Users/heytea/.codex/skills/docker-patterns",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/docker-patterns",
+      "sha256": "66f9f6f2eac3011a47bf38aafde35bc3066e93096ca20d32d62707b131127a10",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "dws",
+      "relative_path": "dws",
+      "source": "/Users/heytea/.codex/skills/dws",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/dws",
+      "sha256": "a4411dfebfbe686d6222971b8cc6e3ce9b3184832249a792004611849b3e5f72",
+      "file_count": 31
+    },
+    {
+      "runtime": "codex",
+      "name": "dws-auth-helper",
+      "relative_path": "dws-auth-helper",
+      "source": "/Users/heytea/.codex/skills/dws-auth-helper",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/dws-auth-helper",
+      "sha256": "9c8cc129b597f1fc17ea8f8d68137c49eac6faaf9bc2b0530960d2a9746b6a19",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "e2e-testing",
+      "relative_path": "e2e-testing",
+      "source": "/Users/heytea/.codex/skills/e2e-testing",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/e2e-testing",
+      "sha256": "dd855000bcaf769e92c4d059832dd4fdec1fc06d285d6b803b7589d8f85a5414",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "eval-harness",
+      "relative_path": "eval-harness",
+      "source": "/Users/heytea/.codex/skills/eval-harness",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/eval-harness",
+      "sha256": "f82bd9c24e1cd53e2699ed44283c9ad6db44556633c9b325db028d30f0107960",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "exa-search",
+      "relative_path": "exa-search",
+      "source": "/Users/heytea/.codex/skills/exa-search",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/exa-search",
+      "sha256": "6b27531f67dc2c923d61a608ce34edc7b16c5db1bfa872cf9fccc0c61d17dd45",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "excel-json-analysis",
+      "relative_path": "excel-json-analysis",
+      "source": "/Users/heytea/.codex/skills/excel-json-analysis",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/excel-json-analysis",
+      "sha256": "c3b2767377f5f2f9a42b6f85e5622dfd31c4db03c0590dffda796b8ac92e4940",
+      "file_count": 3
+    },
+    {
+      "runtime": "codex",
+      "name": "frontend-patterns",
+      "relative_path": "frontend-patterns",
+      "source": "/Users/heytea/.codex/skills/frontend-patterns",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/frontend-patterns",
+      "sha256": "f85818f217023d6b6f2ffb61d5768fe533416468c08e2bd138c36e0b22d930d1",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "github-web-operations",
+      "relative_path": "github-web-operations",
+      "source": "/Users/heytea/.codex/skills/github-web-operations",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/github-web-operations",
+      "sha256": "46a76e08a670c7cd1acc77913ef70a1d0a304f30b2197587326dd6c44231a9a5",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "heytea-project-stack",
+      "relative_path": "heytea-project-stack",
+      "source": "/Users/heytea/.codex/skills/heytea-project-stack",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/heytea-project-stack",
+      "sha256": "7014d20df154a6e93415b0c3999f0cb1985123fae4bfa8fb1e6f120f32735d41",
+      "file_count": 3
+    },
+    {
+      "runtime": "codex",
+      "name": "internal-gitlab-downloader",
+      "relative_path": "internal-gitlab-downloader",
+      "source": "/Users/heytea/.codex/skills/internal-gitlab-downloader",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/internal-gitlab-downloader",
+      "sha256": "edb008314435770abd190a8a9df1b4b53524361ae37b609e28cdffd9cff9373d",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "iterative-retrieval",
+      "relative_path": "iterative-retrieval",
+      "source": "/Users/heytea/.codex/skills/iterative-retrieval",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/iterative-retrieval",
+      "sha256": "fff090ffce7baa36271f26b8bb3502fbbd68d5bea02e24a133d932dbad3c4876",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "java-coding-standards",
+      "relative_path": "java-coding-standards",
+      "source": "/Users/heytea/.codex/skills/java-coding-standards",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/java-coding-standards",
+      "sha256": "92688b2987ed2b2d6c33232224e48f5fd7f8844057a7424d7d86a51820afb533",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "jpa-patterns",
+      "relative_path": "jpa-patterns",
+      "source": "/Users/heytea/.codex/skills/jpa-patterns",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/jpa-patterns",
+      "sha256": "27615ba8658db1a131b2e8b39847dd508ffad8e12b200743f2830c924f7691ca",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "mcp-server-patterns",
+      "relative_path": "mcp-server-patterns",
+      "source": "/Users/heytea/.codex/skills/mcp-server-patterns",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/mcp-server-patterns",
+      "sha256": "6eb43eebbf3c0283d19ea21eb572004630e8805a19443f3e10729f9da4f88ffc",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "multi-agent-framework-maintainer",
+      "relative_path": "multi-agent-framework-maintainer",
+      "source": "/Users/heytea/.codex/skills/multi-agent-framework-maintainer",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/multi-agent-framework-maintainer",
+      "sha256": "e46bba0a1319bc61bf500f36aae548f7ec5d293ca327ee56a413aeae338bdcc0",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "obsidian-note-writing",
+      "relative_path": "obsidian-note-writing",
+      "source": "/Users/heytea/.codex/skills/obsidian-note-writing",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/obsidian-note-writing",
+      "sha256": "2de50b6edb6f1fa14b56a5d37dcd8480c2ea9104667e1f109d224ff1edb2da7f",
+      "file_count": 8
+    },
+    {
+      "runtime": "codex",
+      "name": "opencli-browser-reuse",
+      "relative_path": "opencli-browser-reuse",
+      "source": "/Users/heytea/.codex/skills/opencli-browser-reuse",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/opencli-browser-reuse",
+      "sha256": "c99a95033099a08c92e43bb2ea53870479612c468899b5f3b9752cfaec75e189",
+      "file_count": 3
+    },
+    {
+      "runtime": "codex",
+      "name": "openspec-demand-workflow",
+      "relative_path": "openspec-demand-workflow",
+      "source": "/Users/heytea/.codex/skills/openspec-demand-workflow",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/openspec-demand-workflow",
+      "sha256": "2029ba49fb493a8bd3686cab87fdea1b84213532cf8ae7611c8c54d4bda0e669",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "plankton-code-quality",
+      "relative_path": "plankton-code-quality",
+      "source": "/Users/heytea/.codex/skills/plankton-code-quality",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/plankton-code-quality",
+      "sha256": "c192730ed88b54fb60b7029e08dcee5583cbf76cc1396943a89fabbbdfe15272",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "postgres-patterns",
+      "relative_path": "postgres-patterns",
+      "source": "/Users/heytea/.codex/skills/postgres-patterns",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/postgres-patterns",
+      "sha256": "b609400f70efc15f4bb99851879339f647c99d536f76faf62dac8fa8f5df25b6",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "python-patterns",
+      "relative_path": "python-patterns",
+      "source": "/Users/heytea/.codex/skills/python-patterns",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/python-patterns",
+      "sha256": "4ad77ef301ca3777ea2a52b17f7832bb34a555328418c6e595c19a1addf8fcf3",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "python-testing",
+      "relative_path": "python-testing",
+      "source": "/Users/heytea/.codex/skills/python-testing",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/python-testing",
+      "sha256": "5f2b771ce12f6999a82536306fb2fbd81a6d34aa03fa29d00747475f13b3e956",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "release-workflow",
+      "relative_path": "release-workflow",
+      "source": "/Users/heytea/.codex/skills/release-workflow",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/release-workflow",
+      "sha256": "6560cf1a763eb47176f40f57b0972f2671ffbd893e78b51922e4f9f4281873d2",
+      "file_count": 6
+    },
+    {
+      "runtime": "codex",
+      "name": "search-first",
+      "relative_path": "search-first",
+      "source": "/Users/heytea/.codex/skills/search-first",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/search-first",
+      "sha256": "d9046c20b202b8893e3c008d113e33d0830ae3d48004cd9e436578daf8dd7efe",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "security-review",
+      "relative_path": "security-review",
+      "source": "/Users/heytea/.codex/skills/security-review",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/security-review",
+      "sha256": "8f6466b42fa8e2b6ebf21903a75ef7e157faedc761cecbdeabba86b3429e5a31",
+      "file_count": 3
+    },
+    {
+      "runtime": "codex",
+      "name": "security-scan",
+      "relative_path": "security-scan",
+      "source": "/Users/heytea/.codex/skills/security-scan",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/security-scan",
+      "sha256": "b1dffe3545eb05be66b1cd3e5c72a967b732aa49681ba9586726d322a523dbb2",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "springboot-patterns",
+      "relative_path": "springboot-patterns",
+      "source": "/Users/heytea/.codex/skills/springboot-patterns",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/springboot-patterns",
+      "sha256": "99ba0784512c9296d2bdfff1b1cbd82c4ca4e064df455e009c3efecfe8e3b02a",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "springboot-security",
+      "relative_path": "springboot-security",
+      "source": "/Users/heytea/.codex/skills/springboot-security",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/springboot-security",
+      "sha256": "7a92894259df85f86d81a65eebd74952528177a6c14621903a35b09b49435848",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "springboot-tdd",
+      "relative_path": "springboot-tdd",
+      "source": "/Users/heytea/.codex/skills/springboot-tdd",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/springboot-tdd",
+      "sha256": "e53a4841eba82354c45546c6ecb22a37ec08dde335cef798bbb9097bff883786",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "springboot-verification",
+      "relative_path": "springboot-verification",
+      "source": "/Users/heytea/.codex/skills/springboot-verification",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/springboot-verification",
+      "sha256": "9c127795b6906f7221bd4db33188a5ed474f6372b5b10e44bf5a3a66cd6ed7e8",
+      "file_count": 1
+    },
+    {
+      "runtime": "codex",
+      "name": "sso-login",
+      "relative_path": "sso-login",
+      "source": "/Users/heytea/.codex/skills/sso-login",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/sso-login",
+      "sha256": "61464f9fe46777d51b222ddbee7afff9357cca0cb25e3359761ccb48dee52462",
+      "file_count": 4
+    },
+    {
+      "runtime": "codex",
+      "name": "strategic-compact",
+      "relative_path": "strategic-compact",
+      "source": "/Users/heytea/.codex/skills/strategic-compact",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/strategic-compact",
+      "sha256": "9b0af4bd2708f8f434bd4fd1398cb770540d7e489ebc40864f4153cffece5e47",
+      "file_count": 3
+    },
+    {
+      "runtime": "codex",
+      "name": "tdd-workflow",
+      "relative_path": "tdd-workflow",
+      "source": "/Users/heytea/.codex/skills/tdd-workflow",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/tdd-workflow",
+      "sha256": "52ccc4cb7acc0b39078d66200abb3f9f8770276f003cc989220fd33bf388e502",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "trace-log-analysis",
+      "relative_path": "trace-log-analysis",
+      "source": "/Users/heytea/.codex/skills/trace-log-analysis",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/trace-log-analysis",
+      "sha256": "4b7398509fd9924ec17bc3e8bdc24e8f6a929daa79410c1173d242747fc8aafb",
+      "file_count": 2
+    },
+    {
+      "runtime": "codex",
+      "name": "verification-loop",
+      "relative_path": "verification-loop",
+      "source": "/Users/heytea/.codex/skills/verification-loop",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/codex/verification-loop",
+      "sha256": "00a0541097a5460d9532f4206b4491b58c97d637b4e4a67bc369e41c9523f116",
+      "file_count": 2
+    },
+    {
+      "runtime": "claude",
+      "name": "dws",
+      "relative_path": "dws",
+      "source": "/Users/heytea/.claude/skills/dws",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/claude/dws",
+      "sha256": "1863c08d8b19946b45d4b630cab08018214d3051028cb8b285c37f0bc7adec92",
+      "file_count": 31
+    },
+    {
+      "runtime": "hermes",
+      "name": "apple-notes",
+      "relative_path": "apple/apple-notes",
+      "source": "/Users/heytea/.hermes/skills/apple/apple-notes",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/apple/apple-notes",
+      "sha256": "eece51a3e75993979370df06e65798a61ed0ab23a70b89fececb73a91f7a698a",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "apple-reminders",
+      "relative_path": "apple/apple-reminders",
+      "source": "/Users/heytea/.hermes/skills/apple/apple-reminders",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/apple/apple-reminders",
+      "sha256": "75465632e3ab41e6427a2d5af4b7a0a992475bca46cea4cdc7ab57ed17a6fb8e",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "findmy",
+      "relative_path": "apple/findmy",
+      "source": "/Users/heytea/.hermes/skills/apple/findmy",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/apple/findmy",
+      "sha256": "4954456483b2e2f2800c107f4ec1c63c4f12f5e83101bd4eac5b86b61fd65b01",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "imessage",
+      "relative_path": "apple/imessage",
+      "source": "/Users/heytea/.hermes/skills/apple/imessage",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/apple/imessage",
+      "sha256": "75b606d74384bf0047fb8af66a2b8fe8003afbcd48e5699bcc71092957aeb11d",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "macos-computer-use",
+      "relative_path": "apple/macos-computer-use",
+      "source": "/Users/heytea/.hermes/skills/apple/macos-computer-use",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/apple/macos-computer-use",
+      "sha256": "f732bb9169596cde2a24cd0d4ba87e28d34d1284252f5f45fbbd90b10a85a0bf",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "allen-response-formatting",
+      "relative_path": "autonomous-ai-agents/allen-response-formatting",
+      "source": "/Users/heytea/.hermes/skills/autonomous-ai-agents/allen-response-formatting",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/autonomous-ai-agents/allen-response-formatting",
+      "sha256": "4c9958e04c938a80a4358f8441e5da9441df993a72d005097435e7dab6fb5a4e",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "claude-code",
+      "relative_path": "autonomous-ai-agents/claude-code",
+      "source": "/Users/heytea/.hermes/skills/autonomous-ai-agents/claude-code",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/autonomous-ai-agents/claude-code",
+      "sha256": "21051d24377d172a02ee438338a06c52b74e68d6cf1fede972980fe130ee17a6",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "codex",
+      "relative_path": "autonomous-ai-agents/codex",
+      "source": "/Users/heytea/.hermes/skills/autonomous-ai-agents/codex",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/autonomous-ai-agents/codex",
+      "sha256": "02e9ca778a34c5a2bc60a810f17f1819fd966a218e187225ec96ccfb29561c11",
+      "file_count": 6
+    },
+    {
+      "runtime": "hermes",
+      "name": "ghostty-codex-inspection",
+      "relative_path": "autonomous-ai-agents/ghostty-codex-inspection",
+      "source": "/Users/heytea/.hermes/skills/autonomous-ai-agents/ghostty-codex-inspection",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/autonomous-ai-agents/ghostty-codex-inspection",
+      "sha256": "eb247a7934443dde96282de7bd42dda4eb4c4888cf87b088dc380dd6ada8c85b",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "hermes-agent",
+      "relative_path": "autonomous-ai-agents/hermes-agent",
+      "source": "/Users/heytea/.hermes/skills/autonomous-ai-agents/hermes-agent",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/autonomous-ai-agents/hermes-agent",
+      "sha256": "a427c799bf32bc6187c61f4e93752b84c62e64425db87cd47c8a6d0948341277",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "hermes-feishu-gateway",
+      "relative_path": "autonomous-ai-agents/hermes-feishu-gateway",
+      "source": "/Users/heytea/.hermes/skills/autonomous-ai-agents/hermes-feishu-gateway",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/autonomous-ai-agents/hermes-feishu-gateway",
+      "sha256": "8a774517d2352cff105171adab53a99fa7176bd939dec5b092f3866ce5c4e4bc",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "openai-codex-release-monitoring",
+      "relative_path": "autonomous-ai-agents/openai-codex-release-monitoring",
+      "source": "/Users/heytea/.hermes/skills/autonomous-ai-agents/openai-codex-release-monitoring",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/autonomous-ai-agents/openai-codex-release-monitoring",
+      "sha256": "125e8118aba709b7bd82db3d1fa2e8cd40d120d048f143e721ae3dec37186571",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "openclaw-to-hermes-migration",
+      "relative_path": "autonomous-ai-agents/openclaw-to-hermes-migration",
+      "source": "/Users/heytea/.hermes/skills/autonomous-ai-agents/openclaw-to-hermes-migration",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/autonomous-ai-agents/openclaw-to-hermes-migration",
+      "sha256": "cd06949c66ecaec99f721b145a22c0d47361885183b517abfa8c2c1db72b4472",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "opencode",
+      "relative_path": "autonomous-ai-agents/opencode",
+      "source": "/Users/heytea/.hermes/skills/autonomous-ai-agents/opencode",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/autonomous-ai-agents/opencode",
+      "sha256": "86750f7e3eab308a189e46c2937adac65511c877491b742a09837eaee3f50803",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "personal-migratory-agents-migration",
+      "relative_path": "autonomous-ai-agents/personal-migratory-agents-migration",
+      "source": "/Users/heytea/.hermes/skills/autonomous-ai-agents/personal-migratory-agents-migration",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/autonomous-ai-agents/personal-migratory-agents-migration",
+      "sha256": "cadc409dd0276bfa916f16ded138c259deaa17b00ed3f42dc700d9b797350246",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "architecture-diagram",
+      "relative_path": "creative/architecture-diagram",
+      "source": "/Users/heytea/.hermes/skills/creative/architecture-diagram",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/architecture-diagram",
+      "sha256": "1fc25a474c17df3e5706fdf4eda0d74b97866280cc45e4bd11c5909d61e65286",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "ascii-art",
+      "relative_path": "creative/ascii-art",
+      "source": "/Users/heytea/.hermes/skills/creative/ascii-art",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/ascii-art",
+      "sha256": "86f2891b57c8bf6554d158eb097cf0d180d8605172246fe79e03b096c0daa0f0",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "ascii-video",
+      "relative_path": "creative/ascii-video",
+      "source": "/Users/heytea/.hermes/skills/creative/ascii-video",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/ascii-video",
+      "sha256": "7d0af7393be2ca160b01277df1e89456043cb0f5e668f9642095d00fd2029e99",
+      "file_count": 10
+    },
+    {
+      "runtime": "hermes",
+      "name": "baoyu-infographic",
+      "relative_path": "creative/baoyu-infographic",
+      "source": "/Users/heytea/.hermes/skills/creative/baoyu-infographic",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/baoyu-infographic",
+      "sha256": "71b26dcca07867d646916b0dea82ebed5140b1da1d225e89119ff4f348196d09",
+      "file_count": 47
+    },
+    {
+      "runtime": "hermes",
+      "name": "claude-design",
+      "relative_path": "creative/claude-design",
+      "source": "/Users/heytea/.hermes/skills/creative/claude-design",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/claude-design",
+      "sha256": "6c84d294a610dbaa55e9d4cac01767ad294821deb161d4a108d441997f4040c2",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "comfyui",
+      "relative_path": "creative/comfyui",
+      "source": "/Users/heytea/.hermes/skills/creative/comfyui",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/comfyui",
+      "sha256": "4cab55287c6f22e9126ed12aa237302d5b090e115343c639981e6079d97ab898",
+      "file_count": 33
+    },
+    {
+      "runtime": "hermes",
+      "name": "design-md",
+      "relative_path": "creative/design-md",
+      "source": "/Users/heytea/.hermes/skills/creative/design-md",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/design-md",
+      "sha256": "69d172e87e9f699c3d6fc15a8af8ac1ef0952648d427bd02d18212951d791cf0",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "excalidraw",
+      "relative_path": "creative/excalidraw",
+      "source": "/Users/heytea/.hermes/skills/creative/excalidraw",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/excalidraw",
+      "sha256": "13e5a8190bc7f08c86cc08743da080c10534e17773be93e77af51736d002aef2",
+      "file_count": 5
+    },
+    {
+      "runtime": "hermes",
+      "name": "humanizer",
+      "relative_path": "creative/humanizer",
+      "source": "/Users/heytea/.hermes/skills/creative/humanizer",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/humanizer",
+      "sha256": "08de5dc1711c96c8376afe30a76dc5e12699947ad8c1becc506b2faa5b94e7e0",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "manim-video",
+      "relative_path": "creative/manim-video",
+      "source": "/Users/heytea/.hermes/skills/creative/manim-video",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/manim-video",
+      "sha256": "a978a00f71dd0fa4416f525bac570b4a9a14e9db97ccb67f4e831caa8ab398d7",
+      "file_count": 17
+    },
+    {
+      "runtime": "hermes",
+      "name": "p5js",
+      "relative_path": "creative/p5js",
+      "source": "/Users/heytea/.hermes/skills/creative/p5js",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/p5js",
+      "sha256": "73a27d9845185438bdf725de9c8e25aa984b34bc1951e1815b38a7ca7c70d991",
+      "file_count": 17
+    },
+    {
+      "runtime": "hermes",
+      "name": "popular-web-designs",
+      "relative_path": "creative/popular-web-designs",
+      "source": "/Users/heytea/.hermes/skills/creative/popular-web-designs",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/popular-web-designs",
+      "sha256": "469ca13c3de013e9b5c0cfb908e11d01c9fdbfa7cbe179ea784dd1072641b9d4",
+      "file_count": 55
+    },
+    {
+      "runtime": "hermes",
+      "name": "pretext",
+      "relative_path": "creative/pretext",
+      "source": "/Users/heytea/.hermes/skills/creative/pretext",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/pretext",
+      "sha256": "45577abf0d86a5af5a5c6c40cbaa93b376640bce896e3feed4f6349318ad6511",
+      "file_count": 4
+    },
+    {
+      "runtime": "hermes",
+      "name": "sketch",
+      "relative_path": "creative/sketch",
+      "source": "/Users/heytea/.hermes/skills/creative/sketch",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/sketch",
+      "sha256": "b48aadae62be4a5573e8bf710d530ecc58253a73462fd3fa9fc322be1038b374",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "songwriting-and-ai-music",
+      "relative_path": "creative/songwriting-and-ai-music",
+      "source": "/Users/heytea/.hermes/skills/creative/songwriting-and-ai-music",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/songwriting-and-ai-music",
+      "sha256": "846cb04e170adfe8b9fe2069e6c32b6cdce1a0e6cf20d92e4eb00d8847bc36f8",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "touchdesigner-mcp",
+      "relative_path": "creative/touchdesigner-mcp",
+      "source": "/Users/heytea/.hermes/skills/creative/touchdesigner-mcp",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/creative/touchdesigner-mcp",
+      "sha256": "d13fadee5553e82c92089cf61c1dd225f93187bc5599bce778b337ded2f985b2",
+      "file_count": 23
+    },
+    {
+      "runtime": "hermes",
+      "name": "jupyter-live-kernel",
+      "relative_path": "data-science/jupyter-live-kernel",
+      "source": "/Users/heytea/.hermes/skills/data-science/jupyter-live-kernel",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/data-science/jupyter-live-kernel",
+      "sha256": "b6296242cf7cf08058bbff90f5c2e27f3539cf121973bf0812fbbb7d6820bf02",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "kanban-orchestrator",
+      "relative_path": "devops/kanban-orchestrator",
+      "source": "/Users/heytea/.hermes/skills/devops/kanban-orchestrator",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/devops/kanban-orchestrator",
+      "sha256": "84ea016c6af5d2d33560affb1c5ed4f087109a46728ddbb867365ef976dbb273",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "kanban-worker",
+      "relative_path": "devops/kanban-worker",
+      "source": "/Users/heytea/.hermes/skills/devops/kanban-worker",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/devops/kanban-worker",
+      "sha256": "45bad9e96da8e1801a8b1c63e28f4cea1af0a8260f07ca7d98332771550948e9",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "webhook-subscriptions",
+      "relative_path": "devops/webhook-subscriptions",
+      "source": "/Users/heytea/.hermes/skills/devops/webhook-subscriptions",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/devops/webhook-subscriptions",
+      "sha256": "854aef03f56dc04e30b4ce9a4132c4087c0845774eb779f759f4bc9bc6e92659",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "dogfood",
+      "relative_path": "dogfood",
+      "source": "/Users/heytea/.hermes/skills/dogfood",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/dogfood",
+      "sha256": "aa860bcd8be5b1458e690f12fda1f0fae57ced98bde0ef39764cf5cb8b984cf2",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "himalaya",
+      "relative_path": "email/himalaya",
+      "source": "/Users/heytea/.hermes/skills/email/himalaya",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/email/himalaya",
+      "sha256": "a09ab8947e0150a36103ddb56a656f7b473f8174ff0b019c3143c712301baeea",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "find-skills",
+      "relative_path": "find-skills",
+      "source": "/Users/heytea/.hermes/skills/find-skills",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/find-skills",
+      "sha256": "0e7acd7d0dd0d825b721ee21e01960db99d2fa11674f2ce58381d473693aa9f8",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "minecraft-modpack-server",
+      "relative_path": "gaming/minecraft-modpack-server",
+      "source": "/Users/heytea/.hermes/skills/gaming/minecraft-modpack-server",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/gaming/minecraft-modpack-server",
+      "sha256": "a62f17d483b5ee79179abe7608facf3a3089079145a550ae4ce1602483ca2975",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "pokemon-player",
+      "relative_path": "gaming/pokemon-player",
+      "source": "/Users/heytea/.hermes/skills/gaming/pokemon-player",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/gaming/pokemon-player",
+      "sha256": "2b8d402154114a720a0fa63ddf9eb30515b550359379266b387de196a65c1bb5",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "codebase-inspection",
+      "relative_path": "github/codebase-inspection",
+      "source": "/Users/heytea/.hermes/skills/github/codebase-inspection",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/github/codebase-inspection",
+      "sha256": "67a0af7371f051b5db2e201273a857c33b565b3eb3e4acb79461556f02cbd26f",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "github-auth",
+      "relative_path": "github/github-auth",
+      "source": "/Users/heytea/.hermes/skills/github/github-auth",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/github/github-auth",
+      "sha256": "ec49d00e47345cc41a153252c590bf34d8aa883048292608b289457ebb6a3e1f",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "github-code-review",
+      "relative_path": "github/github-code-review",
+      "source": "/Users/heytea/.hermes/skills/github/github-code-review",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/github/github-code-review",
+      "sha256": "4be2f275c727735c4826a8fd74cfb554bedbc81259b488b937527594770bc2e4",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "github-daily-weekly-report",
+      "relative_path": "github/github-daily-weekly-report",
+      "source": "/Users/heytea/.hermes/skills/github/github-daily-weekly-report",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/github/github-daily-weekly-report",
+      "sha256": "34c7b6af2939a9e33651db4469649dd5dac294b8ec9b18bf438b616b87ff71a5",
+      "file_count": 6
+    },
+    {
+      "runtime": "hermes",
+      "name": "github-issues",
+      "relative_path": "github/github-issues",
+      "source": "/Users/heytea/.hermes/skills/github/github-issues",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/github/github-issues",
+      "sha256": "cf3dadbe340ba744c6a7e55cfcf4c3d594b9be83fb3a702147527c57b3fed4d0",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "github-pr-workflow",
+      "relative_path": "github/github-pr-workflow",
+      "source": "/Users/heytea/.hermes/skills/github/github-pr-workflow",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/github/github-pr-workflow",
+      "sha256": "a4b8d2deb8360da4303f7d2e6b1f81fa03925a2ef70d81ef86e7e369d5fd04c3",
+      "file_count": 5
+    },
+    {
+      "runtime": "hermes",
+      "name": "github-repo-management",
+      "relative_path": "github/github-repo-management",
+      "source": "/Users/heytea/.hermes/skills/github/github-repo-management",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/github/github-repo-management",
+      "sha256": "a0a8d5f7739c001e014a8c75fc33a48b102fe30860ed26464bd4d8b2f5eadddb",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "find-nearby",
+      "relative_path": "leisure/find-nearby",
+      "source": "/Users/heytea/.hermes/skills/leisure/find-nearby",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/leisure/find-nearby",
+      "sha256": "9ac653a72fc213fc88ecd5380b48e5cd4f28ef47c43d09912e90baab40213ba9",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "hermes-dingtalk-mcp-setup",
+      "relative_path": "mcp/hermes-dingtalk-mcp-setup",
+      "source": "/Users/heytea/.hermes/skills/mcp/hermes-dingtalk-mcp-setup",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mcp/hermes-dingtalk-mcp-setup",
+      "sha256": "30499a07f856c263152bf622164a430617389babfcd9e5cbd4334f8bbfd6ab80",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "hermes-yahoo-finance-mcp-setup",
+      "relative_path": "mcp/hermes-yahoo-finance-mcp-setup",
+      "source": "/Users/heytea/.hermes/skills/mcp/hermes-yahoo-finance-mcp-setup",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mcp/hermes-yahoo-finance-mcp-setup",
+      "sha256": "68f59ec318618894943698784d366610bd188345f88aeaa2110e5cacb11cc76c",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "mcporter",
+      "relative_path": "mcp/mcporter",
+      "source": "/Users/heytea/.hermes/skills/mcp/mcporter",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mcp/mcporter",
+      "sha256": "be7b9f286994b19cc3c80e2fc214d988d80f9c3efe582c5e143a4474c0e79755",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "native-mcp",
+      "relative_path": "mcp/native-mcp",
+      "source": "/Users/heytea/.hermes/skills/mcp/native-mcp",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mcp/native-mcp",
+      "sha256": "a006300ee22dcd6b6bf77a2e1e0d168faf55255b6e5a1f4cde9d5bf7eb60c170",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "gif-search",
+      "relative_path": "media/gif-search",
+      "source": "/Users/heytea/.hermes/skills/media/gif-search",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/media/gif-search",
+      "sha256": "07cc4fed3f0d5aa41244aba576b1b581d672726bf25f63d69e59ad1f812e3d5d",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "heartmula",
+      "relative_path": "media/heartmula",
+      "source": "/Users/heytea/.hermes/skills/media/heartmula",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/media/heartmula",
+      "sha256": "dc7a1f75eccc1865dace421a51897ec2fcaa35a5732d3b5bf3967828e2d2c7f3",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "songsee",
+      "relative_path": "media/songsee",
+      "source": "/Users/heytea/.hermes/skills/media/songsee",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/media/songsee",
+      "sha256": "e14b72017187f995374f84a3983d10d6f96aae22debf42f79227579e10b42166",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "youtube-content",
+      "relative_path": "media/youtube-content",
+      "source": "/Users/heytea/.hermes/skills/media/youtube-content",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/media/youtube-content",
+      "sha256": "8f0438ebab66574e9bf6d3dc2bddcddec12478e9f151af70466f953f46fb371b",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "modal",
+      "relative_path": "mlops/cloud/modal",
+      "source": "/Users/heytea/.hermes/skills/mlops/cloud/modal",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/cloud/modal",
+      "sha256": "d59ebe63ccbcc6f5034ed60f9a59baf897eebd50f5292dd41a71b531ea4d3546",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "lm-evaluation-harness",
+      "relative_path": "mlops/evaluation/lm-evaluation-harness",
+      "source": "/Users/heytea/.hermes/skills/mlops/evaluation/lm-evaluation-harness",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/evaluation/lm-evaluation-harness",
+      "sha256": "41a4076f0878b9b195a4551fec3c0e2aa03bf914386d30288460734d961d43ef",
+      "file_count": 5
+    },
+    {
+      "runtime": "hermes",
+      "name": "weights-and-biases",
+      "relative_path": "mlops/evaluation/weights-and-biases",
+      "source": "/Users/heytea/.hermes/skills/mlops/evaluation/weights-and-biases",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/evaluation/weights-and-biases",
+      "sha256": "3e8eb8f43fef4f5cc6fb28496d2d1506ab758378d6562ce1c4fcec98a277ef7b",
+      "file_count": 4
+    },
+    {
+      "runtime": "hermes",
+      "name": "huggingface-hub",
+      "relative_path": "mlops/huggingface-hub",
+      "source": "/Users/heytea/.hermes/skills/mlops/huggingface-hub",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/huggingface-hub",
+      "sha256": "88ce13f98a24bec625dc65dba97724596327b63a3a83d73c89fa90d31a927e43",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "gguf",
+      "relative_path": "mlops/inference/gguf",
+      "source": "/Users/heytea/.hermes/skills/mlops/inference/gguf",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/inference/gguf",
+      "sha256": "f9f305ab008a67dc5c6190a1418a9aa9ba6ad9a55a960b1c3e3503421efb581d",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "guidance",
+      "relative_path": "mlops/inference/guidance",
+      "source": "/Users/heytea/.hermes/skills/mlops/inference/guidance",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/inference/guidance",
+      "sha256": "a40180436dcf36de67f9d892abe21b8880537db4647d763040aa2d2d54fd1cc3",
+      "file_count": 4
+    },
+    {
+      "runtime": "hermes",
+      "name": "llama-cpp",
+      "relative_path": "mlops/inference/llama-cpp",
+      "source": "/Users/heytea/.hermes/skills/mlops/inference/llama-cpp",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/inference/llama-cpp",
+      "sha256": "55e394aecf6f510a4a0a1f945d52eb144df1bd1873d1c62195655a7241a9dad8",
+      "file_count": 7
+    },
+    {
+      "runtime": "hermes",
+      "name": "obliteratus",
+      "relative_path": "mlops/inference/obliteratus",
+      "source": "/Users/heytea/.hermes/skills/mlops/inference/obliteratus",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/inference/obliteratus",
+      "sha256": "7d921d3bb1472a734ebea64dc5b9b72e049754f326098feb1e9d6a8b53af22a4",
+      "file_count": 6
+    },
+    {
+      "runtime": "hermes",
+      "name": "outlines",
+      "relative_path": "mlops/inference/outlines",
+      "source": "/Users/heytea/.hermes/skills/mlops/inference/outlines",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/inference/outlines",
+      "sha256": "9cacdba2930d29fd5a0196265afbfbe2f387c82c946cc13ab8931d2c1bee6850",
+      "file_count": 4
+    },
+    {
+      "runtime": "hermes",
+      "name": "vllm",
+      "relative_path": "mlops/inference/vllm",
+      "source": "/Users/heytea/.hermes/skills/mlops/inference/vllm",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/inference/vllm",
+      "sha256": "2bf7a3d42528f387a9f5d92b4943333a604e6a108142e7d65e073dd79e585ed5",
+      "file_count": 5
+    },
+    {
+      "runtime": "hermes",
+      "name": "audiocraft",
+      "relative_path": "mlops/models/audiocraft",
+      "source": "/Users/heytea/.hermes/skills/mlops/models/audiocraft",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/models/audiocraft",
+      "sha256": "f467a10454bfa656820344ed156d7c89a5e715f2c50b3fa7039faab8ef063d25",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "clip",
+      "relative_path": "mlops/models/clip",
+      "source": "/Users/heytea/.hermes/skills/mlops/models/clip",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/models/clip",
+      "sha256": "26220274af6c5484b51cbaaf2fe5effad8fef5cbae0b0923cd988c3c94e82414",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "segment-anything",
+      "relative_path": "mlops/models/segment-anything",
+      "source": "/Users/heytea/.hermes/skills/mlops/models/segment-anything",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/models/segment-anything",
+      "sha256": "7c28a928e8d72f1a4f43d3428585b08d9feb086498dc7af10fa605d5c8814bd4",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "stable-diffusion",
+      "relative_path": "mlops/models/stable-diffusion",
+      "source": "/Users/heytea/.hermes/skills/mlops/models/stable-diffusion",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/models/stable-diffusion",
+      "sha256": "0ad45953531a4be4f1d0b239de19074c4eb0367d26364646f880c791b0d6731a",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "whisper",
+      "relative_path": "mlops/models/whisper",
+      "source": "/Users/heytea/.hermes/skills/mlops/models/whisper",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/models/whisper",
+      "sha256": "0b4cf33d9caf0fce02fc5d7eb3099d9635121baf1670a8b4b1ade2dd7acc3231",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "dspy",
+      "relative_path": "mlops/research/dspy",
+      "source": "/Users/heytea/.hermes/skills/mlops/research/dspy",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/research/dspy",
+      "sha256": "a45b245c0fc44b1a4086af7ae7424bc5df7e9f1fa52c893c4dbab4128efde46a",
+      "file_count": 4
+    },
+    {
+      "runtime": "hermes",
+      "name": "axolotl",
+      "relative_path": "mlops/training/axolotl",
+      "source": "/Users/heytea/.hermes/skills/mlops/training/axolotl",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/training/axolotl",
+      "sha256": "0f2f46467acd0478959ff0b6e46b1a865496cd1ee775d88945788cf4c1b3baf1",
+      "file_count": 5
+    },
+    {
+      "runtime": "hermes",
+      "name": "grpo-rl-training",
+      "relative_path": "mlops/training/grpo-rl-training",
+      "source": "/Users/heytea/.hermes/skills/mlops/training/grpo-rl-training",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/training/grpo-rl-training",
+      "sha256": "dd6afaef68fba18a2d8e02f7e6447fcc03e0b8ea9102e0ee7d91370fbeafc63d",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "peft",
+      "relative_path": "mlops/training/peft",
+      "source": "/Users/heytea/.hermes/skills/mlops/training/peft",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/training/peft",
+      "sha256": "5606d18e537dfa71c991e85efe374fb683ef6c47a0a50e19eb6b50d90d57512b",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "pytorch-fsdp",
+      "relative_path": "mlops/training/pytorch-fsdp",
+      "source": "/Users/heytea/.hermes/skills/mlops/training/pytorch-fsdp",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/training/pytorch-fsdp",
+      "sha256": "60f337cc58affe0d9aff949a2d7856e8a78302659e3c080878b66fee89047f0e",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "trl-fine-tuning",
+      "relative_path": "mlops/training/trl-fine-tuning",
+      "source": "/Users/heytea/.hermes/skills/mlops/training/trl-fine-tuning",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/training/trl-fine-tuning",
+      "sha256": "92f130f363adcfd8c2fff2ef8b10d1c3d7387c1caafcbb863011247d1380d80e",
+      "file_count": 5
+    },
+    {
+      "runtime": "hermes",
+      "name": "unsloth",
+      "relative_path": "mlops/training/unsloth",
+      "source": "/Users/heytea/.hermes/skills/mlops/training/unsloth",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/mlops/training/unsloth",
+      "sha256": "fceed9ecb555bd0476ad9ad225ebf6faeab5edde858bb88518ead9fb8d505444",
+      "file_count": 5
+    },
+    {
+      "runtime": "hermes",
+      "name": "allen-obsidian-note-system",
+      "relative_path": "note-taking/allen-obsidian-note-system",
+      "source": "/Users/heytea/.hermes/skills/note-taking/allen-obsidian-note-system",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/note-taking/allen-obsidian-note-system",
+      "sha256": "a350f9c09458407b027b9d8c98fefc8526d9b52669e043a0da5de1cd313ae400",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "obsidian",
+      "relative_path": "note-taking/obsidian",
+      "source": "/Users/heytea/.hermes/skills/note-taking/obsidian",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/note-taking/obsidian",
+      "sha256": "e8b7c4ef13c74925038117d05ec89981e6f630d715a81ab04d152880f58208a2",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "obsidian-knowledge-curation",
+      "relative_path": "note-taking/obsidian-knowledge-curation",
+      "source": "/Users/heytea/.hermes/skills/note-taking/obsidian-knowledge-curation",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/note-taking/obsidian-knowledge-curation",
+      "sha256": "1d7a87e01270c7125967d435575ff444caa645a13b743bcc693c8c30e728e99d",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "onenote-to-obsidian-migration",
+      "relative_path": "note-taking/onenote-to-obsidian-migration",
+      "source": "/Users/heytea/.hermes/skills/note-taking/onenote-to-obsidian-migration",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/note-taking/onenote-to-obsidian-migration",
+      "sha256": "196243036c2a4793673ab0c6b3918ab75e54b42021cc91498f5633861e3e8a44",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "study-repo-curation",
+      "relative_path": "note-taking/study-repo-curation",
+      "source": "/Users/heytea/.hermes/skills/note-taking/study-repo-curation",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/note-taking/study-repo-curation",
+      "sha256": "04864ce6a8e4cf16bed987f69266e7e5d2aec33cd5947a08de07472f8a216903",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "dingtalk-webhook-send",
+      "relative_path": "openclaw-imports/dingtalk-webhook-send",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/dingtalk-webhook-send",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/dingtalk-webhook-send",
+      "sha256": "f424cb0445548cd1088f21815a4f723a7cdfcf9ec5a99cb138e533dad5ce82fc",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "dws",
+      "relative_path": "openclaw-imports/dws",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/dws",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/dws",
+      "sha256": "85275a8826ad17c67885572fc807a7ac1adfa94855e3720e77c179db555fd1fa",
+      "file_count": 35
+    },
+    {
+      "runtime": "hermes",
+      "name": "dws-meeting-room-booking",
+      "relative_path": "openclaw-imports/dws-meeting-room-booking",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/dws-meeting-room-booking",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/dws-meeting-room-booking",
+      "sha256": "106857fc238cddd451c984f0621da35f59afc869de3be7dc62f2f8164e855148",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-base",
+      "relative_path": "openclaw-imports/lark-base",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-base",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-base",
+      "sha256": "9a4885bb988025782fe08999a6cf3c75461d43b228124a8a1e47e4dcb43d63c4",
+      "file_count": 88
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-calendar",
+      "relative_path": "openclaw-imports/lark-calendar",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-calendar",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-calendar",
+      "sha256": "211b2a7b3f99c7ab80658f071819582f950f8f69594a55458132af507e782fa2",
+      "file_count": 5
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-contact",
+      "relative_path": "openclaw-imports/lark-contact",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-contact",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-contact",
+      "sha256": "b541a6fc0c70dd6e7662c32e2884b78f8238ad8b55629805404d7ecbd0ba72f8",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-doc",
+      "relative_path": "openclaw-imports/lark-doc",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-doc",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-doc",
+      "sha256": "c6e367131d914557d8f8fb12c9b0be7f3bfba00c92295d55b5541777519b50cf",
+      "file_count": 8
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-drive",
+      "relative_path": "openclaw-imports/lark-drive",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-drive",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-drive",
+      "sha256": "84f431bf42e079011954847ffe70ad9526b045ec5925ecb672924cf0833d8905",
+      "file_count": 4
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-event",
+      "relative_path": "openclaw-imports/lark-event",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-event",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-event",
+      "sha256": "4d8cb53bbffab0855433c8a4b01b51d40321d25c7177687865bd76338a858d74",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-im",
+      "relative_path": "openclaw-imports/lark-im",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-im",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-im",
+      "sha256": "10ea9b72215dddd38ca3948a1c8103865b4492f149a79f71cc53ab2a2cba9bc0",
+      "file_count": 16
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-mail",
+      "relative_path": "openclaw-imports/lark-mail",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-mail",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-mail",
+      "sha256": "3a3a9b8d6906789948105502fed246095a6396972d001364b9618edba1f65de1",
+      "file_count": 12
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-minutes",
+      "relative_path": "openclaw-imports/lark-minutes",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-minutes",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-minutes",
+      "sha256": "8f1336548426c28dfe437cae50a49ec363afac984852cdd10ac8664b42197661",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-openapi-explorer",
+      "relative_path": "openclaw-imports/lark-openapi-explorer",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-openapi-explorer",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-openapi-explorer",
+      "sha256": "41f68a4c95dd01028787c5aab6a3f48d5265ea25217b3da4cdcc80f3b03b7c66",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-shared",
+      "relative_path": "openclaw-imports/lark-shared",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-shared",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-shared",
+      "sha256": "3c3d818e3270b7c8971d35bb9b6f611b0d885461cd5c6c60b4e0c88bf5e13bad",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-sheets",
+      "relative_path": "openclaw-imports/lark-sheets",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-sheets",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-sheets",
+      "sha256": "80b2ad41904f83a05e5c1cd2ea2ba6f88c18c1f69b47dfe2f52c9853a02981c5",
+      "file_count": 8
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-skill-maker",
+      "relative_path": "openclaw-imports/lark-skill-maker",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-skill-maker",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-skill-maker",
+      "sha256": "221bfd3934e91875615e46ff0d84165d26dee8a7dcdb7e76add2725ef116af33",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-task",
+      "relative_path": "openclaw-imports/lark-task",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-task",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-task",
+      "sha256": "d07b1560ceb920927b02a0352d1741478910dbbcf4a4e52d1e3921ff59832303",
+      "file_count": 13
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-vc",
+      "relative_path": "openclaw-imports/lark-vc",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-vc",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-vc",
+      "sha256": "73b0fa938db8881c0976a3fc756c3c844d9430ede926e29f3279705180f37c92",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-whiteboard",
+      "relative_path": "openclaw-imports/lark-whiteboard",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-whiteboard",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-whiteboard",
+      "sha256": "7c2ee8dade2f215465c37ea1be3623f73966fb509a81276d5765161d890c6a16",
+      "file_count": 19
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-wiki",
+      "relative_path": "openclaw-imports/lark-wiki",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-wiki",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-wiki",
+      "sha256": "0087273c53a60c4ec8d7684a3f66838166fc025223f0de0e8c75ba8ab592f56d",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-workflow-meeting-summary",
+      "relative_path": "openclaw-imports/lark-workflow-meeting-summary",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-workflow-meeting-summary",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-workflow-meeting-summary",
+      "sha256": "1e3a32f28f13f665c0d99b4fd862ae7cc2aaf70e5a76e6995e690eb65d3b2432",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "lark-workflow-standup-report",
+      "relative_path": "openclaw-imports/lark-workflow-standup-report",
+      "source": "/Users/heytea/.hermes/skills/openclaw-imports/lark-workflow-standup-report",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/openclaw-imports/lark-workflow-standup-report",
+      "sha256": "bce85cbca82e9b352c677bb971be4f9a4b62b6a368491336eed530cfd732f89f",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "airtable",
+      "relative_path": "productivity/airtable",
+      "source": "/Users/heytea/.hermes/skills/productivity/airtable",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/airtable",
+      "sha256": "02408ad11684212fb694292d3e31b2f06d123c744f4bb8ca2e204020dd78cb07",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "blueking-workhour-opencli",
+      "relative_path": "productivity/blueking-workhour-opencli",
+      "source": "/Users/heytea/.hermes/skills/productivity/blueking-workhour-opencli",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/blueking-workhour-opencli",
+      "sha256": "31a177d43307d42fa0250df180f9efcb142bcfe111076a8d436832969697789e",
+      "file_count": 12
+    },
+    {
+      "runtime": "hermes",
+      "name": "chrome-bookmark-management",
+      "relative_path": "productivity/chrome-bookmark-management",
+      "source": "/Users/heytea/.hermes/skills/productivity/chrome-bookmark-management",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/chrome-bookmark-management",
+      "sha256": "5d8d7c77b8bfb70a05f25e1d382bb5aa53dbb95952ba8c5c93484e1edb134fdb",
+      "file_count": 4
+    },
+    {
+      "runtime": "hermes",
+      "name": "cloudapi-key-group-switch-opencli",
+      "relative_path": "productivity/cloudapi-key-group-switch-opencli",
+      "source": "/Users/heytea/.hermes/skills/productivity/cloudapi-key-group-switch-opencli",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/cloudapi-key-group-switch-opencli",
+      "sha256": "d32a18535a88223dd981515ff4fda67ca54c9d7da937070d5ef0c4d82f78c43f",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "ctool-cr-plugin-setup",
+      "relative_path": "productivity/ctool-cr-plugin-setup",
+      "source": "/Users/heytea/.hermes/skills/productivity/ctool-cr-plugin-setup",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/ctool-cr-plugin-setup",
+      "sha256": "7e3d8bcaa084210857d718eed438cb5276181e2b19b5e0c51da480baab725834",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "dingtalk-to-glm-knowledge-base",
+      "relative_path": "productivity/dingtalk-to-glm-knowledge-base",
+      "source": "/Users/heytea/.hermes/skills/productivity/dingtalk-to-glm-knowledge-base",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/dingtalk-to-glm-knowledge-base",
+      "sha256": "2c17a28f5e7f9ed654aa8f5d9f30e3a26e5f5cad7cf4a779ad8c00c3638e2082",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "feishu-friend-send-macos-fallback",
+      "relative_path": "productivity/feishu-friend-send-macos-fallback",
+      "source": "/Users/heytea/.hermes/skills/productivity/feishu-friend-send-macos-fallback",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/feishu-friend-send-macos-fallback",
+      "sha256": "897ac6b828b4af13d4aaef68890da6387faad757bcb66016a3df4987e23416a8",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "google-workspace",
+      "relative_path": "productivity/google-workspace",
+      "source": "/Users/heytea/.hermes/skills/productivity/google-workspace",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/google-workspace",
+      "sha256": "b9ab9743cb7bc7f2c1a496d47d232779374e94c4063a54ca10bb892442250b22",
+      "file_count": 7
+    },
+    {
+      "runtime": "hermes",
+      "name": "kindle-jailbreak-recovery",
+      "relative_path": "productivity/kindle-jailbreak-recovery",
+      "source": "/Users/heytea/.hermes/skills/productivity/kindle-jailbreak-recovery",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/kindle-jailbreak-recovery",
+      "sha256": "127ebff2445abbdf613aa5c2d41335aa96c3a7253bddb3527980215599d9038f",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "koreader-device-workflows",
+      "relative_path": "productivity/koreader-device-workflows",
+      "source": "/Users/heytea/.hermes/skills/productivity/koreader-device-workflows",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/koreader-device-workflows",
+      "sha256": "b06247c3fe6bf44ec012074d82d851a38a582ba021495f688ef91f1c4ca69c9e",
+      "file_count": 6
+    },
+    {
+      "runtime": "hermes",
+      "name": "language-learning-group-cron",
+      "relative_path": "productivity/language-learning-group-cron",
+      "source": "/Users/heytea/.hermes/skills/productivity/language-learning-group-cron",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/language-learning-group-cron",
+      "sha256": "1f7f8056205368e3520f0b0f78dc349b9d6a26a95e643c0051c295c4c81cff7d",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "linear",
+      "relative_path": "productivity/linear",
+      "source": "/Users/heytea/.hermes/skills/productivity/linear",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/linear",
+      "sha256": "29c81446d8b645086ffbb43339d3f3f2b5215b1ad493fa2717bd184db01a774e",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "maps",
+      "relative_path": "productivity/maps",
+      "source": "/Users/heytea/.hermes/skills/productivity/maps",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/maps",
+      "sha256": "f7e41a8ba99a1efb9b131910b65c56cb0a0824698727f3c38df724704a982d70",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "nano-pdf",
+      "relative_path": "productivity/nano-pdf",
+      "source": "/Users/heytea/.hermes/skills/productivity/nano-pdf",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/nano-pdf",
+      "sha256": "9f5f7959611762ddd8f28048a0263c04a0183fd80639ee8b55bec1d5b41ac783",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "notion",
+      "relative_path": "productivity/notion",
+      "source": "/Users/heytea/.hermes/skills/productivity/notion",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/notion",
+      "sha256": "0f811bcfd580f8c0960867cad4eb116dc0379ed3ce944cb750113e96cf97c36c",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "ocr-and-documents",
+      "relative_path": "productivity/ocr-and-documents",
+      "source": "/Users/heytea/.hermes/skills/productivity/ocr-and-documents",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/ocr-and-documents",
+      "sha256": "d63b4c34f35fa60ca9c1f3cd724ddbbac235a8902e7c4fdc25028292252bf397",
+      "file_count": 5
+    },
+    {
+      "runtime": "hermes",
+      "name": "powerpoint",
+      "relative_path": "productivity/powerpoint",
+      "source": "/Users/heytea/.hermes/skills/productivity/powerpoint",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/powerpoint",
+      "sha256": "82a40025c5c023487c18aa5778c1316385ca3e1de1491d4e2c59ff3a7988c247",
+      "file_count": 50
+    },
+    {
+      "runtime": "hermes",
+      "name": "teams-meeting-pipeline",
+      "relative_path": "productivity/teams-meeting-pipeline",
+      "source": "/Users/heytea/.hermes/skills/productivity/teams-meeting-pipeline",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/productivity/teams-meeting-pipeline",
+      "sha256": "4e53b6d99f7acba16fe5412f931dbb699319a7f7f4a926dbe272a91cc51838ba",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "godmode",
+      "relative_path": "red-teaming/godmode",
+      "source": "/Users/heytea/.hermes/skills/red-teaming/godmode",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/red-teaming/godmode",
+      "sha256": "4af098bd12d64c4ce30cd77026bf0361ebdc76611fb8025fc2cd05adf3d0bfb6",
+      "file_count": 9
+    },
+    {
+      "runtime": "hermes",
+      "name": "ai-coding-daily-brief-fallback",
+      "relative_path": "research/ai-coding-daily-brief-fallback",
+      "source": "/Users/heytea/.hermes/skills/research/ai-coding-daily-brief-fallback",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/research/ai-coding-daily-brief-fallback",
+      "sha256": "68e35d021bc5a2755bd1d1b106fe8e1c2769014d6c414848ebb09812d574419d",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "arxiv",
+      "relative_path": "research/arxiv",
+      "source": "/Users/heytea/.hermes/skills/research/arxiv",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/research/arxiv",
+      "sha256": "6ad30f04faf0c5763e267681acf7cecb9d885806bd404f5c68d8fee1a120ee30",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "blogwatcher",
+      "relative_path": "research/blogwatcher",
+      "source": "/Users/heytea/.hermes/skills/research/blogwatcher",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/research/blogwatcher",
+      "sha256": "7b30abc79f05c517bd9074efe5417a9c05dd4abfd08257d58aba1e3244d39192",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "cn-job-board-research",
+      "relative_path": "research/cn-job-board-research",
+      "source": "/Users/heytea/.hermes/skills/research/cn-job-board-research",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/research/cn-job-board-research",
+      "sha256": "37029b663be00af0a27ba7a34e156a9e31a8e08399d3ed8535f36192453ca64c",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "daily-ai-markets-brief-cron",
+      "relative_path": "research/daily-ai-markets-brief-cron",
+      "source": "/Users/heytea/.hermes/skills/research/daily-ai-markets-brief-cron",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/research/daily-ai-markets-brief-cron",
+      "sha256": "7ac3d7343ab6785c0d724eccca6a733dca392e15ffe0696fef3a2b2198944eeb",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "llm-wiki",
+      "relative_path": "research/llm-wiki",
+      "source": "/Users/heytea/.hermes/skills/research/llm-wiki",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/research/llm-wiki",
+      "sha256": "6c7604fd5655a84a0c372417071f016b56186f1cf638bdb21c6b35b3c9f343be",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "polymarket",
+      "relative_path": "research/polymarket",
+      "source": "/Users/heytea/.hermes/skills/research/polymarket",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/research/polymarket",
+      "sha256": "e854216842e667d3b3e4c182118432113b1f95a432c7381688728a1be3136e1b",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "research-paper-writing",
+      "relative_path": "research/research-paper-writing",
+      "source": "/Users/heytea/.hermes/skills/research/research-paper-writing",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/research/research-paper-writing",
+      "sha256": "84dd35110bbcf3946339f59e156dde4fee47b55b893f1f86aa68a36763e3dec8",
+      "file_count": 55
+    },
+    {
+      "runtime": "hermes",
+      "name": "stock-momentum-fallback",
+      "relative_path": "research/stock-momentum-fallback",
+      "source": "/Users/heytea/.hermes/skills/research/stock-momentum-fallback",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/research/stock-momentum-fallback",
+      "sha256": "59f7c818c011c138affdf10d71468c4bb32ffa120faa7c55d9f6e63f7f809bc3",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "us-stock-research",
+      "relative_path": "research/us-stock-research",
+      "source": "/Users/heytea/.hermes/skills/research/us-stock-research",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/research/us-stock-research",
+      "sha256": "1bbda868f523c47911dc9017209e233ce6e5c11e68e22358c75b032e552d6f0b",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "openhue",
+      "relative_path": "smart-home/openhue",
+      "source": "/Users/heytea/.hermes/skills/smart-home/openhue",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/smart-home/openhue",
+      "sha256": "a0e6ddc11d62e5fa80bce956aae73ae80ea944306fffd845c23dd9b0674333ca",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "x-content-cron",
+      "relative_path": "social-media/x-content-cron",
+      "source": "/Users/heytea/.hermes/skills/social-media/x-content-cron",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/social-media/x-content-cron",
+      "sha256": "10c3205400d013a9e5580cf229e57cd42f8e729659539c14fbf25cb54fac5209",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "xitter",
+      "relative_path": "social-media/xitter",
+      "source": "/Users/heytea/.hermes/skills/social-media/xitter",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/social-media/xitter",
+      "sha256": "4ca6390db9ce5a761301f8d64aa0a838965cacba21021f97fbb8434891900a8c",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "xurl",
+      "relative_path": "social-media/xurl",
+      "source": "/Users/heytea/.hermes/skills/social-media/xurl",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/social-media/xurl",
+      "sha256": "08233e5bc259437b9ca346443ed889290efc3783e1cffb6b89586e60d1d2c640",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "acceptance-qa-agent",
+      "relative_path": "software-development/acceptance-qa-agent",
+      "source": "/Users/heytea/.hermes/skills/software-development/acceptance-qa-agent",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/acceptance-qa-agent",
+      "sha256": "4897d973b29ea8c540f23661c136accfa74dc59349200a0e71bae9b12e722299",
+      "file_count": 8
+    },
+    {
+      "runtime": "hermes",
+      "name": "allen-development-qa-delivery-pipeline",
+      "relative_path": "software-development/allen-development-qa-delivery-pipeline",
+      "source": "/Users/heytea/.hermes/skills/software-development/allen-development-qa-delivery-pipeline",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/allen-development-qa-delivery-pipeline",
+      "sha256": "37cadf652adf8149bce6e05ba526e1fb71839b10461815dbed7161cd917c8606",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "context-handoff-safety",
+      "relative_path": "software-development/context-handoff-safety",
+      "source": "/Users/heytea/.hermes/skills/software-development/context-handoff-safety",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/context-handoff-safety",
+      "sha256": "f5913ba5fb9306967fbdc964607cc7f0db3ac216048c494a873d6552ee5da508",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "gitdiagram-style-diagrams",
+      "relative_path": "software-development/gitdiagram-style-diagrams",
+      "source": "/Users/heytea/.hermes/skills/software-development/gitdiagram-style-diagrams",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/gitdiagram-style-diagrams",
+      "sha256": "6ea0f9aca2a19ed25044ef29753a52f46d9cd3f84e2ce3fc7943551d8090c818",
+      "file_count": 3
+    },
+    {
+      "runtime": "hermes",
+      "name": "hermes-agent-skill-authoring",
+      "relative_path": "software-development/hermes-agent-skill-authoring",
+      "source": "/Users/heytea/.hermes/skills/software-development/hermes-agent-skill-authoring",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/hermes-agent-skill-authoring",
+      "sha256": "6feed27eaadff351eee1340f1c105b93152bc979a8c666472e4e3933eca00fdb",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "local-docs-market-architecture-analysis",
+      "relative_path": "software-development/local-docs-market-architecture-analysis",
+      "source": "/Users/heytea/.hermes/skills/software-development/local-docs-market-architecture-analysis",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/local-docs-market-architecture-analysis",
+      "sha256": "37db1fac9cb712aa7d961ca7d72fc6b4f4ff27604be67c3acd8e7d7ce105ff0c",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "node-inspect-debugger",
+      "relative_path": "software-development/node-inspect-debugger",
+      "source": "/Users/heytea/.hermes/skills/software-development/node-inspect-debugger",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/node-inspect-debugger",
+      "sha256": "d75e4bdcb9533b8e258ebcf790ac17d14e5ecaee8c8d1d64b339b2ed36a5b38f",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "opencli-browser-webapp-exploration",
+      "relative_path": "software-development/opencli-browser-webapp-exploration",
+      "source": "/Users/heytea/.hermes/skills/software-development/opencli-browser-webapp-exploration",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/opencli-browser-webapp-exploration",
+      "sha256": "e12d66817b116f914bf574457e251dbebbfa93c63a614965d2953219ea29dbe1",
+      "file_count": 8
+    },
+    {
+      "runtime": "hermes",
+      "name": "personal-migratory-agents-review",
+      "relative_path": "software-development/personal-migratory-agents-review",
+      "source": "/Users/heytea/.hermes/skills/software-development/personal-migratory-agents-review",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/personal-migratory-agents-review",
+      "sha256": "321295087ce06a8f56fade1e9ad8ae1e265d1ad23c710dbe3c0f137ba2fe5c6b",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "plan",
+      "relative_path": "software-development/plan",
+      "source": "/Users/heytea/.hermes/skills/software-development/plan",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/plan",
+      "sha256": "d7de7a1ec6e98bb0250c1a6c4ea2110201ea40aa09d44a2b26046423b1964cdd",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "python-debugpy",
+      "relative_path": "software-development/python-debugpy",
+      "source": "/Users/heytea/.hermes/skills/software-development/python-debugpy",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/python-debugpy",
+      "sha256": "edb599720ded15dafb78a3902c582da9ba5e7d584cb3e8906756effa0b36d277",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "requesting-code-review",
+      "relative_path": "software-development/requesting-code-review",
+      "source": "/Users/heytea/.hermes/skills/software-development/requesting-code-review",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/requesting-code-review",
+      "sha256": "e20d4aeb74e0745ef71f52d520ed55d2a47a80ef2aeb1adb9b9f9971601a486e",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "simplify-code",
+      "relative_path": "software-development/simplify-code",
+      "source": "/Users/heytea/.hermes/skills/software-development/simplify-code",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/simplify-code",
+      "sha256": "922ae09c35244bb9bfcca061b6aee668dddda4ffd3d069286fb3dd450b864604",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "spike",
+      "relative_path": "software-development/spike",
+      "source": "/Users/heytea/.hermes/skills/software-development/spike",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/spike",
+      "sha256": "8261bfdd93e6516453d76a86471ada74c9b9e4e706314f87b56aacd60f198c78",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "subagent-driven-development",
+      "relative_path": "software-development/subagent-driven-development",
+      "source": "/Users/heytea/.hermes/skills/software-development/subagent-driven-development",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/subagent-driven-development",
+      "sha256": "75f985dd4594c2935fea6dbf8de812fc143dd332a79d51be2c4c7f543cc58776",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "systematic-debugging",
+      "relative_path": "software-development/systematic-debugging",
+      "source": "/Users/heytea/.hermes/skills/software-development/systematic-debugging",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/systematic-debugging",
+      "sha256": "1583a8e6f86f3fee7d5213d4f9a00d21f1e461b04bc54acda15305b4650a7048",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "test-driven-development",
+      "relative_path": "software-development/test-driven-development",
+      "source": "/Users/heytea/.hermes/skills/software-development/test-driven-development",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/test-driven-development",
+      "sha256": "c5afb6e0aa5b3708a8ed5d43563a76dfd82297ac6e1947ee3c8feb0d2a8031db",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "name": "writing-plans",
+      "relative_path": "software-development/writing-plans",
+      "source": "/Users/heytea/.hermes/skills/software-development/writing-plans",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/software-development/writing-plans",
+      "sha256": "994b94065f6f8704cb02ee5198d43836c08b70c30492c2b53db316d12482369a",
+      "file_count": 2
+    },
+    {
+      "runtime": "hermes",
+      "name": "yuanbao",
+      "relative_path": "yuanbao",
+      "source": "/Users/heytea/.hermes/skills/yuanbao",
+      "canonical": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/active/hermes/yuanbao",
+      "sha256": "cf217f277d944cfd59c89556550ae0e5a1b9f04e4f7bd1b186d373f5b7e3bf14",
+      "file_count": 1
+    }
+  ],
+  "compatibility_links": [
+    "/Users/heytea/.agents/skills/lark-base",
+    "/Users/heytea/.agents/skills/lark-calendar",
+    "/Users/heytea/.agents/skills/lark-contact",
+    "/Users/heytea/.agents/skills/lark-doc",
+    "/Users/heytea/.agents/skills/lark-drive",
+    "/Users/heytea/.agents/skills/lark-event",
+    "/Users/heytea/.agents/skills/lark-im",
+    "/Users/heytea/.agents/skills/lark-mail",
+    "/Users/heytea/.agents/skills/lark-minutes",
+    "/Users/heytea/.agents/skills/lark-openapi-explorer",
+    "/Users/heytea/.agents/skills/lark-shared",
+    "/Users/heytea/.agents/skills/lark-sheets",
+    "/Users/heytea/.agents/skills/lark-skill-maker",
+    "/Users/heytea/.agents/skills/lark-task",
+    "/Users/heytea/.agents/skills/lark-vc",
+    "/Users/heytea/.agents/skills/lark-whiteboard",
+    "/Users/heytea/.agents/skills/lark-wiki",
+    "/Users/heytea/.agents/skills/lark-workflow-meeting-summary",
+    "/Users/heytea/.agents/skills/lark-workflow-standup-report",
+    "/Users/heytea/.codex/skills/ai-regression-testing",
+    "/Users/heytea/.codex/skills/alidocs-browser-reader",
+    "/Users/heytea/.codex/skills/alidocs-test-delivery-doc",
+    "/Users/heytea/.codex/skills/api-design",
+    "/Users/heytea/.codex/skills/backend-patterns",
+    "/Users/heytea/.codex/skills/bfc-local-invoice-stack",
+    "/Users/heytea/.codex/skills/bk-pipeline",
+    "/Users/heytea/.codex/skills/bug-killer",
+    "/Users/heytea/.codex/skills/claude-api",
+    "/Users/heytea/.codex/skills/cli-anything",
+    "/Users/heytea/.codex/skills/clickhouse-io",
+    "/Users/heytea/.codex/skills/coding-standards",
+    "/Users/heytea/.codex/skills/configure-ecc",
+    "/Users/heytea/.codex/skills/content-hash-cache-pattern",
+    "/Users/heytea/.codex/skills/continuous-learning",
+    "/Users/heytea/.codex/skills/continuous-learning-v2",
+    "/Users/heytea/.codex/skills/database-migrations",
+    "/Users/heytea/.codex/skills/dbauto-export-agent",
+    "/Users/heytea/.codex/skills/dbauto-sql-query",
+    "/Users/heytea/.codex/skills/deep-research",
+    "/Users/heytea/.codex/skills/deployment-patterns",
+    "/Users/heytea/.codex/skills/django-patterns",
+    "/Users/heytea/.codex/skills/django-security",
+    "/Users/heytea/.codex/skills/django-tdd",
+    "/Users/heytea/.codex/skills/django-verification",
+    "/Users/heytea/.codex/skills/docker-patterns",
+    "/Users/heytea/.codex/skills/dws",
+    "/Users/heytea/.codex/skills/dws-auth-helper",
+    "/Users/heytea/.codex/skills/e2e-testing",
+    "/Users/heytea/.codex/skills/eval-harness",
+    "/Users/heytea/.codex/skills/exa-search",
+    "/Users/heytea/.codex/skills/excel-json-analysis",
+    "/Users/heytea/.codex/skills/frontend-patterns",
+    "/Users/heytea/.codex/skills/github-web-operations",
+    "/Users/heytea/.codex/skills/heytea-project-stack",
+    "/Users/heytea/.codex/skills/internal-gitlab-downloader",
+    "/Users/heytea/.codex/skills/iterative-retrieval",
+    "/Users/heytea/.codex/skills/java-coding-standards",
+    "/Users/heytea/.codex/skills/jpa-patterns",
+    "/Users/heytea/.codex/skills/mcp-server-patterns",
+    "/Users/heytea/.codex/skills/multi-agent-framework-maintainer",
+    "/Users/heytea/.codex/skills/obsidian-note-writing",
+    "/Users/heytea/.codex/skills/opencli-browser-reuse",
+    "/Users/heytea/.codex/skills/openspec-demand-workflow",
+    "/Users/heytea/.codex/skills/plankton-code-quality",
+    "/Users/heytea/.codex/skills/postgres-patterns",
+    "/Users/heytea/.codex/skills/python-patterns",
+    "/Users/heytea/.codex/skills/python-testing",
+    "/Users/heytea/.codex/skills/release-workflow",
+    "/Users/heytea/.codex/skills/search-first",
+    "/Users/heytea/.codex/skills/security-review",
+    "/Users/heytea/.codex/skills/security-scan",
+    "/Users/heytea/.codex/skills/springboot-patterns",
+    "/Users/heytea/.codex/skills/springboot-security",
+    "/Users/heytea/.codex/skills/springboot-tdd",
+    "/Users/heytea/.codex/skills/springboot-verification",
+    "/Users/heytea/.codex/skills/sso-login",
+    "/Users/heytea/.codex/skills/strategic-compact",
+    "/Users/heytea/.codex/skills/tdd-workflow",
+    "/Users/heytea/.codex/skills/trace-log-analysis",
+    "/Users/heytea/.codex/skills/verification-loop",
+    "/Users/heytea/.claude/skills/dws",
+    "/Users/heytea/.hermes/skills/apple/apple-notes",
+    "/Users/heytea/.hermes/skills/apple/apple-reminders",
+    "/Users/heytea/.hermes/skills/apple/findmy",
+    "/Users/heytea/.hermes/skills/apple/imessage",
+    "/Users/heytea/.hermes/skills/apple/macos-computer-use",
+    "/Users/heytea/.hermes/skills/autonomous-ai-agents/allen-response-formatting",
+    "/Users/heytea/.hermes/skills/autonomous-ai-agents/claude-code",
+    "/Users/heytea/.hermes/skills/autonomous-ai-agents/codex",
+    "/Users/heytea/.hermes/skills/autonomous-ai-agents/ghostty-codex-inspection",
+    "/Users/heytea/.hermes/skills/autonomous-ai-agents/hermes-agent",
+    "/Users/heytea/.hermes/skills/autonomous-ai-agents/hermes-feishu-gateway",
+    "/Users/heytea/.hermes/skills/autonomous-ai-agents/openai-codex-release-monitoring",
+    "/Users/heytea/.hermes/skills/autonomous-ai-agents/openclaw-to-hermes-migration",
+    "/Users/heytea/.hermes/skills/autonomous-ai-agents/opencode",
+    "/Users/heytea/.hermes/skills/autonomous-ai-agents/personal-migratory-agents-migration",
+    "/Users/heytea/.hermes/skills/creative/architecture-diagram",
+    "/Users/heytea/.hermes/skills/creative/ascii-art",
+    "/Users/heytea/.hermes/skills/creative/ascii-video",
+    "/Users/heytea/.hermes/skills/creative/baoyu-infographic",
+    "/Users/heytea/.hermes/skills/creative/claude-design",
+    "/Users/heytea/.hermes/skills/creative/comfyui",
+    "/Users/heytea/.hermes/skills/creative/design-md",
+    "/Users/heytea/.hermes/skills/creative/excalidraw",
+    "/Users/heytea/.hermes/skills/creative/humanizer",
+    "/Users/heytea/.hermes/skills/creative/manim-video",
+    "/Users/heytea/.hermes/skills/creative/p5js",
+    "/Users/heytea/.hermes/skills/creative/popular-web-designs",
+    "/Users/heytea/.hermes/skills/creative/pretext",
+    "/Users/heytea/.hermes/skills/creative/sketch",
+    "/Users/heytea/.hermes/skills/creative/songwriting-and-ai-music",
+    "/Users/heytea/.hermes/skills/creative/touchdesigner-mcp",
+    "/Users/heytea/.hermes/skills/data-science/jupyter-live-kernel",
+    "/Users/heytea/.hermes/skills/devops/kanban-orchestrator",
+    "/Users/heytea/.hermes/skills/devops/kanban-worker",
+    "/Users/heytea/.hermes/skills/devops/webhook-subscriptions",
+    "/Users/heytea/.hermes/skills/dogfood",
+    "/Users/heytea/.hermes/skills/email/himalaya",
+    "/Users/heytea/.hermes/skills/find-skills",
+    "/Users/heytea/.hermes/skills/gaming/minecraft-modpack-server",
+    "/Users/heytea/.hermes/skills/gaming/pokemon-player",
+    "/Users/heytea/.hermes/skills/github/codebase-inspection",
+    "/Users/heytea/.hermes/skills/github/github-auth",
+    "/Users/heytea/.hermes/skills/github/github-code-review",
+    "/Users/heytea/.hermes/skills/github/github-daily-weekly-report",
+    "/Users/heytea/.hermes/skills/github/github-issues",
+    "/Users/heytea/.hermes/skills/github/github-pr-workflow",
+    "/Users/heytea/.hermes/skills/github/github-repo-management",
+    "/Users/heytea/.hermes/skills/leisure/find-nearby",
+    "/Users/heytea/.hermes/skills/mcp/hermes-dingtalk-mcp-setup",
+    "/Users/heytea/.hermes/skills/mcp/hermes-yahoo-finance-mcp-setup",
+    "/Users/heytea/.hermes/skills/mcp/mcporter",
+    "/Users/heytea/.hermes/skills/mcp/native-mcp",
+    "/Users/heytea/.hermes/skills/media/gif-search",
+    "/Users/heytea/.hermes/skills/media/heartmula",
+    "/Users/heytea/.hermes/skills/media/songsee",
+    "/Users/heytea/.hermes/skills/media/youtube-content",
+    "/Users/heytea/.hermes/skills/mlops/cloud/modal",
+    "/Users/heytea/.hermes/skills/mlops/evaluation/lm-evaluation-harness",
+    "/Users/heytea/.hermes/skills/mlops/evaluation/weights-and-biases",
+    "/Users/heytea/.hermes/skills/mlops/huggingface-hub",
+    "/Users/heytea/.hermes/skills/mlops/inference/gguf",
+    "/Users/heytea/.hermes/skills/mlops/inference/guidance",
+    "/Users/heytea/.hermes/skills/mlops/inference/llama-cpp",
+    "/Users/heytea/.hermes/skills/mlops/inference/obliteratus",
+    "/Users/heytea/.hermes/skills/mlops/inference/outlines",
+    "/Users/heytea/.hermes/skills/mlops/inference/vllm",
+    "/Users/heytea/.hermes/skills/mlops/models/audiocraft",
+    "/Users/heytea/.hermes/skills/mlops/models/clip",
+    "/Users/heytea/.hermes/skills/mlops/models/segment-anything",
+    "/Users/heytea/.hermes/skills/mlops/models/stable-diffusion",
+    "/Users/heytea/.hermes/skills/mlops/models/whisper",
+    "/Users/heytea/.hermes/skills/mlops/research/dspy",
+    "/Users/heytea/.hermes/skills/mlops/training/axolotl",
+    "/Users/heytea/.hermes/skills/mlops/training/grpo-rl-training",
+    "/Users/heytea/.hermes/skills/mlops/training/peft",
+    "/Users/heytea/.hermes/skills/mlops/training/pytorch-fsdp",
+    "/Users/heytea/.hermes/skills/mlops/training/trl-fine-tuning",
+    "/Users/heytea/.hermes/skills/mlops/training/unsloth",
+    "/Users/heytea/.hermes/skills/note-taking/allen-obsidian-note-system",
+    "/Users/heytea/.hermes/skills/note-taking/obsidian",
+    "/Users/heytea/.hermes/skills/note-taking/obsidian-knowledge-curation",
+    "/Users/heytea/.hermes/skills/note-taking/onenote-to-obsidian-migration",
+    "/Users/heytea/.hermes/skills/note-taking/study-repo-curation",
+    "/Users/heytea/.hermes/skills/openclaw-imports/dingtalk-webhook-send",
+    "/Users/heytea/.hermes/skills/openclaw-imports/dws",
+    "/Users/heytea/.hermes/skills/openclaw-imports/dws-meeting-room-booking",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-base",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-calendar",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-contact",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-doc",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-drive",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-event",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-im",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-mail",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-minutes",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-openapi-explorer",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-shared",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-sheets",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-skill-maker",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-task",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-vc",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-whiteboard",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-wiki",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-workflow-meeting-summary",
+    "/Users/heytea/.hermes/skills/openclaw-imports/lark-workflow-standup-report",
+    "/Users/heytea/.hermes/skills/productivity/airtable",
+    "/Users/heytea/.hermes/skills/productivity/blueking-workhour-opencli",
+    "/Users/heytea/.hermes/skills/productivity/chrome-bookmark-management",
+    "/Users/heytea/.hermes/skills/productivity/cloudapi-key-group-switch-opencli",
+    "/Users/heytea/.hermes/skills/productivity/ctool-cr-plugin-setup",
+    "/Users/heytea/.hermes/skills/productivity/dingtalk-to-glm-knowledge-base",
+    "/Users/heytea/.hermes/skills/productivity/feishu-friend-send-macos-fallback",
+    "/Users/heytea/.hermes/skills/productivity/google-workspace",
+    "/Users/heytea/.hermes/skills/productivity/kindle-jailbreak-recovery",
+    "/Users/heytea/.hermes/skills/productivity/koreader-device-workflows",
+    "/Users/heytea/.hermes/skills/productivity/language-learning-group-cron",
+    "/Users/heytea/.hermes/skills/productivity/linear",
+    "/Users/heytea/.hermes/skills/productivity/maps",
+    "/Users/heytea/.hermes/skills/productivity/nano-pdf",
+    "/Users/heytea/.hermes/skills/productivity/notion",
+    "/Users/heytea/.hermes/skills/productivity/ocr-and-documents",
+    "/Users/heytea/.hermes/skills/productivity/powerpoint",
+    "/Users/heytea/.hermes/skills/productivity/teams-meeting-pipeline",
+    "/Users/heytea/.hermes/skills/red-teaming/godmode",
+    "/Users/heytea/.hermes/skills/research/ai-coding-daily-brief-fallback",
+    "/Users/heytea/.hermes/skills/research/arxiv",
+    "/Users/heytea/.hermes/skills/research/blogwatcher",
+    "/Users/heytea/.hermes/skills/research/cn-job-board-research",
+    "/Users/heytea/.hermes/skills/research/daily-ai-markets-brief-cron",
+    "/Users/heytea/.hermes/skills/research/llm-wiki",
+    "/Users/heytea/.hermes/skills/research/polymarket",
+    "/Users/heytea/.hermes/skills/research/research-paper-writing",
+    "/Users/heytea/.hermes/skills/research/stock-momentum-fallback",
+    "/Users/heytea/.hermes/skills/research/us-stock-research",
+    "/Users/heytea/.hermes/skills/smart-home/openhue",
+    "/Users/heytea/.hermes/skills/social-media/x-content-cron",
+    "/Users/heytea/.hermes/skills/social-media/xitter",
+    "/Users/heytea/.hermes/skills/social-media/xurl",
+    "/Users/heytea/.hermes/skills/software-development/acceptance-qa-agent",
+    "/Users/heytea/.hermes/skills/software-development/allen-development-qa-delivery-pipeline",
+    "/Users/heytea/.hermes/skills/software-development/context-handoff-safety",
+    "/Users/heytea/.hermes/skills/software-development/gitdiagram-style-diagrams",
+    "/Users/heytea/.hermes/skills/software-development/hermes-agent-skill-authoring",
+    "/Users/heytea/.hermes/skills/software-development/local-docs-market-architecture-analysis",
+    "/Users/heytea/.hermes/skills/software-development/node-inspect-debugger",
+    "/Users/heytea/.hermes/skills/software-development/opencli-browser-webapp-exploration",
+    "/Users/heytea/.hermes/skills/software-development/personal-migratory-agents-review",
+    "/Users/heytea/.hermes/skills/software-development/plan",
+    "/Users/heytea/.hermes/skills/software-development/python-debugpy",
+    "/Users/heytea/.hermes/skills/software-development/requesting-code-review",
+    "/Users/heytea/.hermes/skills/software-development/simplify-code",
+    "/Users/heytea/.hermes/skills/software-development/spike",
+    "/Users/heytea/.hermes/skills/software-development/subagent-driven-development",
+    "/Users/heytea/.hermes/skills/software-development/systematic-debugging",
+    "/Users/heytea/.hermes/skills/software-development/test-driven-development",
+    "/Users/heytea/.hermes/skills/software-development/writing-plans",
+    "/Users/heytea/.hermes/skills/yuanbao"
+  ]
+}

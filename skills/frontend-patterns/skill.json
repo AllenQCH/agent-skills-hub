@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "frontend-patterns",
+  "name": "frontend-patterns",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "frontend-patterns",
+    "sha256": "f85818f217023d6b6f2ffb61d5768fe533416468c08e2bd138c36e0b22d930d1",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "frontend-patterns",
+      "sha256": "f85818f217023d6b6f2ffb61d5768fe533416468c08e2bd138c36e0b22d930d1",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "ctool-cr-plugin-setup",
+  "name": "ctool-cr-plugin-setup",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/ctool-cr-plugin-setup",
+    "sha256": "7e3d8bcaa084210857d718eed438cb5276181e2b19b5e0c51da480baab725834",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/ctool-cr-plugin-setup",
+      "sha256": "7e3d8bcaa084210857d718eed438cb5276181e2b19b5e0c51da480baab725834",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

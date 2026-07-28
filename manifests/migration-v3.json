@@ -1,0 +1,176 @@
+{
+  "version": 3,
+  "hub": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub",
+  "policy": {
+    "archive_existing": false,
+    "shorten_descriptions": false,
+    "preserve_all_source_variants": true,
+    "runtime_neutral_top_level": true
+  },
+  "source_packages": 238,
+  "unique_source_names": 217,
+  "canonical_packages": 218,
+  "collision_groups": [
+    {
+      "name": "dws",
+      "canonical_runtime": "codex",
+      "variant_count": 3,
+      "adapters": {
+        "claude": "adapters/claude/SKILL.md",
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-base",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-calendar",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-contact",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-doc",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-drive",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-event",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-im",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-mail",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-minutes",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-openapi-explorer",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-shared",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-sheets",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-skill-maker",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-task",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-vc",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-whiteboard",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-wiki",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-workflow-meeting-summary",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    },
+    {
+      "name": "lark-workflow-standup-report",
+      "canonical_runtime": "common",
+      "variant_count": 2,
+      "adapters": {
+        "hermes": "adapters/hermes/SKILL.md"
+      }
+    }
+  ]
+}

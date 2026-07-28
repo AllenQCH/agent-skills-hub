@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "x-content-cron",
+  "name": "x-content-cron",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "social-media/x-content-cron",
+    "sha256": "10c3205400d013a9e5580cf229e57cd42f8e729659539c14fbf25cb54fac5209",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "social-media/x-content-cron",
+      "sha256": "10c3205400d013a9e5580cf229e57cd42f8e729659539c14fbf25cb54fac5209",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

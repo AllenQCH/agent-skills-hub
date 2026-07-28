@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "songwriting-and-ai-music",
+  "name": "songwriting-and-ai-music",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "creative/songwriting-and-ai-music",
+    "sha256": "846cb04e170adfe8b9fe2069e6c32b6cdce1a0e6cf20d92e4eb00d8847bc36f8",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "creative/songwriting-and-ai-music",
+      "sha256": "846cb04e170adfe8b9fe2069e6c32b6cdce1a0e6cf20d92e4eb00d8847bc36f8",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

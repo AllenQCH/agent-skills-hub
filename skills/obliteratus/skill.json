@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "obliteratus",
+  "name": "obliteratus",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/inference/obliteratus",
+    "sha256": "7d921d3bb1472a734ebea64dc5b9b72e049754f326098feb1e9d6a8b53af22a4",
+    "file_count": 6
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/inference/obliteratus",
+      "sha256": "7d921d3bb1472a734ebea64dc5b9b72e049754f326098feb1e9d6a8b53af22a4",
+      "file_count": 6
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "subagent-driven-development",
+  "name": "subagent-driven-development",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/subagent-driven-development",
+    "sha256": "75f985dd4594c2935fea6dbf8de812fc143dd332a79d51be2c4c7f543cc58776",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/subagent-driven-development",
+      "sha256": "75f985dd4594c2935fea6dbf8de812fc143dd332a79d51be2c4c7f543cc58776",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

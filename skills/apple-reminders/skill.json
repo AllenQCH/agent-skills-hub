@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "apple-reminders",
+  "name": "apple-reminders",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "apple/apple-reminders",
+    "sha256": "75465632e3ab41e6427a2d5af4b7a0a992475bca46cea4cdc7ab57ed17a6fb8e",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "apple/apple-reminders",
+      "sha256": "75465632e3ab41e6427a2d5af4b7a0a992475bca46cea4cdc7ab57ed17a6fb8e",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "trace-log-analysis",
+  "name": "trace-log-analysis",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "trace-log-analysis",
+    "sha256": "4b7398509fd9924ec17bc3e8bdc24e8f6a929daa79410c1173d242747fc8aafb",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "trace-log-analysis",
+      "sha256": "4b7398509fd9924ec17bc3e8bdc24e8f6a929daa79410c1173d242747fc8aafb",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

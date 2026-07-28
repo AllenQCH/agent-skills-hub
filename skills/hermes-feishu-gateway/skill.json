@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "hermes-feishu-gateway",
+  "name": "hermes-feishu-gateway",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "autonomous-ai-agents/hermes-feishu-gateway",
+    "sha256": "8a774517d2352cff105171adab53a99fa7176bd939dec5b092f3866ce5c4e4bc",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "autonomous-ai-agents/hermes-feishu-gateway",
+      "sha256": "8a774517d2352cff105171adab53a99fa7176bd939dec5b092f3866ce5c4e4bc",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "koreader-device-workflows",
+  "name": "koreader-device-workflows",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/koreader-device-workflows",
+    "sha256": "b06247c3fe6bf44ec012074d82d851a38a582ba021495f688ef91f1c4ca69c9e",
+    "file_count": 6
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/koreader-device-workflows",
+      "sha256": "b06247c3fe6bf44ec012074d82d851a38a582ba021495f688ef91f1c4ca69c9e",
+      "file_count": 6
+    }
+  ],
+  "adapters": {}
+}

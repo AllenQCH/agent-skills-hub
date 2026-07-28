@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+"""OpenCLI external entry point for HeyTea AliDocs workflows."""
+
+from __future__ import annotations
+
+import subprocess
+import sys
+from pathlib import Path
+
+
+SCRIPT = Path(__file__).with_name("create_test_delivery_sheet.py")
+
+
+def main() -> int:
+    if len(sys.argv) < 2 or sys.argv[1] != "create-test-delivery":
+        print(
+            "Usage: heytea-alidocs create-test-delivery [options]\n"
+            "Run 'heytea-alidocs create-test-delivery --help' for command options.",
+            file=sys.stderr,
+        )
+        return 2
+
+    command = [sys.executable, str(SCRIPT), *sys.argv[2:]]
+    return subprocess.run(command).returncode
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

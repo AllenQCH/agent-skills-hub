@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "springboot-tdd",
+  "name": "springboot-tdd",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "springboot-tdd",
+    "sha256": "e53a4841eba82354c45546c6ecb22a37ec08dde335cef798bbb9097bff883786",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "springboot-tdd",
+      "sha256": "e53a4841eba82354c45546c6ecb22a37ec08dde335cef798bbb9097bff883786",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

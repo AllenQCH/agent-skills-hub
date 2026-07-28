@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "pokemon-player",
+  "name": "pokemon-player",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "gaming/pokemon-player",
+    "sha256": "2b8d402154114a720a0fa63ddf9eb30515b550359379266b387de196a65c1bb5",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "gaming/pokemon-player",
+      "sha256": "2b8d402154114a720a0fa63ddf9eb30515b550359379266b387de196a65c1bb5",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

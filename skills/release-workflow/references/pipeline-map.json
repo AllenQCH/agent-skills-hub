@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "notes": [
+    "Add project/service pipeline URLs here when they are confirmed.",
+    "Do not guess pipeline URLs. Use placeholders only when the platform URL pattern is verified."
+  ],
+  "projects": {
+    "oversea_dht": {
+      "description": "海外订货通 / POF workspace. URL pending confirmation.",
+      "services": {},
+      "default": {
+        "url": "",
+        "requires_confirmation": true
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "serving-llms-vllm",
+  "name": "serving-llms-vllm",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/inference/vllm",
+    "sha256": "2bf7a3d42528f387a9f5d92b4943333a604e6a108142e7d65e073dd79e585ed5",
+    "file_count": 5
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/inference/vllm",
+      "sha256": "2bf7a3d42528f387a9f5d92b4943333a604e6a108142e7d65e073dd79e585ed5",
+      "file_count": 5
+    }
+  ],
+  "adapters": {}
+}

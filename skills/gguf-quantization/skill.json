@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "gguf-quantization",
+  "name": "gguf-quantization",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/inference/gguf",
+    "sha256": "f9f305ab008a67dc5c6190a1418a9aa9ba6ad9a55a960b1c3e3503421efb581d",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/inference/gguf",
+      "sha256": "f9f305ab008a67dc5c6190a1418a9aa9ba6ad9a55a960b1c3e3503421efb581d",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

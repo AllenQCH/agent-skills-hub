@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Web Operations"
+  short_description: "Reuse Chrome sessions for safe GitHub web operations."
+  default_prompt: "Use $github-web-operations to operate GitHub through the existing Chrome session, avoid unnecessary gh login, and verify every external change."

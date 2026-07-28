@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "continuous-learning",
+  "name": "continuous-learning",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "continuous-learning",
+    "sha256": "ed427e9ad76a26010d9ca9a7cc53690f7c91107768d340683651c58aea8752af",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "continuous-learning",
+      "sha256": "ed427e9ad76a26010d9ca9a7cc53690f7c91107768d340683651c58aea8752af",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

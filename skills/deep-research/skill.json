@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "deep-research",
+  "name": "deep-research",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "deep-research",
+    "sha256": "facdb784f343be5b95be29e1fc0af7b1ab220088b00d5b1c3eed321fd4424f19",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "deep-research",
+      "sha256": "facdb784f343be5b95be29e1fc0af7b1ab220088b00d5b1c3eed321fd4424f19",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

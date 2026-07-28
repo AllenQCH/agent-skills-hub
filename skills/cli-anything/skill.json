@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "cli-anything",
+  "name": "cli-anything",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "cli-anything",
+    "sha256": "65637bd184659cadbfd16d1b8b8981439acbbd8f072d77cfc5d5d64c4d84d339",
+    "file_count": 4
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "cli-anything",
+      "sha256": "65637bd184659cadbfd16d1b8b8981439acbbd8f072d77cfc5d5d64c4d84d339",
+      "file_count": 4
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "ai-regression-testing",
+  "name": "ai-regression-testing",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "ai-regression-testing",
+    "sha256": "168af59bff3b5bed671e95ce1c6f421522d0f5db04031e260aaa40d47103a309",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "ai-regression-testing",
+      "sha256": "168af59bff3b5bed671e95ce1c6f421522d0f5db04031e260aaa40d47103a309",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

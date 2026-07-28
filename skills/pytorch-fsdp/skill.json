@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "pytorch-fsdp",
+  "name": "pytorch-fsdp",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/training/pytorch-fsdp",
+    "sha256": "60f337cc58affe0d9aff949a2d7856e8a78302659e3c080878b66fee89047f0e",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/training/pytorch-fsdp",
+      "sha256": "60f337cc58affe0d9aff949a2d7856e8a78302659e3c080878b66fee89047f0e",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

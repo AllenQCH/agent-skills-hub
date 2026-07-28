@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "maps",
+  "name": "maps",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/maps",
+    "sha256": "f7e41a8ba99a1efb9b131910b65c56cb0a0824698727f3c38df724704a982d70",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/maps",
+      "sha256": "f7e41a8ba99a1efb9b131910b65c56cb0a0824698727f3c38df724704a982d70",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

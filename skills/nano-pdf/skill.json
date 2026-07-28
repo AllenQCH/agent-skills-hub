@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "nano-pdf",
+  "name": "nano-pdf",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/nano-pdf",
+    "sha256": "9f5f7959611762ddd8f28048a0263c04a0183fd80639ee8b55bec1d5b41ac783",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/nano-pdf",
+      "sha256": "9f5f7959611762ddd8f28048a0263c04a0183fd80639ee8b55bec1d5b41ac783",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,3 @@
+display_name: Release Workflow
+short_description: Generate test docs and open pipelines.
+default_prompt: Prepare a test-release document or locate the relevant CI/CD pipeline.

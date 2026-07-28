@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "api-design",
+  "name": "api-design",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "api-design",
+    "sha256": "07437ada613d4e787fee91e10453e0e2c39521cb1fb58c94b50e36528c20a38d",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "api-design",
+      "sha256": "07437ada613d4e787fee91e10453e0e2c39521cb1fb58c94b50e36528c20a38d",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

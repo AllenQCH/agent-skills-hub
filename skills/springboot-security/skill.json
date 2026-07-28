@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "springboot-security",
+  "name": "springboot-security",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "springboot-security",
+    "sha256": "7a92894259df85f86d81a65eebd74952528177a6c14621903a35b09b49435848",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "springboot-security",
+      "sha256": "7a92894259df85f86d81a65eebd74952528177a6c14621903a35b09b49435848",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

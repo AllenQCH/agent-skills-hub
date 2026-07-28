@@ -1,0 +1,4 @@
+Case ID,Requirement ID,Priority,Type,Title,Preconditions,Steps,Expected Result,Automation Target,Status,Evidence Path,Notes
+TC-001,AC-001,P0,happy,"Core happy path works","Given ...","1. Open ...\n2. Do ...\n3. Submit ...","Then ...",playwright,todo,,
+TC-002,AC-001,P0,negative,"Invalid input is rejected","Given ...","1. Open ...\n2. Enter invalid ...\n3. Submit","Validation error is shown and data is not saved",playwright,todo,,
+TC-003,AC-002,P0,permission,"Unauthorized role cannot perform action","Given user role ...","1. Login as ...\n2. Open ...\n3. Attempt ...","Action is blocked with safe message; no data mutation",api,todo,,

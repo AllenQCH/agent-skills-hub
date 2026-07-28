@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "llama-cpp",
+  "name": "llama-cpp",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/inference/llama-cpp",
+    "sha256": "55e394aecf6f510a4a0a1f945d52eb144df1bd1873d1c62195655a7241a9dad8",
+    "file_count": 7
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/inference/llama-cpp",
+      "sha256": "55e394aecf6f510a4a0a1f945d52eb144df1bd1873d1c62195655a7241a9dad8",
+      "file_count": 7
+    }
+  ],
+  "adapters": {}
+}

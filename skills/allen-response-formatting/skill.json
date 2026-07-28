@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "allen-response-formatting",
+  "name": "allen-response-formatting",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "autonomous-ai-agents/allen-response-formatting",
+    "sha256": "4c9958e04c938a80a4358f8441e5da9441df993a72d005097435e7dab6fb5a4e",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "autonomous-ai-agents/allen-response-formatting",
+      "sha256": "4c9958e04c938a80a4358f8441e5da9441df993a72d005097435e7dab6fb5a4e",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

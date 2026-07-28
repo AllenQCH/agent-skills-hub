@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "springboot-patterns",
+  "name": "springboot-patterns",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "springboot-patterns",
+    "sha256": "99ba0784512c9296d2bdfff1b1cbd82c4ca4e064df455e009c3efecfe8e3b02a",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "springboot-patterns",
+      "sha256": "99ba0784512c9296d2bdfff1b1cbd82c4ca4e064df455e009c3efecfe8e3b02a",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

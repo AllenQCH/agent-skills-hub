@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "modal-serverless-gpu",
+  "name": "modal-serverless-gpu",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "mlops/cloud/modal",
+    "sha256": "d59ebe63ccbcc6f5034ed60f9a59baf897eebd50f5292dd41a71b531ea4d3546",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "mlops/cloud/modal",
+      "sha256": "d59ebe63ccbcc6f5034ed60f9a59baf897eebd50f5292dd41a71b531ea4d3546",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

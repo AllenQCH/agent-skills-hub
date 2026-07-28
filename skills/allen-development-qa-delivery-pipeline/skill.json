@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "allen-development-qa-delivery-pipeline",
+  "name": "allen-development-qa-delivery-pipeline",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "software-development/allen-development-qa-delivery-pipeline",
+    "sha256": "37cadf652adf8149bce6e05ba526e1fb71839b10461815dbed7161cd917c8606",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "software-development/allen-development-qa-delivery-pipeline",
+      "sha256": "37cadf652adf8149bce6e05ba526e1fb71839b10461815dbed7161cd917c8606",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

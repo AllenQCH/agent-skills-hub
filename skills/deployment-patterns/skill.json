@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "deployment-patterns",
+  "name": "deployment-patterns",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "deployment-patterns",
+    "sha256": "693f57bbf57b3db661e9a62561ef183ea9e9ad5d17b08009deee3d0322982ab2",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "deployment-patterns",
+      "sha256": "693f57bbf57b3db661e9a62561ef183ea9e9ad5d17b08009deee3d0322982ab2",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

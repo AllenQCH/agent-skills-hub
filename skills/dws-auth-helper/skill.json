@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "dws-auth-helper",
+  "name": "dws-auth-helper",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "dws-auth-helper",
+    "sha256": "9c8cc129b597f1fc17ea8f8d68137c49eac6faaf9bc2b0530960d2a9746b6a19",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "dws-auth-helper",
+      "sha256": "9c8cc129b597f1fc17ea8f8d68137c49eac6faaf9bc2b0530960d2a9746b6a19",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

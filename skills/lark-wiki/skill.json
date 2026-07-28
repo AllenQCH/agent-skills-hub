@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-wiki",
+  "name": "lark-wiki",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-wiki",
+    "sha256": "3c65ec0f7b37406366f21d873cd77dd5beefd943adf47ec8a483ba99e89bb4c4",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-wiki",
+      "sha256": "3c65ec0f7b37406366f21d873cd77dd5beefd943adf47ec8a483ba99e89bb4c4",
+      "file_count": 1
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-wiki",
+      "sha256": "0087273c53a60c4ec8d7684a3f66838166fc025223f0de0e8c75ba8ab592f56d",
+      "file_count": 1
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

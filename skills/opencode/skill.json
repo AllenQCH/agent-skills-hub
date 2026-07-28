@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "opencode",
+  "name": "opencode",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "autonomous-ai-agents/opencode",
+    "sha256": "86750f7e3eab308a189e46c2937adac65511c877491b742a09837eaee3f50803",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "autonomous-ai-agents/opencode",
+      "sha256": "86750f7e3eab308a189e46c2937adac65511c877491b742a09837eaee3f50803",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

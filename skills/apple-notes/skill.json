@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "apple-notes",
+  "name": "apple-notes",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "apple/apple-notes",
+    "sha256": "eece51a3e75993979370df06e65798a61ed0ab23a70b89fececb73a91f7a698a",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "apple/apple-notes",
+      "sha256": "eece51a3e75993979370df06e65798a61ed0ab23a70b89fececb73a91f7a698a",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

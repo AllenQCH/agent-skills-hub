@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi-Agent Maintainer"
+  short_description: "Resume and maintain the local four-layer multi-agent framework"
+  default_prompt: "Use $multi-agent-framework-maintainer to continue maintaining my local multi-agents framework in ~/.codex, rebuild context from the existing config and Obsidian notes, and keep changes narrow and concrete."

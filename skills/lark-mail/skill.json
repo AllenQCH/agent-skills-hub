@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lark-mail",
+  "name": "lark-mail",
+  "source_runtimes": [
+    "common",
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "common",
+    "relative_path": "lark-mail",
+    "sha256": "8d7a6853aa2fd381e20360582440d54c21a21efbf12084d976f42c953fe311e9",
+    "file_count": 12
+  },
+  "source_variants": [
+    {
+      "runtime": "common",
+      "relative_path": "lark-mail",
+      "sha256": "8d7a6853aa2fd381e20360582440d54c21a21efbf12084d976f42c953fe311e9",
+      "file_count": 12
+    },
+    {
+      "runtime": "hermes",
+      "relative_path": "openclaw-imports/lark-mail",
+      "sha256": "3a3a9b8d6906789948105502fed246095a6396972d001364b9618edba1f65de1",
+      "file_count": 12
+    }
+  ],
+  "adapters": {
+    "hermes": "adapters/hermes/SKILL.md"
+  }
+}

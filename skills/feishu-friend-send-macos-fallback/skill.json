@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "feishu-friend-send-macos-fallback",
+  "name": "feishu-friend-send-macos-fallback",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/feishu-friend-send-macos-fallback",
+    "sha256": "897ac6b828b4af13d4aaef68890da6387faad757bcb66016a3df4987e23416a8",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/feishu-friend-send-macos-fallback",
+      "sha256": "897ac6b828b4af13d4aaef68890da6387faad757bcb66016a3df4987e23416a8",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

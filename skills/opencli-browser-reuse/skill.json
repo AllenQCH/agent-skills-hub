@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "opencli-browser-reuse",
+  "name": "opencli-browser-reuse",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "opencli-browser-reuse",
+    "sha256": "c99a95033099a08c92e43bb2ea53870479612c468899b5f3b9752cfaec75e189",
+    "file_count": 3
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "opencli-browser-reuse",
+      "sha256": "c99a95033099a08c92e43bb2ea53870479612c468899b5f3b9752cfaec75e189",
+      "file_count": 3
+    }
+  ],
+  "adapters": {}
+}

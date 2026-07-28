@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "find-nearby",
+  "name": "find-nearby",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "leisure/find-nearby",
+    "sha256": "9ac653a72fc213fc88ecd5380b48e5cd4f28ef47c43d09912e90baab40213ba9",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "leisure/find-nearby",
+      "sha256": "9ac653a72fc213fc88ecd5380b48e5cd4f28ef47c43d09912e90baab40213ba9",
+      "file_count": 2
+    }
+  ],
+  "adapters": {}
+}

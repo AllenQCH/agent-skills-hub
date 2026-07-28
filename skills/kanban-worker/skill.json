@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "kanban-worker",
+  "name": "kanban-worker",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "devops/kanban-worker",
+    "sha256": "45bad9e96da8e1801a8b1c63e28f4cea1af0a8260f07ca7d98332771550948e9",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "devops/kanban-worker",
+      "sha256": "45bad9e96da8e1801a8b1c63e28f4cea1af0a8260f07ca7d98332771550948e9",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "release-workflow",
+  "name": "release-workflow",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "release-workflow",
+    "sha256": "6560cf1a763eb47176f40f57b0972f2671ffbd893e78b51922e4f9f4281873d2",
+    "file_count": 6
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "release-workflow",
+      "sha256": "6560cf1a763eb47176f40f57b0972f2671ffbd893e78b51922e4f9f4281873d2",
+      "file_count": 6
+    }
+  ],
+  "adapters": {}
+}

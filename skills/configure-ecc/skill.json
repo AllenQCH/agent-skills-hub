@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "configure-ecc",
+  "name": "configure-ecc",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "configure-ecc",
+    "sha256": "c656d039e4fc92e43c24d4abf8aa43cb3dae7771598dd792011c0ef5649ec4db",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "configure-ecc",
+      "sha256": "c656d039e4fc92e43c24d4abf8aa43cb3dae7771598dd792011c0ef5649ec4db",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

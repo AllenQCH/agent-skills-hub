@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "django-security",
+  "name": "django-security",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "django-security",
+    "sha256": "6f88d96edbfe0ee832059212d874beced44472204b5c0698ee59a97d22e75886",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "django-security",
+      "sha256": "6f88d96edbfe0ee832059212d874beced44472204b5c0698ee59a97d22e75886",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

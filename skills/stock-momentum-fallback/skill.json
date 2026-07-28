@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "stock-momentum-fallback",
+  "name": "stock-momentum-fallback",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "research/stock-momentum-fallback",
+    "sha256": "59f7c818c011c138affdf10d71468c4bb32ffa120faa7c55d9f6e63f7f809bc3",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "research/stock-momentum-fallback",
+      "sha256": "59f7c818c011c138affdf10d71468c4bb32ffa120faa7c55d9f6e63f7f809bc3",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}

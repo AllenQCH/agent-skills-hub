@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "name": "bootstrap",
+  "description": "Minimal always-on discovery profile.",
+  "skills": ["skill-router"]
+}

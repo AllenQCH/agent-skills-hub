@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "openspec-demand-workflow",
+  "name": "openspec-demand-workflow",
+  "source_runtimes": [
+    "codex"
+  ],
+  "canonical_source": {
+    "runtime": "codex",
+    "relative_path": "openspec-demand-workflow",
+    "sha256": "2029ba49fb493a8bd3686cab87fdea1b84213532cf8ae7611c8c54d4bda0e669",
+    "file_count": 1
+  },
+  "source_variants": [
+    {
+      "runtime": "codex",
+      "relative_path": "openspec-demand-workflow",
+      "sha256": "2029ba49fb493a8bd3686cab87fdea1b84213532cf8ae7611c8c54d4bda0e669",
+      "file_count": 1
+    }
+  ],
+  "adapters": {}
+}
