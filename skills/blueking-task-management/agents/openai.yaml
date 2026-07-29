@@ -1,0 +1,4 @@
+interface:
+  display_name: Blueking Task Management
+  short_description: Use Blueking Task Management workflows and resources
+  default_prompt: Use $blueking-task-management for this task and follow its documented workflow.

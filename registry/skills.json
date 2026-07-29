@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generated_at": "2026-07-28T09:24:21.652317+00:00",
+  "generated_at": "2026-07-29T06:50:43.793999+00:00",
   "hub": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub",
   "discovery_policy": {
     "initial_profile": "bootstrap",
@@ -624,6 +624,33 @@
           "relative_path": "research/blogwatcher",
           "sha256": "7b30abc79f05c517bd9074efe5417a9c05dd4abfd08257d58aba1e3244d39192",
           "file_count": 1
+        }
+      ],
+      "adapters": {}
+    },
+    {
+      "id": "blueking-task-management",
+      "name": "blueking-task-management",
+      "description": "Use when the user explicitly needs the blueking-task-management workflow: Manage BlueKing/敏捷协同 tasks through OpenCLI or verified API calls: list Allens tasks, inspect unfinished work, bulk adjust dates, and verify task-field changes without touching work hours or state unless explicitly requested.",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/blueking-task-management",
+      "instruction_path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/blueking-task-management/SKILL.md",
+      "sha256": "9fc153c9613e65a11a91b390638ead23e77c60eccf468c1a6bac32ac0405a5b2",
+      "file_count": 6,
+      "tags": [
+        "backend",
+        "heytea-operations"
+      ],
+      "risk": "write",
+      "manual_only": false,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "source_variants": [
+        {
+          "runtime": "hermes",
+          "relative_path": "productivity/blueking-task-management",
+          "sha256": "57480ab47e1b45a744f5cf40173270ed60d1fd5ecabe4cafb2aeaff9addc6210",
+          "file_count": 6
         }
       ],
       "adapters": {}

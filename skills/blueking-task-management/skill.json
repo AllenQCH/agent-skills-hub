@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "blueking-task-management",
+  "name": "blueking-task-management",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "productivity/blueking-task-management",
+    "sha256": "57480ab47e1b45a744f5cf40173270ed60d1fd5ecabe4cafb2aeaff9addc6210",
+    "file_count": 6
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "productivity/blueking-task-management",
+      "sha256": "57480ab47e1b45a744f5cf40173270ed60d1fd5ecabe4cafb2aeaff9addc6210",
+      "file_count": 6
+    }
+  ],
+  "adapters": {},
+  "tags": [
+    "heytea-operations"
+  ],
+  "risk": "write",
+  "manual_only": false,
+  "legacy_frontmatter": {
+    "version": "1.0.0",
+    "author": "Hermes Agent"
+  }
+}

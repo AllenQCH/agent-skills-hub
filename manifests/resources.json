@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generated_at": "2026-07-28T09:24:21.653857+00:00",
+  "generated_at": "2026-07-29T06:50:43.796320+00:00",
   "hub": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub",
   "resources": [
     {
@@ -228,6 +228,16 @@
       "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/blogwatcher",
       "sha256": "dbddb7b624896b4709aefc35136ef1824078af5a5bae5a0b08fe710fbd0f3fb5",
       "file_count": 3,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "blueking-task-management",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/blueking-task-management",
+      "sha256": "9fc153c9613e65a11a91b390638ead23e77c60eccf468c1a6bac32ac0405a5b2",
+      "file_count": 6,
       "source_runtimes": [
         "hermes"
       ],

@@ -7,6 +7,7 @@
     "dbauto-export-agent",
     "trace-log-analysis",
     "bk-pipeline",
+    "blueking-task-management",
     "release-workflow",
     "heytea-project-stack",
     "bfc-local-invoice-stack",
