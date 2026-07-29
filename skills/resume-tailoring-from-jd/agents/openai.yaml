@@ -1,0 +1,4 @@
+interface:
+  display_name: Resume Tailoring from JD
+  short_description: Tailor truthful resumes to job descriptions
+  default_prompt: Use $resume-tailoring-from-jd to tailor my existing resume to this job description without inventing facts.

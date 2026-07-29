@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "resume-tailoring-from-jd",
+  "name": "resume-tailoring-from-jd",
+  "source_runtimes": [
+    "hermes"
+  ],
+  "canonical_source": {
+    "runtime": "hermes",
+    "relative_path": "job-search/resume-tailoring-from-jd",
+    "sha256": "f80d7ab703e41460c05cff0614655842dd1c4f59524736f854ce5d5370ac4121",
+    "file_count": 2
+  },
+  "source_variants": [
+    {
+      "runtime": "hermes",
+      "relative_path": "job-search/resume-tailoring-from-jd",
+      "sha256": "f80d7ab703e41460c05cff0614655842dd1c4f59524736f854ce5d5370ac4121",
+      "file_count": 2
+    }
+  ],
+  "adapters": {},
+  "tags": [
+    "documents"
+  ],
+  "risk": "write",
+  "manual_only": false
+}

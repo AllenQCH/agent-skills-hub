@@ -33,7 +33,7 @@ variants separate. It does not archive, merge, or shorten descriptions.
 
 - Original packages preserved: 238.
 - Unique original names: 217.
-- Canonical packages: 220, including `skill-router` and `skill-quality-review`.
+- Canonical packages: 221, including `skill-router` and `skill-quality-review`.
 - Collision groups: 20, containing 21 runtime adapter copies.
 
 Codex uses `~/.agents/skills/skill-router`; Claude and Hermes use the matching

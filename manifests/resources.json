@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generated_at": "2026-07-29T06:50:43.796320+00:00",
+  "generated_at": "2026-07-29T07:32:30.752053+00:00",
   "hub": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub",
   "resources": [
     {
@@ -1860,6 +1860,16 @@
       "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/research-paper-writing",
       "sha256": "7928c3bf2e2689ba7f73354a1076afaf7a59da5d039f9d3fe138d121948fe2b3",
       "file_count": 58,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "adapters": {}
+    },
+    {
+      "name": "resume-tailoring-from-jd",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/resume-tailoring-from-jd",
+      "sha256": "20fdf788004c22cf7bfe46ea15e7efb2dfdf3fd9d76e94eae91cadaf03d91d72",
+      "file_count": 4,
       "source_runtimes": [
         "hermes"
       ],

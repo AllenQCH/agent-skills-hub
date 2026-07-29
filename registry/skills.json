@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generated_at": "2026-07-29T06:50:43.793999+00:00",
+  "generated_at": "2026-07-29T07:32:30.750508+00:00",
   "hub": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub",
   "discovery_policy": {
     "initial_profile": "bootstrap",
@@ -4996,6 +4996,34 @@
           "relative_path": "research/research-paper-writing",
           "sha256": "84dd35110bbcf3946339f59e156dde4fee47b55b893f1f86aa68a36763e3dec8",
           "file_count": 55
+        }
+      ],
+      "adapters": {}
+    },
+    {
+      "id": "resume-tailoring-from-jd",
+      "name": "resume-tailoring-from-jd",
+      "description": "Use when the user wants to tailor an existing resume to a specific job description/JD, especially by using an agent/skill-style workflow. Trigger on requests like “根据 JD 改简历”, “岗位匹配简历”, “自动写简历”, or “试用 GitHub resume-tailoring skill”. Output a truth-preserving tailored resume plus JD analysis, change report, and risk check. Exclude generic resume writing from scratch, cover-letter-only work, and LinkedIn profile optimization.",
+      "path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/resume-tailoring-from-jd",
+      "instruction_path": "/Users/heytea/Documents/myHeytea/code/agent-skills-hub/skills/resume-tailoring-from-jd/SKILL.md",
+      "sha256": "20fdf788004c22cf7bfe46ea15e7efb2dfdf3fd9d76e94eae91cadaf03d91d72",
+      "file_count": 4,
+      "tags": [
+        "agents",
+        "documents",
+        "github"
+      ],
+      "risk": "write",
+      "manual_only": false,
+      "source_runtimes": [
+        "hermes"
+      ],
+      "source_variants": [
+        {
+          "runtime": "hermes",
+          "relative_path": "job-search/resume-tailoring-from-jd",
+          "sha256": "f80d7ab703e41460c05cff0614655842dd1c4f59524736f854ce5d5370ac4121",
+          "file_count": 2
         }
       ],
       "adapters": {}
